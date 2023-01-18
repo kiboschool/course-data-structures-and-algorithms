@@ -1,0 +1,11 @@
+[book]
+authors = ["Cody Doucette"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Data Structures and Algorithms"
+
+[build]
+build-dir = "output"
+create-missing = true
+use-default-preprocessors = false
