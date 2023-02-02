@@ -4,4 +4,4 @@
 
 _6 ECTS Credits_
 
-## Welcome to Data Structures and Algorithms 
+## Welcome to Data Structures and Algorithms  
