@@ -1,8 +1,8 @@
 # The memory hierarchy 
 
-While we're talking about memory, it's worth mentioning that not all memory in computers is equal! In fact, there is a *memory hierarchy*.
+While we're talking about space and memory, it's worth mentioning that not all memory in computers is equal! In fact, there is a *memory hierarchy*.
 
-Computers have different types of memories available for use, each with different physical properties. Together, they compose a memory hierarchy that illustrates their relative speeds, costs, and capacities:
+Computers have different types of memory available for use, each with different physical properties. Together, they compose a __memory hierarchy__. This image illustrates their relative speeds, costs, and capacities:
 
 <center>
 <img
@@ -15,11 +15,11 @@ Computers have different types of memories available for use, each with differen
 
 ## Registers and Caches
 
-At the top of the diagram we have types of memory that reside on the CPU itself, such as registers and caches. The CPU can retrieve data from these types of memories very quickly, but they are expensive and therefore represent only a small fraction of the available memory on a computer. Because of this, the data held in registers and caches is generally limited to only the data that was very recently used or will soon be used by the programs being executed by the CPU.
+At the top of the diagram we have types of memory that reside on the CPU itself, such as registers and caches. The CPU can retrieve data from registers and caches very quickly, but space on the CPU is limited, so together they represent only a small fraction of the available memory on a computer. Because of this, the data held in registers and caches is generally limited to only the data that was very recently used or will soon be used by the programs being executed by the CPU.
 
 ## Main Memory
 
-The next level down in the hiearchy is primary storage, or *main memory*, typically using what's known as random access memory (RAM) devices. Compared to registers and caches, it is much less expensive and can therefore be larger in size, but it takes the CPU longer to fetch data from main memory. The data held in main memory generally represents *all* of the data of programs that are currently being executed.
+The next level down in the hierarchy is primary storage, or *main memory*. Physically, it typically consists of what's known as random access memory (RAM) devices. Compared to registers and caches, RAM is much less expensive and can therefore be much larger in size, but it takes the CPU longer to fetch data from main memory. However, the data held in main memory generally represents *all* of the data of programs that are currently being executed.
 
 ## Secondary storage
 

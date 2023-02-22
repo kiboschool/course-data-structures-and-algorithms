@@ -22,4 +22,4 @@ Watch the following video about the coding interview process at Google. Take not
 
 Throughout this term, you will progressively learn the skills you need to succeed in interviews, and practice those skills in mock interviews.
 
-More information is available on the [Interview of the Week](../../iotw.html) page.
+More information is available on the [Interview of the Week](/iotw.html) page.

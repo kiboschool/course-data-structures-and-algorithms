@@ -6,6 +6,10 @@ In Programming 1 and 2, you were introduced to the concepts of data structures a
 
 Many problems require organizing and using data to solve them. For example, an international shipping company might be interested in keeping track of all of the previous orders it has fulfilled, and at any time, calculating the top N greatest orders by monetary value. There could be thousands, tens of thousands, hundreds of thousands of orders -- or more -- and these calculations need to be performed quickly. Data structures are constructs that help us organize data to solve these types of problems.
 
+To make solving these problems easier, some programming languages have *built-in* data structures in the language itself. For example, Python has lists, dictionaries, and tuples to organize data. In previous courses, you used these constructs to complete tasks like count the frequencies of words and organize phone books.
+
+Here's a formal definition of data structure:
+
 <aside>
 
 ***Definition***
@@ -14,11 +18,11 @@ A *data structure* is a way to store and organize data to allow us to efficientl
 
 </aside>
 
-Notice in this definition that we mention efficiency. In this course, we will be quite concerned with writing efficient algorithms; that is, algorithms that take up as few resources (time and space) as possible. But what is an algorithm?
+Notice in the definition of data structure that we mention efficiency. In this course, we will be quite concerned with writing efficient algorithms; that is, algorithms that take up as few resources (time and space) as possible. But what is an algorithm?
 
 ## What is an algorithm?
 
-In P1, you learned that an algorithm is simply a set of instructions to perform a computation, and that definition still holds true for our purposes here. In this course, however, we will expand upon our knowledge of algorithms in three key ways:
+In P1, you learned that an algorithm is simply a set of instructions to perform a computation, and that definition still holds true. In this course, however, we will expand upon our knowledge of algorithms in three key ways:
 
 1. We will study advanced techniques for writing algorithms (e.g., recursion)
 2. We will develop formalisms for describing the efficiency of algorithms (i.e., big-O notation)
@@ -28,8 +32,8 @@ With these new tools and techniques at our disposal, we will be much better plac
 
 ## Why study data structures and algorithms?
 
-You might be wondering why there is an entire course dedicated to data structures and algorithms. The case for needing the P1 and P2 courses might have been clearer; there, you gained numerous skills for designing, coding, and debugging solutions in Python to various problems. However, you won't learn many new Python language features in this class. So how is this going to be useful?
+You might be wondering why there is an entire course dedicated to data structures and algorithms. The case for studying Python in the P1 and P2 courses was clear. You learned numerous skills for designing, coding, and debugging solutions in Python to various problems. However, you won't learn many new Python language features in this class. So how is this going to be useful?
 
-In truth, many of the computational problems you will face in the real world will be data-oriented and require the use of data structures. More to the point, you will need to be able to solve data-oriented problems efficiently. Some approaches to solving such problems are too expensive and are therefore not feasible.
+Many of the computational problems you will face in the real world will be data-oriented and require the use of data structures. You will need to be able to solve data-oriented problems efficiently. Some approaches to solving such problems are too expensive and are therefore not feasible.
 
 This course gives you the tools necessary to analyze data-based problems and devise an efficient solution. Even when presented with a problem that you have never encountered before, you will be able to reason about the best way to solve it based on the set of principles that we will learn.

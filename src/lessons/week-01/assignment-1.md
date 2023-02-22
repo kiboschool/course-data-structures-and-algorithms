@@ -8,6 +8,10 @@
 
 ## Implementing a Set ADT 
 
+This week we saw multiple examples of ADTs, including tuples, dictionaries, and sets. These three ADTs happen to be built into Python as language features, but we've defined our own versions to illustrate how ADTs can be implemented.
+
+This week we also learned about the various levels of the memory hierarchy, and saw the relative speeds at which you can access data from those levels.
+
 In this assignment, you will implement an ADT that represents a mathematical set. You will implement it in three different ways: by storing the elements in a list, storing the elements in a sorted list, and storing the elements on disk. You will also benchmark the performance of these implementations.
 
 > [Insert link to assignment here.](https://github.com/kiboschool/set-adt)

@@ -12,7 +12,7 @@ In the password-guessing example, we took a computationally intensive problem an
 |------------------|-------------------------|-------------------------------------|
 | Second (s)       | 1 second                | Downloading a medium-sized PDF file |
 | Millisecond (ms) | 10<sup>-3</sup> seconds | Opening a PDF file on your computer |
-| Millisecond (us) | 10<sup>-6</sup> seconds | Response time for an LCD monitor    |
+| Microsecond (us) | 10<sup>-6</sup> seconds | Response time for an LCD monitor    |
 | Nanosecond  (ns) | 10<sup>-9</sup> seconds | CPU executing 100 instructions      |
 
 In other words, the following are equivalent:

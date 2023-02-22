@@ -1,6 +1,6 @@
 # Memory Model
 
-Now that we know a *bit* (ahem) about memory, let's talk about how memory is managed within the context of a Python program. In particular, we are concerned with how Python *objects* are represented in memory, since our data structures will be implemented as objects.
+We've now seen the importance of space in algorithms. Ideally, we want to limit how much space our programs use, and also optimize our programs so that they use the fast parts of the memory hierarchy. However, before we can do that, we have to know how Python programs store data. Let's take a moment to understand the *memory model* that Python uses.
 
 ## Everything is an object
 
@@ -39,7 +39,7 @@ This is what the stack would look like while the `adder()` function executes:
 
 ### The heap
 
-Objects are stored in a region of memory known as the *heap*. Remember that all values in Python are objects, so all Python values are indeed stored on the heap. Objects remain on the heap until they are no longer used by the program. At that point, their memory is reclaimed through a process called garbage collection. The details of this process are out of scope for us.
+Objects are stored in a region of memory known as the *heap*. Remember that all values in Python are objects, so all Python values are indeed stored on the heap. Objects remain on the heap until they are no longer used by the program. At that point, their memory is reclaimed through a process called garbage collection.
 
 Putting the ideas of a stack and a heap together, we can draw diagrams for the memory layout of a Python program. Take for example this program:
 
