@@ -90,18 +90,19 @@ Watch the video below to see an example of tracing changes in memory.
 
 > VIDEO. Demonstrate how to trace through some code that calls a function to modify a list.
 
-<details>
-<summary>
+<aside>
 <b>Check your understanding</b>
-
+<p>
 Try tracing the following code fragment by drawing a picture. What is printed in the end? After you're done tracing the code, execute the code to see the output and reveal the solution to see memory diagrams.
-
+</p>
 <div style="position: relative;">
 <iframe src="https://trinket.io/embed/python/02f632a680" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
-
+<details>
+<summary>
+<i>Click to reveal the answer.</i>
 </summary>
-
+<p>
 <b>Answer.</b>
 
 ```
@@ -133,5 +134,6 @@ The final modification changes `lst_z`, meaning that this is the final picture i
     class="center"
     alt="State of memory after changing lst_z"
     style="width:200px;" />
-
+</p>
 </details>
+</aside>

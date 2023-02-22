@@ -31,8 +31,7 @@ The last level of the memory hierarchy that we will consider is network-based st
 
 There are other levels and details within this hierarchy that we have not touched on, but this view of memory is sufficient for our purposes.
 
-<details>
-<summary>
+<aside>
 <b>Check your understanding</b>
 
 Order the following types of memories from least capacity (i.e., can hold only a small amount of data) to greatest capacity (i.e., can hold a large amount of data).
@@ -42,8 +41,12 @@ Order the following types of memories from least capacity (i.e., can hold only a
 - Registers and caches
 - Secondary storage
 
+<details>
+<summary>
+<i>Click to reveal the answer.</i>
 </summary>
 
 <b>Answer.</b> In order from smallest to largest capacity: registers and caches, main memory, secondary storage, network-based storage. This is also the ordering of the fastest to slowest types of memory.
 
 </details>
+</aside>

@@ -26,29 +26,27 @@ In other words, the following are equivalent:
 
 The amount of time it takes for a process to complete is called its *latency*. We give some example latency measurements at the end of this lesson. 
 
+<aside>
+<b>Check your understanding</b>
+<p>How many milliseconds is 300 seconds?</p>
 <details>
 <summary>
-<b>Check your understanding</b>
-
-How many milliseconds is 300 seconds?
-
+<i>Click to reveal the answer.</i>
 </summary>
-
-<b>Answer.</b> There are 1,000 milliseconds in each second. <code>1,000 ms/s * 300 s = 300,000 ms</code>
-
+<p><b>Answer.</b> There are 1,000 milliseconds in each second. <code>1,000 ms/s * 300 s = 300,000 ms</code></p>
 </details>
+</aside>
 
+<aside>
+<b>Check your understanding</b>
+<p>How many microseconds is 10,000 nanoseconds?</p>
 <details>
 <summary>
-<b>Check your understanding</b>
-
-How many microseconds is 10,000 nanoseconds?
-
+<i>Click to reveal the answer.</i>
 </summary>
-
-<b>Answer.</b> There are 1,000 nanoseconds in each microsecond. <code>10,000 ns / 1,000 ns/us = 10 us</code>
-
+<p><b>Answer.</b> There are 1,000 nanoseconds in each microsecond. <code>10,000 ns / 1,000 ns/us = 10 us</code></p>
 </details>
+</aside>
 
 ## Measuring space
 
@@ -68,29 +66,35 @@ Larger groups of bits and bytes use the metric prefixes. For example:
 
 ⚠️ But be careful! Always be aware of whether you're measuring something in terms of *bits* or *bytes*. Typically, values measured in bits are represented with a lowercase "b" or "bits," e.g., 100 Kb or 100 Kbits. Values measured in bytes are usually represented with an uppercase "B" or "bytes," e.g., 100 KB or 100 Kbytes. If precision matters for your task, it's better to explicitly use "bits" or "bytes" to clearly communicate.
 
-<details>
-<summary>
+<aside>
 <b>Check your understanding</b>
-
+<p>
 How many bytes are in 30 MB?
-
-</summary>
-
-<b>Answer.</b> There are 1,000*1,000 = 1,000,000 bytes in every MB. <code>1,000,000 B/MB * 30 MB = 30,000,000 bytes</code>
-
-</details>
-
+</p>
 <details>
 <summary>
-<b>Check your understanding</b>
-
-How many KBits are in 2.5 MB?
-
+<i>Click to reveal the answer.</i>
 </summary>
-
-<b>Answer.</b> 2.5 MB = 2,500 KB. There are 8 bits in every bite. 2,500 KB * 8 bits/B = 20,000 Kbits.
-
+<p>
+<b>Answer.</b> There are 1,000*1,000 = 1,000,000 bytes in every MB. <code>1,000,000 B/MB * 30 MB = 30,000,000 bytes</code>
+</p>
 </details>
+</aside>
+
+<aside>
+<b>Check your understanding</b>
+<p>
+How many KBits are in 2.5 MB?
+</p>
+<details>
+<summary>
+<i>Click to reveal the answer.</i>
+</summary>
+<p>
+<b>Answer.</b> 2.5 MB = 2,500 KB. There are 8 bits in every bite. 2,500 KB * 8 bits/B = 20,000 Kbits.
+</p>
+</details>
+</aside>
 
 ## Base 2 and base 10
 

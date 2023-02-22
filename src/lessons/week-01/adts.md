@@ -71,16 +71,18 @@ If you're interested in reading about ways Python can have something like an ADT
 
 </aside>
 
-<details>
-<summary>
+<aside>
 <b>Check your understanding</b>
 
 Consider the following ADT: a <i>set</i>. A set has the following operations: (1) insert an item into the set, (2) check whether the set contains an item, and (3) delete an item from the set. There is no concept of "position" -- i.e., you can't say <i>give me the fourth item in the set</i>.
 
 How could you implement this ADT in Python? Provide a high-level description of the kind of class you would write.
-
+<details>
+<summary>
+<i>Click to reveal the answer.</i>
 </summary>
 
 <b>Answer.</b> You could write a Python class that uses a list to hold the items in the set. The class should have three methods: one for inserting items into the list (you can just append the given item to the end of the list if it does not already exist in the list), one for checking whether an item is in the list (perhaps using the `in` operator), and one for iterating over the list to delete the item.
 
 </details>
+</aside>
