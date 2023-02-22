@@ -45,7 +45,45 @@ The **solutions** to each challenge are available, and you can view a video of t
 
 </aside>
 
-## 1. Tracing Memory Modifications
+## 1. Finding the average of a list
+
+> [Insert GitHub Classroom link to practice here.](https://github.com/kiboschool/list-avg)
+
+Watch the video below to see the full solution.
+
+Make sure you give yourself enough time to solve the practice without watching the video. It is really important for your learning.
+
+<details><summary>Finding the Average of a List Video</summary>
+
+> VIDEO. Solution video.
+
+</details>
+
+## 2. Working with units of space and time
+
+A photographer has a collection of 10,500 photos. She learns from her camera's manual that each photograph taken by the camera is 2.5 MB. Each photo also has 250 KB of metadata that needs to be stored alongside the photo. She currently has the photos in a cloud storage account that allows her to have 100 GB of data. However, she is worried that she might be reaching the limit of the account and is considering storing the collection on her local computer instead.
+
+1. How close is the photographer to filling up her cloud storage account?
+
+2. The photographer's computer has 40 GB of available disk space. What percentage of her collection would she be able to store on her computer?
+
+3. The photographer learns that it takes 2000 ms to download each photo from the cloud storage account to her computer. At that speed, how many minutes would it take to download the entire collection?
+
+4. The photographer also learns that her Internet uplink speed is 512 Kbps. Approximately how long would it take for her to upload 10 photos to her cloud storage account?
+
+5. After reading the documentation of her editing software, the photographer finds that the software can comfortably accomodate 0.25 GiB of photo data in main memory at a time, and doesn't need to take into account the metadata associated with the photos. Approximately how many photos can she edit simultaneously?
+
+Watch the video below to see the full solution.
+
+Make sure you give yourself enough time to solve the practice without watching the video. It is really important for your learning.
+
+<details><summary>Working with Units of Space and Time Video</summary>
+
+> VIDEO. Solution video.
+
+</details>
+
+## 3. Tracing Memory Modifications
 
 Consider the Python code below. Trace the execution of the code by creating a memory diagram showing the stack and the heap. What is output the by the `print` statement? Only execute the code after you have attempted the exercise.
 
@@ -61,7 +99,7 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 </details>
 
-## 2. Tracing Memory Modifications with Functions
+## 4. Tracing Memory Modifications with Functions
 
 Consider the Python code below. Trace the execution of the code by creating a memory diagram showing the stack and the heap. What is output the by the `print` statement? Only execute the code after you have attempted the exercise.
 
@@ -77,7 +115,7 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 </details>
 
-## 3. Implementing a Dictionary ADT 
+## 5. Implementing a Dictionary ADT
 
 > [Insert GitHub Classroom link to practice here.](https://github.com/kiboschool/dict-adt)
 
@@ -90,5 +128,3 @@ Make sure you give yourself enough time to solve the practice without watching t
 > VIDEO. Solution video.
 
 </details>
-
-
