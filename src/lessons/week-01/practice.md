@@ -45,7 +45,7 @@ The **solutions** to each challenge are available, and you can view a video of t
 
 </aside>
 
-## 1. Finding the average of a list
+## 1. Finding the Average of a List
 
 > [Insert GitHub Classroom link to practice here.](https://github.com/kiboschool/list-avg)
 
@@ -59,7 +59,7 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 </details>
 
-## 2. Working with units of space and time
+## 2. Working with Units of Space and Time
 
 A photographer has a collection of 10,500 photos. She learns from her camera's manual that each photograph taken by the camera is 2.5 MB. Each photo also has 250 KB of metadata that needs to be stored alongside the photo. She currently has the photos in a cloud storage account that allows her to have 100 GB of data. However, she is worried that she might be reaching the limit of the account and is considering storing the collection on her local computer instead.
 
