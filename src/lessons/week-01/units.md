@@ -64,7 +64,7 @@ Larger groups of bits and bytes use the metric prefixes. For example:
 | Gigabyte (GB) | 10<sup>9</sup> bytes  | One billion bytes  | A movie downloaded to your device      |
 | Terabyte (TB) | 10<sup>12</sup> bytes | One trillion bytes | 1,000 movies downloaded to your device |
 
-⚠️ But be careful! Always be aware of whether you're measuring something in terms of *bits* or *bytes*. Typically, values measured in bits are represented with a lowercase "b" or "bits," e.g., 100 Kb or 100 Kbits. Values measured in bytes are usually represented with an uppercase "B" or "bytes," e.g., 100 KB or 100 Kbytes. If precision matters for your task, it's better to explicitly use "bits" or "bytes" to clearly communicate.
+⚠️  But be careful! Always be aware of whether you're measuring something in terms of *bits* or *bytes*. Typically, values measured in bits are represented with a lowercase "b" or "bits," e.g., 100 Kb or 100 Kbits. Values measured in bytes are usually represented with an uppercase "B" or "bytes," e.g., 100 KB or 100 Kbytes. If precision matters for your task, it's better to explicitly use "bits" or "bytes" to clearly communicate.
 
 <aside>
 <b>Check your understanding</b>
