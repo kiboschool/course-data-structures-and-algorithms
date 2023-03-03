@@ -101,6 +101,38 @@ There you have it! We at last have a succinct and rigorously-defined way of labe
 >
 > Keep in mind that big-O notation is a theoretical tool to help us analyze algorithms in broad terms. However, if you're  concerned with the performance of an algorithm running a real task on actual computer, lower-order terms, coefficients, and the capabilities of the hardware and software *do* matter.
 
+## Conditional Execution and Big-O
+
+An algorithm can behave differently depending on the contents of its input. For example, consider this algorithm:
+
+```python
+def print_odd_len_list(lst):
+    # if the list has an even number of elements
+    if len(lst) % 2 == 0:
+        return
+
+    for item in lst:
+        print(item)
+```
+
+Clearly, the `if` statement here impacts how long this algorithm takes to run. If the given `lst` has an odd number of elements, the function prints all of the elements, one-by-one. However, if `lst` has an even number of elements, the function simply returns without doing any printing. How do we analyze the effect that conditional execution (i.e., `if` statements) has on the running time of an algorithm?
+
+We can break our analysis down into different cases. For `print_odd_len_list()`, the *best* case occurs when the list is an even length, because there is the least amount of work to do. For even-length lists, the function is O(1) -- no matter how long the list is, it can always immediately return!
+
+In the *worst* case, an odd-length list is given. In this case, the function iterates over the entire list, and is therefore O(n).
+
+When we're analyzing algorithms, we are typically interested in the worst case behavior when devising our big-O expression. This allows us to ignore conditional execution and just focus on the overall structure of the algorithm. This worst-case analysis is for theoretical purposes only. In real-world applications, the best case -- and how often it occurs compared to the worst case -- matters!
+
+> For selection sort (and many other algorithms), the best case and worst case are the same: the algorithm always repeatedly finds the smallest item in the list and swaps it into its final sorted place. Even if the input was an already-sorted list, the running time would still be O(n^2)!
+
+## Big-O and Space
+
+We can also use big-O notation to express the amount of *extra space* that an algorithm uses. By "extra" space, we mean memory resources that are needed to complete the algorithm, excluding the input.
+
+For example, in selection sort, the only extra memory resources that are needed are some local variables, including loop indexes and the `temp` variable used to swap elements of the list. We consider this a *constant* amount of extra memory. Even though we may be doing O(n) swaps in the execution of the algorithm, we don't use `n` copies of the `temp` variable *all at once*. Overall, we would say that selection sort has an O(1) space efficiency.
+
+We will soon see examples of algorithms that require more than a constant amount of extra space. We will revisit this topic when we learn about radix sort later this week.
+
 ## Summary
 
 We've covered a lot of ground in this lesson. Watch the video below to see a quick summary of big-O notation, and make sure that your understanding aligns with what it describes before moving on to the next lesson.

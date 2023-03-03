@@ -1,4 +1,4 @@
-# Practice: Goals and Building Blocks
+# Practice: Sorting and Algorithm Analysis
 
 ---
 
@@ -45,9 +45,76 @@ The **solutions** to each challenge are available, and you can view a video of t
 
 </aside>
 
-## 1. Finding the Average of a List
+## 1. Sorting lists using various sorts
 
-> [Insert GitHub Classroom link to practice here.](https://github.com/kiboschool/list-avg)
+Consider the following list:
+
+```txt
+[19, 81, 67, 21, 86, 42, 6, 30, 16]
+```
+
+1. Sort the list using selection sort. Show the contents of the list after each pass of the outer loop.
+2. Sort the list using insertion sort. Show the contents of the list after each pass of the outer loop.
+3. Sort the list using radx sort. Show the contents of the list after each round of bucketing.
+
+Watch the video below to see the full solution.
+
+Make sure you give yourself enough time to solve the practice without watching the video. It is really important for your learning.
+
+<details><summary>Solution video.</summary>
+
+> VIDEO. Solution video.
+
+</details>
+
+## 2. Deriving big-O running time
+
+Suppose you want to count the number of duplicate items in a list. For example, if given the list `[4, 1, 9, 1, 1, 4, 6, 8]`, there would be three duplicates: two extra 1s and one extra 4.
+
+Consider the following algorithm to count the number of duplicates:
+
+```python
+def num_dups_1(lst):
+    num_dups = 0
+    for i in range(len(lst)):
+        for j in range(i + 1, len(lst)):
+            if lst[i] == lst[j]:
+                num_dups += 1
+                break
+    return num_dups
+```
+
+This algorithm looks at every element of the list and considers all elements to its right. If it finds a duplicate, it adds one to the count. To avoid double-counting duplicates, it will `break` the inner loop once a duplicate is found and continue on to the next element of the outer loop.
+
+    1. What's the worst case big-O time efficiency of `num_dups_1()` in terms of the length of the list? What's the big-O space efficiency?
+
+Here's an alternative way of implementing this algorith, which first sorts the input using radix sort:
+
+```python
+def num_dups_2(lst):
+    sorted_lst = radix_sort(lst)
+    num_dups = 0
+    for i in range(1, len(lst)):
+        if lst[i] == lst[i - 1]:
+            num_dups += 1
+    return num_dups
+```
+
+This version of the algorithm first sorts the list using radix sort, and then uses a `for` loop to count the number of duplicates as it iterates over the sorted list.
+
+    2. What's the worst-case big-O time efficiency of `num_dups_2()` in terms of the length of the list? What's the big-O space efficiency? Be sure to include the time and space efficiencies of radix sort as discussed in this week's lessons as a part of your answer.
+
+    3. According to your analysis, which version of the algorithm is more efficient?
+
+<details><summary>Solution Video</summary>
+
+> VIDEO. Solution video.
+
+</details>
+
+## 3. Binary search?
+
+> [Access the exercise via GitHub Classroom here.](https://github.com/kiboschool/insertion-analysis)
 
 Watch the video below to see the full solution.
 
@@ -59,19 +126,9 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 </details>
 
-## 2. Working with Units of Space and Time
+## 4. Experimentally deriving the running time of insertion sort
 
-A photographer has a collection of 10,500 photos. She learns from her camera's manual that each photograph taken by the camera is 2.5 MB. Each photo also has 250 KB of metadata that needs to be stored alongside the photo. She currently has the photos in a cloud storage account that allows her to have 100 GB of data. However, she is worried that she might be reaching the limit of the account and is considering storing the collection on her local computer instead.
-
-1. How close is the photographer to filling up her cloud storage account?
-
-2. The photographer's computer has 40 GB of available disk space. What percentage of her collection would she be able to store on her computer?
-
-3. The photographer learns that it takes 2000 ms to download each photo from the cloud storage account to her computer. At that speed, how many minutes would it take to download the entire collection?
-
-4. The photographer also learns that her Internet uplink speed is 512 Kbps. Approximately how long would it take for her to upload 10 photos to her cloud storage account?
-
-5. After reading the documentation of her editing software, the photographer finds that the software can comfortably accomodate 0.25 GiB of photo data in main memory at a time, and doesn't need to take into account the metadata associated with the photos. Approximately how many photos can she edit simultaneously?
+> [Access the exercise via GitHub Classroom here.](https://github.com/kiboschool/insertion-analysis)
 
 Watch the video below to see the full solution.
 
@@ -83,41 +140,9 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 </details>
 
-## 3. Tracing Memory Modifications
+## 5. Optimizing selection sort
 
-Consider the Python code below. Trace the execution of the code by creating a memory diagram showing the stack and the heap. What is output the by the `print` statement? Only execute the code after you have attempted the exercise.
-
-<iframe src="https://trinket.io/embed/python/3d20d411fa" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-
-Watch the video below to see the full solution.
-
-Make sure you give yourself enough time to solve the practice without watching the video. It is really important for your learning.
-
-<details><summary>Solution Video</summary>
-
-> VIDEO. Solution video.
-
-</details>
-
-## 4. Tracing Memory Modifications with Functions
-
-Consider the Python code below. Trace the execution of the code by creating a memory diagram showing the stack and the heap. What is output the by the `print` statement? Only execute the code after you have attempted the exercise.
-
-<iframe src="https://trinket.io/embed/python/5a6d5ad261" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-
-Watch the video below to see the full solution.
-
-Make sure you give yourself enough time to solve the practice without watching the video. It is really important for your learning.
-
-<details><summary>Solution Video</summary>
-
-> VIDEO. Solution video.
-
-</details>
-
-## 5. Implementing a Dictionary ADT
-
-> [Insert GitHub Classroom link to practice here.](https://github.com/kiboschool/dict-adt)
+> [Access the exercise via GitHub Classroom here.](https://github.com/kiboschool/selection-opt)
 
 Watch the video below to see the full solution.
 

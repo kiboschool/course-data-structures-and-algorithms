@@ -99,6 +99,19 @@ Let's see how we can use the `swap()` function to implement selection sort in Py
 
 Here again is the code for selection sort:
 
+```python
+def index_smallest(lst, start):
+    index_min = start
+    for i in range(start + 1, len(lst)):
+        if lst[i] < lst[index_min]:
+            index_min = i
+    return index_min
+
+def selection_sort(lst):
+    for i in range(len(lst) - 1):
+        j = index_smallest(lst, i)
+        swap(lst, i, j)
+```
 
 Let's try counting the number of comparisons `C(n)` that selection sort makes for a list of size `n`. To sort a list of `n` elements, selection sort performs `n - 1` passes over the list.
 

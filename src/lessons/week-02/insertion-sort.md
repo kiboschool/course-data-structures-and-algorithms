@@ -33,4 +33,46 @@ To summarize, here are the steps of insertion sort:
 </details>
 </aside>
 
+## Insertion sort in Python
 
+Let's see how insertion sort can be implemented in Python:
+
+> VIDEO: 5 minute video walking through the code of selection sort.
+
+## Big-O analysis of insertion sort
+
+Let's take another look at insertion sort:
+
+```python
+def insertion_sort(lst):
+    for i in range(1, len(lst)):
+        to_insert = lst[i]
+        j = i
+        while j > 0 and to_insert < lst[j - 1]:
+            lst[j] = lst[j - 1]
+            j -= 1
+        lst[j] = to_insert
+```
+
+Unlike selection sort, with insertion sort there is a difference between the best case and worst case behavior of the algorithm.
+
+### Best case analysis
+
+Let's trace through what would happen if the list given to insertion sort was already sorted:
+
+> Insert 2-3 minute video tracing the loop and seeing that the while loop is never executed.
+
+Since the body of the `while` loop is never executed, we can essentially ignore it for the purposes of our big-O analysis. This essentially leaves us with a single `for` loop to execute. We can therefore say that in the best case (a fully sorted list), the running time of insertion sort is only O(n)!
+
+### Worst case analysis
+
+The worst case scenario for insertion sort occurs when the algorithm is given a *reverse sorted* list as input. This is an unfortunate scenario for insertion sort because it means that each element is compared to *all* elements to its left on every iteration of the algorithm.
+
+Let's count the number of comparisons in this case:
+
+* lst[1] is compared to 1 element (lst[0])
+* lst[2] is compared to 2 elements (lst[0] and lst[1])
+* ...
+* lst[n - 1] is compared to n - 1 elements
+
+Therefore, the number of comparisons `C(n) = 1 + 2 + ... + (n - 2) + (n - 1)`. We've seen this pattern before! 

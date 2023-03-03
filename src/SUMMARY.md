@@ -22,3 +22,16 @@
   - [Assignment 1](lessons/week-01/assignment-1.md)
 
 ### Week 2
+
+- [Sorting and Algorithm Analysis](lessons/week-02.md)
+
+  - [Sorting](lessons/week-02/sorting.md)
+  - [Selection sort](lessons/week-02/selection-sort.md)
+  - [Big-O notation](lessons/week-02/big-o.md)
+  - [Deriving big-O](lessons/week-02/deriving-big-o.md)
+  - [Insertion sort](lessons/week-02/insertion-sort.md)
+  - [Radix sort](lessons/week-02/radix-sort.md)
+  - [Searching](lessons/week-02/searching.md)
+  - [Practice](lessons/week-02/practice.md)
+  - [Assignment 2](lessons/week-02/assignment-2.md)
+

@@ -96,7 +96,7 @@ In this case, for every one iteration of the outer (`i`) loop, the inner (`j`) l
 A couple of things to note:
 
 * Strictly speaking, the inner loop iterates exactly `n - 5` times. This is `O(n)`.
-* Conditional statements (`if i < j`) doesn't have any effect on the running time. For the purposes of big-O, you are concerned with the worst case behavior, so we will assume (even if it's not true) that `i < j` is always true and the body of the `if` is executed on every iteration.
+* The conditional statement (`if i < j`) doesn't have any effect on the running time. Remember that for the purposes of big-O, we are mostly concerned with the worst case behavior, so we will assume (even if it's not true) that `i < j` is always true and the body of the `if` is executed on every iteration.
 
 However, it could also be the case that the inner loop looks slightly different:
 
