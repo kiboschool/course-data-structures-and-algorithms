@@ -49,7 +49,7 @@ To summarize, here are some of the most common efficiency classes, sorted by slo
 <blockquote>
 <p>
 Wait! I thought an <code>O(n<sup>2</sup>)</code> algorithm grows faster than an <code>O(n)</code> algorithm. Why is an <code>O(n)</code> algorithm considered faster?</p>
-<p> Be careful. "Faster" here refers to two separate concepts. The number of operations in an <code>O(n<sup>2</sup>)</code> algorithm grows faster than the number of operations in an <code>O(n)</code> algorithm as <code>n</code> increases. However, more operations is a <i>bad</i> thing in terms of algorithmic efficiency -- more operations means the algorithm is slower. Relatively speaking, an algorithm whose number of operations grows <i>slowly</i> as the input size increases is a <i>fast</i> algorithm because it will take less time to complete.</p>
+<p>⚠️ Be careful. "Faster" here refers to two separate concepts. The number of operations in an <code>O(n<sup>2</sup>)</code> algorithm grows faster than the number of operations in an <code>O(n)</code> algorithm as <code>n</code> increases. However, more operations is a <i>bad</i> thing in terms of algorithmic efficiency -- more operations means the algorithm is slower. Relatively speaking, an algorithm whose number of operations grows <i>slowly</i> as the input size increases is a <i>fast</i> algorithm because it will take less time to complete.</p>
 </blockquote>
 
 ## The rules of big-O notation
