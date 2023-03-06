@@ -4,9 +4,9 @@ We are now ready to develop a formalism for classifying algorithms according to 
 
 ## What is big-O notation?
 
-Big-O notation can be used to describe an algorithm's time and space efficiciency. It describes an upper bound on the amount of resources that will be required for the algorithm as the input size to the algorithm increases.
+Big-O notation can be used to describe an algorithm's time and space efficiency. It describes an upper bound on the amount of resources that will be required for the algorithm as a function of the input size (`n`) to the algorithm.
 
-Watch the video below to learn about big-O notation and to hear an example where knowing the efficiency of an algorithm may have helped the developer devise a better solution:
+Watch the video below to learn about big-O notation and to hear an example where knowing the efficiency of an algorithm may have helped a software developer devise a better solution:
 
 <div
   style="position: relative; padding-bottom: 56.25%; height: 0;">
@@ -46,15 +46,31 @@ To summarize, here are some of the most common efficiency classes, sorted by slo
 * `O(logn)`
 * `O(1)`
 
+For example, we would say that as the input size `n` grows, an `O(n)` algorithm is faster than an <code>O(n<sup>2</sup>)</code> algorithm.
+
+<!-- talk about this in live class
 <blockquote>
 <p>
 Wait! I thought an <code>O(n<sup>2</sup>)</code> algorithm grows faster than an <code>O(n)</code> algorithm. Why is an <code>O(n)</code> algorithm considered faster?</p>
 <p>⚠️ Be careful. "Faster" here refers to two separate concepts. The number of operations in an <code>O(n<sup>2</sup>)</code> algorithm grows faster than the number of operations in an <code>O(n)</code> algorithm as <code>n</code> increases. However, more operations is a <i>bad</i> thing in terms of algorithmic efficiency -- more operations means the algorithm is slower. Relatively speaking, an algorithm whose number of operations grows <i>slowly</i> as the input size increases is a <i>fast</i> algorithm because it will take less time to complete.</p>
 </blockquote>
+-->
+
+## What is big-O measuring?
+
+We mentioned above that a big-O expression defines an upper bound on the amount of resources used by an algorithm. But how do we meausre the amount of resources?
+
+For time efficiency, recall from last week we are concerned with the computational time of the algorithm. The computational time is determined by the number of *operations* that the algorithm performs. When a computer program is executed, the code of the program is broken down into a series of simple operations, for example:
+
+* Adding two numbers together
+* Comparing two numbers
+* Fetching a value from main memory
+* Assigning a value to a variable
+* And many others!
+
+Taken together, these fundamental operations compose an entire computer program. For some programs, we are actually able to derive an exact formula for the number of operations it performs. For example, we might be able to say that an algorithm performs `3n - 3` move operations, where `n` is the size of the input. To derive the big-O running time from this exact formula, we can use a couple of rules.
 
 ## The rules of big-O notation
-
-You may have noticed that the examples of big-O classes above use simple, one-term expressions. However, the counts of operations that we devised for selection sort had multiple terms and constants: <code>C(n) = n<sup>2</sup>/2 - n/2</code> and `M(n) = 3n - 3`. So what efficiency classes do those expressions fit into? For this, we will need to consult two rules for big-O notation:
 
 ### Rule 1: lower-order terms are ignored
 
