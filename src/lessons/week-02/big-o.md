@@ -62,11 +62,11 @@ Keep in mind that big-O defines what happens as `n` increases -- in theory, to i
 
 When `n` is large, mathematical expressions involving `n` are dominated by their largest term (i.e., the term with the highest *degree* or exponent):
 
-| **n**  | **n^2/2**  | **n/2** | **n^2/2 - n/2** |
-|--------|------------|---------|-----------------|
-| 10     | 50         | 5       | 45              |
-| 100    | 5,000      | 50      | 4,950           |
-| 10,000 | 50,000,000 | 5,000   | 49,995,000      |
+| **n**  || **n^2/2**  | **n/2** | **n^2/2 - n/2** |
+|--------|-|------------|---------|-----------------|
+| 10     || 50         | 5       | 45              |
+| 100    || 5,000      | 50      | 4,950           |
+| 10,000 || 50,000,000 | 5,000   | 49,995,000      |
 
 Therefore, in big-O notation we ignore all lower-order terms and focus only on the higest order term.
 
