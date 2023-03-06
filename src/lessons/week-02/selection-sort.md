@@ -131,7 +131,7 @@ This is actually a well-known arithmetic sequence that has a closed form solutio
     src="/images/week-02/sum.png"
     class="center"
     alt="Mathematical formula for the sum of the numbers 1 to n being equal to the closed form expression n times n plus 1 divided by two."
-    style="width:400px;" />
+    style="width:300px;" />
 </center>
 
 <figcaption align = "center">Figure: the closed form expression for the sum of the first <code>n</code> integers.</figcaption>
