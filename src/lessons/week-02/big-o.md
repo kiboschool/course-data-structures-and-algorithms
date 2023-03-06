@@ -1,6 +1,6 @@
 # Big-O Notation
 
-We have now reached the point where we are ready to develop a formalism for classifying algorithms according to their time and space efficiencies. This formalism is known as *big-O notation*.
+We are now ready to develop a formalism for classifying algorithms according to their time and space efficiencies. This formalism is known as *big-O notation*.
 
 ## What is big-O notation?
 
@@ -87,13 +87,15 @@ For example, <code>n<sup>2</sup>/2 + n = O(n<sup>2</sup>)</code> because we can 
 </details>
 </aside>
 
+<!-- talk about this in async session
 > What would happen if you ran an `O(n)` algorithm on a fast computer, and compared how long it takes to execute to an `O(logn)` algorithm running on a slow computer?
 >
 > Over time, advancements in hardware and software technology have enabled modern computers to be faster than computers of 10, 20, even 50 years ago by orders of magnitude. For some input sizes, it's true that a fast computer running an `O(n)` algorithm will complete faster than an older computer running an `O(logn)` algorithm. However, if you keep increasing the input size, there will eventually come a point where the slower computer will execute faster since the `O(logn)` algorithm will eventually be more efficient.
 >
 > Keep in mind that big-O notation is a theoretical tool to help us analyze algorithms in broad terms. However, if you're  concerned with the performance of an algorithm running a real task on actual computer, lower-order terms, coefficients, and the capabilities of the hardware and software *do* matter.
+-->
 
-## Conditional Execution and Big-O
+## Big-O and Worst-Case Analysis
 
 An algorithm can behave differently depending on the contents of its input. For example, consider this algorithm:
 
@@ -114,6 +116,8 @@ We can break our analysis down into different cases. For `print_odd_len_list()`,
 In the *worst* case, an odd-length list is given. In this case, the function iterates over the entire list, and is therefore `O(n)`.
 
 When we're analyzing algorithms, we are typically interested in the worst case behavior when devising our big-O expression. This allows us to ignore conditional execution and just focus on the overall structure of the algorithm. This worst-case analysis is for theoretical purposes only. In real-world applications, the best case -- and how often it occurs compared to the worst case -- matters!
+
+Still, when someone asks for the big-O analysis of an algorithm, unless otherwise specified they are asking for the performance of the algorithm in the worst case.
 
 <blockquote>
 <p>
