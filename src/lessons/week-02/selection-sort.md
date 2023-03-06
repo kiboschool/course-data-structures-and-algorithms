@@ -16,7 +16,7 @@ The first sorting algorithm that we will learn is *selection sort*. Watch the fo
   </iframe>
 </div>
 
-In summary, to sort a list selection sort performs the following steps:
+In summary, to sort a list, selection sort performs the following steps:
 
 1. Find the minimum element in the list.
 2. Swap the minimum element in the list with the element at index 0. The minimum element is now in its final sorted position.
@@ -26,7 +26,7 @@ In summary, to sort a list selection sort performs the following steps:
 
 <aside>
 <b>Check your understanding</b>
-<p>After the third pass of the selection sort algorithm, a list looks like this: `[20, 38, 44, 90, 77, 45, 81]`. After the *fourth* pass of selection sort, what will the list look like?</p>
+<p>After the third pass of the selection sort algorithm, a list looks like this: <code>[20, 38, 44, 90, 77, 45, 81]</code>. After the <i>fourth</i> pass of selection sort, what will the list look like?</p>
 <details>
 <summary>
 <i>Click to reveal the answer.</i>
@@ -61,7 +61,7 @@ print(lst)
 <summary>
 <i>Click to reveal the answer.</i>
 </summary>
-<p><b>Answer.</b>Insert explanation with memory diagrams here.</p>
+<p><b>Answer.</b> Insert 2-3 minute video with slides here.</p>
 </details>
 </aside>
 
@@ -85,7 +85,7 @@ print(lst)
 <summary>
 <i>Click to reveal the answer.</i>
 </summary>
-<p><b>Answer.</b>Insert explanation with memory diagrams here.</code></p>
+<p><b>Answer.</b> Insert 2-3 minute video with slides here.</p>
 </details>
 </aside>
 
@@ -126,9 +126,17 @@ If you sum the comparisons across all of these passes, you would get:
 
 This is actually a well-known arithmetic sequence that has a closed form solution:
 
-> Insert image showing sum is equal to n(n-1)/2.
+<center>
+<img
+    src="/images/week-02/sum.png"
+    class="center"
+    alt="Mathematical formula for the sum of the numbers 1 to n being equal to the closed form expression n times n plus 1 divided by two."
+    style="width:400px;" />
+</center>
 
-This means that selection sort always performs exactly `n^2/2 - n/2` comparisons for a list of size `n`.
+<figcaption align = "center">Figure: the closed form expression for the sum of the first <code>n</code> integers.</figcaption>
+
+This means that selection sort always performs exactly <code>n<sup>2</sup>/2 - n/2</code> comparisons for a list of size `n`.
 
 What about the number of moves? Well again we know that selection sort performs `n - 1` passes, during each of which it performs one `swap()` operation. The `swap()` function performs three moves, meaning that selection sort always performs exactly `3n - 3` moves.
 

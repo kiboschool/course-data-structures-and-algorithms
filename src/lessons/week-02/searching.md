@@ -1,6 +1,8 @@
 # Searching
 
-Searching is a very common task in computer science. When we store data inside of data structures, we often need to search for and extract that information at a later point in time. In some applications, searches occur very frequently and need to be quickly executed. For example, a large e-commerce website receives searches for products with keywords ("medium blue t-shirts"), and needs to search through their catalog of millions of products to return relevant results. The website may receive thousands of such requests every second!
+Searching is a very common task in computer science. When we store data inside of data structures, we often need to search for and extract that information at a later point in time. In some applications, searches occur very frequently and need to be quickly executed.
+
+For example, a large e-commerce website receives searches for products with keywords ("medium blue t-shirts"), and needs to search through their catalog of millions of products to return relevant results. The website may receive thousands of such requests every second!
 
 Let's take a look at two methods of searching for data in a Python list: *linear search* and *binary search*. By the end of this week, we'll be able to compare the efficiency of these two algorithms.
 
@@ -10,7 +12,7 @@ Let's take a look at two methods of searching for data in a Python list: *linear
 
 A linear search simply iterates sequentially through a collection of items. The search checks every element of the collection, until either the desired item is found, or there are no more left items to inspect.
 
-Here's an example of a linear search. The function below checks whether a list contains a given number: 
+Here's an example of a linear search. The function below checks whether a list contains a given number:
 
 ```python
 def contains_num(lst, num):
@@ -20,7 +22,7 @@ def contains_num(lst, num):
     return False
 ```
 
-Let's think about how long this method of searching would take. Say that the list has `n` items. In the worst case, the `num` we are searching for is at the end of the list, and we have to search the entire list (all `n` items) to find that out! If we searched for each element in the list one at a time, on average we would have to search through `n / 2` items in the list. Additionally, if `num` is not in the list, we again need to search through the entire list (all `n` items) to make sure.
+Let's think about how long this method of searching would take. Say that the list has `n` items. In the worst case, the `num` we are searching for is at the end of the list, and we have to search the entire list (all `n` items) to find that out! Additionally, if `num` is not in the list, we again need to search through the entire list (all `n` items) to make sure.
 
 <aside>
 <b>Check your understanding</b>
@@ -71,7 +73,7 @@ We have leveraged the fact that the list is in sorted order to improve our algor
 </details>
 </aside>
 
-When `num` *does* appear in the list, on average we would still have to search half of the list, or `n / 2` items. Is there a way we could leverage the sortedness of the list to improve our search in this case? Yes -- binary search!
+This optimization is nice, but it doesn't really improve our algorithm when the item *does* appear in the list. For that, we can use binary search.
 
 ## Binary search
 
@@ -113,4 +115,4 @@ Now that we have an understanding of binary search in general, watch the followi
 
 ## Summary
 
-If a collection is sorted, then binary search can be a much faster way of performing a lookup than linear search. How much faster exactly? We will revisit this question, but for now, let's focus on the fact that the sortedness of the list enabled binary search to happen. Actually, sorting collections provides many benefits, so let's turn our attention to *sorting* as a topic next.
+If a collection is sorted, then binary search can be a much faster way of performing a lookup than linear search. How much faster exactly? We will revisit this efficiency question, but for now, let's focus on the fact that the sortedness of the list enabled binary search to happen. Actually, sorting collections provides many benefits, so let's turn our attention to *sorting* as a topic next.
