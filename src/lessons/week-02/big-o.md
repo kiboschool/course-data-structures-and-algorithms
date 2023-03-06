@@ -60,7 +60,7 @@ Wait! I thought an <code>O(n<sup>2</sup>)</code> algorithm grows faster than an 
 
 ## What is big-O measuring?
 
-We mentioned above that a big-O expression defines an upper bound on the amount of resources used by an algorithm. But how do we meausre the amount of resources?
+We mentioned above that a big-O expression defines an upper bound on the amount of resources used by an algorithm. But how do we measure the amount of resources?
 
 For time efficiency, recall from last week we are concerned with the computational time of the algorithm. The computational time is determined by the number of *operations* that the algorithm performs. When a computer program is executed, the code of the program is broken down into a series of simple operations, for example:
 
@@ -101,7 +101,7 @@ For example, <code>n<sup>2</sup>/2 + n = O(n<sup>2</sup>)</code> because we can 
 <summary>
 <i>Click to reveal the answer.</i>
 </summary>
-<p><b>Answer.</b> Since <code>n*logn</code> is the highest order term, <code>7n - 5 + 99n*logn/500 = O(nlogn)</code>.</p>
+<p><b>Answer.</b>After ignoring all coefficients and lower-order terms (<code>n</code>), we have that <code>7n - 5 + 99n*logn/500 = O(nlogn)</code>.</p>
 </details>
 </aside>
 
