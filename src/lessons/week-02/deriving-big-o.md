@@ -188,7 +188,7 @@ Here's a video that summarizes big-O notation and some of the techniques discuss
 <div
   style="position: relative; padding-bottom: 56.25%; height: 0;">
   <iframe
-    src="https://www.youtube.com/watch?v=v4cd1O4zkGw"
+    src="https://www.youtube.com/embed/v4cd1O4zkGw"
     title="YouTube video player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

@@ -1,13 +1,11 @@
 # Sorting
 
-This week we will mainly consider *sorting* algorithms -- algorithms that put a collection of numbers, strings, or some other data into *order*. For example, a sorting algorithm written in Python could accept a list of numbers such as `[5, 8, 2, 1, 9]` as input, and return the sorted version of the list: `[1, 2, 5, 8, 9]`.
-
-Watch the following video, which provides an overview of the goal of sorting and compares a few sorting algorithms:
+We now know that sorting can be useful in some algorithms -- for example, if a list is sorted then binary search can be used. But sorting is actually a much more general topic with many applications in the world around us. Watch the following video, which provides an overview of the goal of sorting and compares a few sorting algorithms:
 
 <div
   style="position: relative; padding-bottom: 56.25%; height: 0;">
   <iframe
-    src="https://www.youtube.com/watch?v=WaNLJf8xzC4"
+    src="https://www.youtube.com/embed/WaNLJf8xzC4"
     title="YouTube video player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -31,13 +29,13 @@ As mentioned by the video, books are a great example of something that can be so
 
 ## Why sorting?
 
-You may be wondering why we are choosing to focus on sorting algorithms. There are three main reasons:
+You may be wondering why we are choosing to focus on sorting algorithms. There are a few reasons:
 
 1. Sorting algorithms are all around us in our daily lives.
 2. Sorting algorithms are relatively easy to understand when learning how to analyze the efficiency of algorithms.
 3. There are multiple simple versions of sorting algorithms that make it easy to compare and contrast their implementations and efficiencies.
 
-Our discussion of sorting algorithms is motivated by our desire to learn about how to analyze the efficiency of algorithms.
+Our discussion of sorting algorithms is in part motivated by our desire to learn about how to analyze the efficiency of algorithms. Let's talk more about how to compare the efficiency of algorithms next.
 
 ## Operations, comparisons, and moves
 
@@ -59,5 +57,4 @@ And the following would be considered a move into one of the positions of the li
 lst[i] = lst[i + 1]
 ```
 
-In the next lesson, we will learn a sorting algorithm, count the number of comparisons and moves it performs, and use those metrics to determine what the running time of the algorithm is.
-
+In the next lesson, we will learn the *selection sort* algorithm, count the number of comparisons and moves it performs, and use those metrics to determine what the running time of the algorithm is.

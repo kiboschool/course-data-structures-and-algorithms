@@ -1,4 +1,4 @@
-# Practice: Sorting and Algorithm Analysis
+# Practice: Algorithm Analysis and Sorting
 
 ---
 

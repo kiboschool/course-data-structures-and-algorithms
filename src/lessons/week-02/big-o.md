@@ -11,7 +11,7 @@ Watch the video below to learn about big-O notation and to hear an example where
 <div
   style="position: relative; padding-bottom: 56.25%; height: 0;">
   <iframe
-    src="https://www.youtube.com/watch?v=RGuJga2Gl_k"
+    src="https://www.youtube.com/embed/RGuJga2Gl_k"
     title="YouTube video player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -140,7 +140,7 @@ We've covered a lot of ground in this lesson. Watch the video below to see a qui
 <div
   style="position: relative; padding-bottom: 56.25%; height: 0;">
   <iframe
-    src="https://www.youtube.com/watch?v=g2o22C3CRfU"
+    src="https://www.youtube.com/embed/g2o22C3CRfU"
     title="YouTube video player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

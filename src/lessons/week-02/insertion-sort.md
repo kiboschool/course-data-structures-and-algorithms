@@ -5,7 +5,7 @@ Let's continue our explanation of sorting algorithms with *insertion sort*. Watc
 <div
   style="position: relative; padding-bottom: 56.25%; height: 0;">
   <iframe
-    src="https://www.youtube.com/watch?v=JU767SDMDvA"
+    src="https://www.youtube.com/embed/JU767SDMDvA"
     title="YouTube video player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
