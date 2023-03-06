@@ -37,21 +37,9 @@ You may be wondering why we are choosing to focus on sorting algorithms. There a
 
 Our discussion of sorting algorithms is in part motivated by our desire to learn about how to analyze the efficiency of algorithms. Let's talk more about how to compare the efficiency of algorithms next.
 
-## Operations, comparisons, and moves
+## Comparisons and moves
 
-Recall from last week that the time efficiency of an algorithm is the amount of computational time that an algorithm takes to complete its task. But what determines how long an algorithm takes to complete?
-
-The computational time is determined by the number of *operations* that the algorithm performs. When a computer program is executed, the code of the program is broken down into a series of simple operations, for example:
-
-* Adding two numbers together
-* Comparing two numbers
-* Fetching a value from main memory
-* Assigning a value to a variable
-* And many others!
-
-Taken together, these fundamental operations compose an entire computer program.
-
-For sorting algorithms specifically, the number of overall operations is dominated by two specific operations: (1) comparing elements of the list and (2) moving elements of the list around to different positions. Therefore, we will focus our time analysis on the number of *comparisons* and *moves* that a sorting algorithm performs.
+We learned in an earlier lesson that big-O notation represents an approximate upper bound on the number of operations that a computer program will exceute in terms of the input size `n`. For sorting algorithms specifically, the number of overall operations is dominated by two specific operations: (1) comparing elements of the list and (2) moving elements of the list around to different positions. Therefore, we will focus our time analysis on the number of *comparisons* and *moves* that a sorting algorithm performs.
 
 For example, this would be considered a comparison between two elements of a list:
 
@@ -65,4 +53,4 @@ And the following would be considered a move into one of the positions of the li
 lst[i] = lst[i + 1]
 ```
 
-In the next lesson, we will learn the *selection sort* algorithm, count the number of comparisons and moves it performs, and use those metrics to determine how efficient the algorithm is.
+In the next lesson, we will learn the *selection sort* algorithm, count the number of comparisons and moves it performs, and use those metrics to derive its big-O running time.

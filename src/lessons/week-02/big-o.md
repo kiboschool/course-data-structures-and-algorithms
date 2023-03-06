@@ -6,6 +6,8 @@ We are now ready to develop a formalism for classifying algorithms according to 
 
 Big-O notation can be used to describe an algorithm's time and space efficiency. It describes an upper bound on the amount of resources that will be required for the algorithm as a function of the input size (`n`) to the algorithm.
 
+> Time efficiency is sometimes known as *time complexity* or *running time*. Space efficiency is sometimes known as *space complexity*.
+
 Watch the video below to learn about big-O notation and to hear an example where knowing the efficiency of an algorithm may have helped a software developer devise a better solution:
 
 <div
