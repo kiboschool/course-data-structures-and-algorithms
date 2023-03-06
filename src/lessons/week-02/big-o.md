@@ -87,20 +87,6 @@ For example, <code>n<sup>2</sup>/2 + n = O(n<sup>2</sup>)</code> because we can 
 </details>
 </aside>
 
-## Back to selection sort
-
-Now that we know about big-O notation, we can revisit our counts of the number of comparisons `C(n)` and the number of moves `M(n)` of selection sort and derive their big-O expressions:
-
-<code>C(n) = n<sup>2</sup>/2 - n/2 = O(n<sup>2</sup>)</code>
-
-`M(n) = 3n - n = O(n)`
-
-In other words, the number of comparisons is <code>O(n<sup>2</sup>)</code> and the number of moves is `O(n)` for selection sort. If we double the length `n` of the list to sort to `2n`, we would expect the number of moves to approximately double. We would also expect the number of comparisons to approximately *quadruple*, since `(2n)^2 = 4n^2`.
-
-During the course of its execution, selection sort performs <code>O(n<sup>2</sup>)</code> comparisons + `O(n)` moves. If we follow the same general principle of dropping lower order terms, then the number of comparisons dominates the number of moves and the overall running time of selection sort is <code>O(n<sup>2</sup>)</code>.
-
-There you have it! We at last have a succinct and rigorously-defined way of labeling the efficiency of algorithms. We can now use big-O notation to analyze algorithms and compare them.
-
 > What would happen if you ran an `O(n)` algorithm on a fast computer, and compared how long it takes to execute to an `O(logn)` algorithm running on a slow computer?
 >
 > Over time, advancements in hardware and software technology have enabled modern computers to be faster than computers of 10, 20, even 50 years ago by orders of magnitude. For some input sizes, it's true that a fast computer running an `O(n)` algorithm will complete faster than an older computer running an `O(logn)` algorithm. However, if you keep increasing the input size, there will eventually come a point where the slower computer will execute faster since the `O(logn)` algorithm will eventually be more efficient.

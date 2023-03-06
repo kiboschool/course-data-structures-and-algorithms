@@ -140,4 +140,16 @@ This means that selection sort always performs exactly <code>n<sup>2</sup>/2 - n
 
 What about the number of moves? Well again we know that selection sort performs `n - 1` passes, during each of which it performs one `swap()` operation. The `swap()` function performs three moves, meaning that selection sort always performs exactly `3n - 3` moves.
 
-We now have measurements to ground our analysis of selection sort's running time! But what do we do with this information? In the next lesson, we will learn about *big-O notation* -- a formalism for defining the efficiency class of algorithms by focusing on the largest term of our measurements.
+## Big-O notation
+
+To summarize, we have the following exact expressions for the number of comparisons `C(n)` and the number of moves `M(n)` that selection sort performs for a list of size `n`:
+
+<code>C(n) = n<sup>2</sup>/2 - n/2 = O(n<sup>2</sup>)</code>
+
+`M(n) = 3n - n = O(n)`
+
+Using big-O notation, the number of comparisons is <code>O(n<sup>2</sup>)</code>. If we doubled the size of the input list from `n` to `2n`, we would also expect the number of comparisons to approximately *quadruple*, since <code>(2n)<sup>2</sup> = 4n<sup>2</sup></code>.
+
+On the other hand, the number of moves in selection sort is `O(n)`. If we double the length `n` of the list to sort to `2n`, we would expect the number of moves to approximately double.
+
+During the course of its execution, selection sort performs <code>O(n<sup>2</sup>)</code> comparisons + `O(n)` moves. If we follow the same general principle of dropping lower order terms, then the number of comparisons dominates the number of moves and the overall running time of selection sort is <code>O(n<sup>2</sup>)</code>.

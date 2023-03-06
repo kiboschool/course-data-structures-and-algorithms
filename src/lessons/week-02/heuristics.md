@@ -1,4 +1,4 @@
-# Deriving Big-O Expressions
+# Heuristics for Finding Big-O Expressions
 
 In the previous lesson, we saw how we could derive the big-O running time for an algorithm by count the number of operations that it performs (simplified to comparisons and moves, for a sorting algorithm specifically).
 
