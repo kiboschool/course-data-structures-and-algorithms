@@ -39,14 +39,14 @@ A software developer has written two algorithms to solve a problem. After perfor
 
 To summarize, here are some of the most common efficiency classes, sorted by slowest to fastest:
 
-* `O(n!)`, where `!` is the factorial function
-* <code>O(c<sup>n</sup>)</code> where `c` is some constant
-* <code>O(n<sup>c</sup>)</code> where `c` is some constant >2
-* <code>O(n<sup>2</sup>)</code>
-* `O(nlogn)`
-* `O(n)`
-* `O(logn)`
-* `O(1)`
+* `O(n!)`, ("factorial time")
+* <code>O(c<sup>n</sup>)</code> where `c` is some constant ("exponential time")
+* <code>O(n<sup>c</sup>)</code> where `c` is some constant >2 ("polynomial time")
+* <code>O(n<sup>2</sup>)</code> ("quadratic time")
+* `O(nlogn)` ("linearithmic time" or "log-linear time")
+* `O(n)` ("linear time")
+* `O(logn)` ("logarithmic time")
+* `O(1)` ("constant time")
 
 For example, we would say that as the input size `n` grows, an `O(n)` algorithm is faster than an <code>O(n<sup>2</sup>)</code> algorithm.
 
@@ -137,19 +137,13 @@ When we're analyzing algorithms, we are typically interested in the worst case b
 
 Still, when someone asks for the big-O analysis of an algorithm, unless otherwise specified they are asking for the performance of the algorithm in the worst case.
 
-<blockquote>
-<p>
-For selection sort (and many other algorithms), the best case and worst case are the same: the algorithm always repeatedly finds the smallest item in the list and swaps it into its final sorted place. Even if the input was an already-sorted list, the running time would still be <code>O(n<sup>2</sup>)</code>!
-</p>
-</blockquote>
-
 ## Big-O and Space
 
 We can also use big-O notation to express the amount of *extra space* that an algorithm uses. By "extra" space, we mean memory resources that are needed to complete the algorithm, excluding the input.
 
-For example, in selection sort, the only extra memory resources that are needed are some local variables, including loop indexes and the `temp` variable used to swap elements of the list. We consider this a *constant* amount of extra memory. Even though we may be doing O(n) swaps in the execution of the algorithm, we don't use `n` copies of the `temp` variable *all at once*. Overall, we would say that selection sort has an `O(1)` space efficiency.
+In some algorithms, the only extra memory resources that are needed are some local variables, such as loop indexes or a constant number of other variables on the stack. These algorithms have a space complexity of `O(1)`.
 
-We will soon see examples of algorithms that require more than a constant amount of extra space. We will revisit this topic when we learn about radix sort later this week.
+Other algorithms require a more significant amount of extra space. For example, an algorithm that makes a copy of a list has a space complexity of `O(n)`, since the amount of extra space needed by the algorithm linearly increases as the size `n` of the input list increases.
 
 ## Summary
 
