@@ -120,8 +120,7 @@ This means that `nested_loops_2()` performs exactly <code>n<sup>2</sup>/2 - n/2<
 <aside>
 <b>Check your understanding</b>
 <p>Consider the following function:</p>
-<code>
-def mystery_function(lst):
+<pre><code class="language-python">def contains_num(lst, num):
     total = 0
     for i in range(len(lst)):
         if i % 2 == 0: # i is even
@@ -134,6 +133,7 @@ def mystery_function(lst):
 
     return total
 </code>
+</pre>
 <p>What is the big-O running time of the function?</p>
 <details>
 <summary>
