@@ -1,14 +1,8 @@
 # Heuristics for Finding Big-O Expressions
 
-In the previous lesson, we saw how we could derive the big-O running time for an algorithm by count the number of operations that it performs (simplified to comparisons and moves, for a sorting algorithm specifically).
+In this lesson, we will learn some heuristics, or *rules of thumb*, for deriving the big-O notation of algorithms by inspecting the number and nature of *loops* (i.e., `for` loops and `while` loops) in the algorithm.
 
-However, this technique for deriving big-O expressions is not always possible. It may not be clear how many operations the algorithm performs; luckily, we had a closed-form expression for the number of comparisons that selection sort makes, but that may not be the case for the next algorithm that we analyze. Also, the number of operations an algorithm takes may change depending on the contents of the input -- a case that we will come back to.
-
-In this lesson, we will learn some rules of thumb for deriving the big-O notation of algorithms by inspecting the numberand nature of *loops* (i.e., `for` loops, `while` loops) in the algorithm.
-
-But why loops? We focus our analysis on the presence of loops because loops are one\* of the most common techniques for iterating over the input to an algorithm. A loop over the entire input of size `n` already guarantees that your algorithm is performing at least `O(n)` operations!
-
-> \*The other main technique for doing so, *recursion*, will be discussed starting next week.
+But why loops? We focus our analysis on the presence of loops because loops are one of the most common techniques for iterating over the input to an algorithm. A loop over the entire input of size `n` already guarantees that your algorithm is performing at least `O(n)` operations -- just in order to iterate over the collection! 
 
 ## Loops up to `n`
 
@@ -36,25 +30,16 @@ Note that this same kind of analysis applies to `while` loops as well, as long a
 
 ```python
 def print_lst(lst):
+    n = len(lst)
     i = 0
-    while i < len(lst):
+    while i < n:
         print(lst[i])
-```
-
-Other operations inside of the loop, including operations that would cause the algorithm to end, do not generally affectthe big-O expression either. For example, the following algorithm is still `O(n)`:
-
-```python
-def another_algorithm(lst):
-    for i in range(5, len(lst) - 10):
-        if lst[i] % 2 == 0:
-            print(lst[i])
-        else:
-            return
+        i += 1
 ```
 
 ## Loops up to a constant value
 
-Some loops do not iterate with respect to the size of the input list. For example, you might have an algorithm like the following:
+Some loops do not iterate with respect to the size of the input collection. For example, you might have an algorithm like the following:
 
 ```python
 def print_first_three(lst):
@@ -62,11 +47,11 @@ def print_first_three(lst):
        print(lst[i])
 ```
 
-No matter what the size of the input list is -- could be five elements, or one million -- this function will only ever perform three iterations. Therefore, this algorithm is constant time: O(1).
+No matter what the size of the input list is -- could be five elements or one million elements -- this function will only ever perform three iterations. Therefore, this algorithm is constant time: `O(1)`.
 
 ## Back-to-back loops
 
-Sometimes, algorithms contain loops that are in *serial*, or "back-to-back". When this happens, the operations add together. For example:
+Sometimes, algorithms contain loops that are *serial* or "back-to-back." When this happens, the operations (and big-O expressions) sum together. For example:
 
 ```python
 def serial_loops(lst):
@@ -95,7 +80,7 @@ In this case, for every one iteration of the outer (`i`) loop, the inner (`j`) l
 
 A couple of things to note:
 
-* Strictly speaking, the inner loop iterates exactly `n - 5` times. This is `O(n)`.
+* Strictly speaking, the inner loop iterates exactly `n - 5` times, but this is `O(n)`.
 * The conditional statement (`if i < j`) doesn't have any effect on the running time. Remember that for the purposes of big-O, we are mostly concerned with the worst case behavior, so we will assume (even if it's not true) that `i < j` is always true and the body of the `if` is executed on every iteration.
 
 However, it could also be the case that the inner loop looks slightly different:
@@ -144,7 +129,7 @@ def mystery_function(lst):
 
 ## Loops containing functions
 
-When deriving the big-O notation by inspecting loops, you must take into the account the running time of any functions nested *inside* the loops as well. For example, it might be tempting to think of this function as `O(n^2)`:
+When deriving the big-O notation by inspecting loops, you must take into the account the running time of any functions nested *inside* the loops as well. For example, it might be tempting to think of this function as <code>O(n<sup>2</sup>)</code>:
 
 ```python
 def nested_loops_func(lst):
@@ -164,7 +149,7 @@ def some_function(times, factor):
     return total
 ```
 
-It turns out that `some_function()` is `O(n)` itself. Therefore, nesting it inside of two nested loops makes `nested_loop_func()` `O(n^3)` overall.
+It turns out that `some_function()` is `O(n)` itself. Therefore, nesting it inside of two nested loops makes `nested_loop_func()` <code>O(n<sup>3</sup>)</code> overall.
 
 ## Loops on different inputs
 
