@@ -1,6 +1,6 @@
 # Sorting
 
-We now know that sorting can be useful in some algorithms -- for example, if a list is sorted then binary search can be used. But sorting is actually a much more general topic with many applications in the world around us. Watch the following video, which provides an overview of the goal of sorting and compares a few sorting algorithms:
+We now know that sorting can be useful in some algorithms -- for example, if a list is sorted, then binary search can be used to make a search more efficient. But sorting is actually a much more general topic with many applications in the world around us. Watch the following video, which provides an overview of the goal of sorting and compares a few sorting algorithms:
 
 <div
   style="position: relative; padding-bottom: 56.25%; height: 0;">
@@ -14,7 +14,7 @@ We now know that sorting can be useful in some algorithms -- for example, if a l
   </iframe>
 </div>
 
-As mentioned by the video, books are a great example of something that can be sorted. In this class, for simplicity we will primarily focus on sorting integers.
+As mentioned by the video, books are a great example of an item that can be sorted. In this class, for simplicity we will primarily focus on sorting integers.
 
 <aside>
 <b>Check your understanding</b>
@@ -29,17 +29,17 @@ As mentioned by the video, books are a great example of something that can be so
 
 ## Why sorting?
 
-You may be wondering why we are choosing to focus on sorting algorithms. There are a few reasons:
+There are a few reasons why we're focusing on sorting algorithms for the rest of the lessons in this week, including:
 
 1. Sorting algorithms are all around us in our daily lives.
 2. Sorting algorithms are relatively easy to understand when learning how to analyze the efficiency of algorithms.
 3. There are multiple simple versions of sorting algorithms that make it easy to compare and contrast their implementations and efficiencies.
 
-Our discussion of sorting algorithms is in part motivated by our desire to learn about how to analyze the efficiency of algorithms. Let's talk more about how to compare the efficiency of algorithms next.
+Our discussion of sorting algorithms is in part motivated by our desire to learn about how to analyze the efficiency of algorithms. Let's talk more about how to analyze the efficiency of sorting algorithms next. 
 
 ## Comparisons and moves
 
-We learned in an earlier lesson that big-O notation represents an approximate upper bound on the number of operations that a computer program will exceute in terms of the input size `n`. For sorting algorithms specifically, the number of overall operations is dominated by two specific operations: (1) comparing elements of the list and (2) moving elements of the list around to different positions. Therefore, we will focus our time analysis on the number of *comparisons* and *moves* that a sorting algorithm performs.
+We learned in an earlier lesson that big-O notation represents an approximate upper bound on the number of operations that a computer program will exceute in terms of the input size `n`. For sorting algorithms specifically, the number of overall operations is dominated by two tasks: (1) comparing elements of the list and (2) moving elements of the list around to different positions. Therefore, we will focus our time analysis on the number of *comparisons* and *moves* that a sorting algorithm performs.
 
 For example, this would be considered a comparison between two elements of a list:
 

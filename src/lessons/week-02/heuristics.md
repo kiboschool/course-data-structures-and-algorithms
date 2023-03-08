@@ -99,7 +99,23 @@ Notice that the inner loop iterates up to `i`, the index of of the outer loop. W
 * On the 3rd iteration of the outer loop (when `i` equals 2), the inner loop will iterate 2 times.
 * On the final iteration of the outer loop (when `i` equals `n` - 1), the inner loop will iterate 1 time.
 
-Therefore the total number of times the statements in the inner loop will be executed will be equal to the sum of the integers from 1 to `n` - 1. We know from our analysis of the number of comparisons in selection sort that this sum is equal to `n(n - 1)/2`, or n<sup>2</sup>/2 - n/2. This means that `nested_loops_2()` is `O(n^2)`!
+If you sum the number of operations across all of these iterations you get:
+
+`1 + 2 + 3 + ... + (n - 3) + (n - 2) + (n - 1)`
+
+This is actually a well-known arithmetic sum that has a closed form expression:
+
+<center>
+<img
+    src="/images/week-02/sum.png"
+    class="center"
+    alt="Mathematical formula for the sum of the numbers 1 to n being equal to the closed form expression n times n plus 1 divided by two."
+    style="width:200px;" />
+</center>
+
+<figcaption align = "center">Figure: the closed form expression for the sum of the first <code>n</code> integers.</figcaption>
+
+This means that `nested_loops_2()` performs exactly <code>n<sup>2</sup>/2 - n/2</code> comparisons for a list of size `n`, which is <code>O(n<sup>2</sup>)</code>.
 
 <aside>
 <b>Check your understanding</b>

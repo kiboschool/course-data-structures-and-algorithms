@@ -2,8 +2,6 @@
 
 The first sorting algorithm that we will learn is *selection sort*. Watch the following video to learn how the algorithm works.
 
-> Note: the end of the video discusses the *big-O notation* of selection sort. We haven't learned what this is yet -- but don't fret, it's coming next!
-
 <div
   style="position: relative; padding-bottom: 56.25%; height: 0;">
   <iframe
@@ -124,21 +122,9 @@ If you sum the comparisons across all of these passes, you would get:
 
 `C(n) = 1 + 2 + 3 + ... + (n - 3) + (n - 2) + (n - 1)`
 
-This is actually a well-known arithmetic sequence that has a closed form solution:
+This is actually the same as the arithmetic sum that we saw in the heuristics of big-O lesson. There, we learned that this sum is equal to <code>n<sup>2</sup>/2 - n/2</code>, meaning that selection sort performs <code>O(n<sup>2</sup>)</code> comparisons.
 
-<center>
-<img
-    src="/images/week-02/sum.png"
-    class="center"
-    alt="Mathematical formula for the sum of the numbers 1 to n being equal to the closed form expression n times n plus 1 divided by two."
-    style="width:200px;" />
-</center>
-
-<figcaption align = "center">Figure: the closed form expression for the sum of the first <code>n</code> integers.</figcaption>
-
-This means that selection sort always performs exactly <code>n<sup>2</sup>/2 - n/2</code> comparisons for a list of size `n`.
-
-What about the number of moves? Well again we know that selection sort performs `n - 1` passes, during each of which it performs one `swap()` operation. The `swap()` function performs three moves, meaning that selection sort always performs exactly `3n - 3` moves.
+What about the number of moves? Well again we know that selection sort performs `n - 1` passes, during each of which it performs one `swap()` operation. The `swap()` function performs three moves to shift values into a temporary variable and into the spots in the list, meaning that selection sort always performs exactly `3n - 3 = O(n)` moves.
 
 ## Big-O notation
 
@@ -148,7 +134,7 @@ To summarize, we have the following exact expressions for the number of comparis
 
 `M(n) = 3n - n = O(n)`
 
-Using big-O notation, the number of comparisons is <code>O(n<sup>2</sup>)</code>. If we doubled the size of the input list from `n` to `2n`, we would also expect the number of comparisons to approximately *quadruple*, since <code>(2n)<sup>2</sup> = 4n<sup>2</sup></code>.
+Using big-O notation, the number of comparisons is <code>O(n<sup>2</sup>)</code>. This means that if we doubled the size of the input list from `n` to `2n`, we would also expect the number of comparisons to approximately *quadruple*, since <code>(2n)<sup>2</sup> = 4n<sup>2</sup></code>.
 
 On the other hand, the number of moves in selection sort is `O(n)`. If we double the length `n` of the list to sort to `2n`, we would expect the number of moves to approximately double.
 

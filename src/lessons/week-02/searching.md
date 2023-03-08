@@ -1,5 +1,7 @@
 # Searching
 
+Let's now put our algorithm analysis skills into practice in the context of *searching*.
+
 Searching is a very common task in computer science. When we store data inside of data structures, we often need to search for and extract that information at a later point in time. In some applications, searches occur very frequently and need to be quickly executed.
 
 For example, a large e-commerce website receives searches for products with keywords ("medium blue t-shirts"), and needs to search through their catalog of millions of products to return relevant results. The website may receive thousands of such requests every second!
@@ -22,7 +24,7 @@ def contains_num(lst, num):
     return False
 ```
 
-Let's think about how long this method of searching would take. Say that the list has `n` items. In the worst case, the `num` we are searching for is at the end of the list, and we have to search the entire list (all `n` items) to find that out! Additionally, if `num` is not in the list, we again need to search through the entire list (all `n` items) to make sure.
+From our big-O heuristics, we know that this function contains a single `for` loop that iterates over all items of the list, and so its running time is `O(n)`.
 
 <aside>
 <b>Check your understanding</b>
@@ -42,9 +44,9 @@ Let's think about how long this method of searching would take. Say that the lis
 </details>
 </aside>
 
-What if the list was *sorted* -- with all of items of the list ordered according to their value, least to greatest? Could we improve our algorithm?
+Let's modify our linear searching algorithm. What could we do if the list was *sorted* -- with all of items of the list ordered according to their value, least to greatest? Could we improve the algorithm?
 
-If the list was sorted, we could stop our search early if were sure that the item was not in the list:
+If the list were sorted, we could stop our search early if we were sure that the item was not in the list (the code in the `elif`):
 
 ```python
 def contains_num(lst, num):
@@ -58,7 +60,7 @@ def contains_num(lst, num):
     return False
 ```
 
-Since the list is sorted, we know that if we've passed the point in the list where `num` should have been, we know that it doesn't appear in the list. Try tracing this newest version of the function with the list `[2, 4, 7, 8, 9]` while searching for the number `5`.
+Since the list is sorted, if we've passed the point in the list where `num` should have been, we know that it doesn't appear in the list. Try tracing this newest version of the function with the list `[2, 4, 7, 8, 9]` while searching for the number `5`.
 
 We have leveraged the fact that the list is in sorted order to improve our algorithm in *some* cases when `num` does not appear in the list.
 
@@ -95,9 +97,9 @@ Watch the video below to see an overview of binary search. **Note: you only need
   </iframe>
 </div>
 
-As the presenter mentioned, the number of items inspected by binary search is more like <code>log<sub>2</sub>n</code>, compared to the `n` items inspected by linear search. Take note of this difference -- we will come back to it in a couple of lessons when we discuss the efficiency of algorithms.
+As the presenter mentioned, the number of items inspected by binary search is more like <code>log<sub>2</sub>n</code>, compared to the `n` items inspected by linear search. For this reason, binary search has a running time of `O(logn)`, which is much more efficient than `O(n)`!
 
-> It's worth mentioning that binary search only works if the collection is sorted, and that sortedness doesn't come for free. As items are inserted into the collection, care must be taken to insert it in sorted order, or else we wouldn't be able to use binary search.
+> It's worth emphasizing that binary search only works if the collection is sorted, and that sortedness doesn't come for free. As items are inserted into the collection, care must be taken to insert it in sorted order, or else we wouldn't be able to use binary search.
 
 Now that we have an understanding of binary search in general, watch the following video to develop an understanding of how binary search could be implemented using a `while` loop:
 
@@ -115,4 +117,4 @@ Now that we have an understanding of binary search in general, watch the followi
 
 ## Summary
 
-If a collection is sorted, then binary search can be a much faster way of performing a lookup than linear search. How much faster exactly? We will revisit this efficiency question, but for now, let's focus on the fact that the sortedness of the list enabled binary search to happen. Actually, sorting collections provides many benefits, so let's turn our attention to *sorting* as a topic next.
+If a collection is sorted, then binary search can be a much faster way of performing a lookup than linear search. Sorting collections provides many benefits, so let's turn our attention to *sorting* as a topic next.
