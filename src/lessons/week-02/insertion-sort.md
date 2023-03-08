@@ -1,6 +1,6 @@
 # Insertion Sort
 
-Let's continue our explanation of sorting algorithms with *insertion sort*. Watch the video below for an overview of the algorithm:
+Let's continue our tour of sorting algorithms with *insertion sort*. Watch the video below for an overview of the algorithm:
 
 <div
   style="position: relative; padding-bottom: 56.25%; height: 0;">
@@ -24,7 +24,7 @@ To summarize, here are the steps of insertion sort:
 
 <aside>
 <b>Check your understanding</b>
-<p>After the third pass of the insertion sort algorithm, a list looks like this: `[10, 15, 20, 12, 44, 90, 77, 1, 8]`. After *two more* passes of insertion sort, what will the list look like?</p>
+<p>After the third pass of the insertion sort algorithm, a list looks like this: <code>[10, 15, 20, 12, 44, 90, 77, 1, 8]</code>. After <i>two more</i> passes of insertion sort, what will the list look like?</p>
 <details>
 <summary>
 <i>Click to reveal the answer.</i>
@@ -41,7 +41,7 @@ Let's see how insertion sort can be implemented in Python:
 
 ## Big-O analysis of insertion sort
 
-Let's take another look at insertion sort:
+Let's take another look at the code for insertion sort:
 
 ```python
 def insertion_sort(lst):
@@ -62,17 +62,29 @@ Let's trace through what would happen if the list given to insertion sort was al
 
 > Insert 2-3 minute video tracing the loop and seeing that the while loop is never executed.
 
-Since the body of the `while` loop is never executed, we can essentially ignore it for the purposes of our big-O analysis. This essentially leaves us with a single `for` loop to execute. We can therefore say that in the best case (a fully sorted list), the running time of insertion sort is only O(n)!
+Since the body of the `while` loop is never executed, we can essentially ignore it for the purposes of our big-O analysis. This essentially leaves us with a single `for` loop to execute. We can therefore say that in the best case (a fully sorted list), the running time of insertion sort is only `O(n)`!
 
 ### Worst case analysis
 
-The worst case scenario for insertion sort occurs when the algorithm is given a *reverse sorted* list as input. This is an unfortunate scenario for insertion sort because it means that each element is compared to *all* elements to its left on every iteration of the algorithm.
+The worst case scenario for insertion sort occurs when the algorithm is given a *reverse sorted* list as input. This is an inefficient scenario for insertion sort because it means that each element is compared to *all* elements to its left on every iteration of the algorithm.
 
 Let's count the number of comparisons in this case:
 
-* lst[1] is compared to 1 element (lst[0])
-* lst[2] is compared to 2 elements (lst[0] and lst[1])
+* `lst[1]` is compared to 1 element (`lst[0]`)
+* `lst[2]` is compared to 2 elements (`lst[0]` and `lst[1]`)
 * ...
-* lst[n - 1] is compared to n - 1 elements
+* `lst[n - 1]` is compared to `n` - 1 elements
 
-Therefore, the number of comparisons `C(n) = 1 + 2 + ... + (n - 2) + (n - 1)`. We've seen this pattern before! 
+Therefore, the number of comparisons `C(n) = 1 + 2 + ... + (n - 2) + (n - 1)`. We've seen this pattern before! It's again an <code>O(n<sup2</sup>)</code> algorithm.
+
+### Average case analysis
+
+In the average case, the input list is neither sorted nor reverse sorted, but simply a random collection of numbers. In this scenario, some elements may need to be shifted left many times, some elements may need to be shifted left only a few times, and some elements may not need to be shifted left at all.
+
+Under this scenario, the nested `while` loop is running a non-negligible number of times, and so we basically have nested loops, leaving us with an <code>O(n^<sup>2</sup>)</code> algorithm in general.
+
+## Space complexity
+
+How much extra space is needed for algorithms like selection sort and insertion sort?
+
+Both of these algorithms are *in-place* sorting algorithms, meaning that the sorting can be done within the input list itself. We may need to use a small number of temporary variables to do swapping or to keep track of which value to insert, but this is a constant amount of extra memory. Therefore, the space complexity of both selection sort and insertion sort are `O(1)`.
