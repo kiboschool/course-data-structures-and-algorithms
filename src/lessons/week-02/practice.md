@@ -112,9 +112,9 @@ This version of the algorithm first sorts the list using radix sort, and then us
 
 </details>
 
-## 3. Binary search?
+## 3. Searching for duplicates using binary search 
 
-> [Access the exercise via GitHub Classroom here.](https://github.com/kiboschool/insertion-analysis)
+> [Access the exercise via GitHub Classroom here.](https://github.com/kiboschool/duplicate-count)
 
 Watch the video below to see the full solution.
 
