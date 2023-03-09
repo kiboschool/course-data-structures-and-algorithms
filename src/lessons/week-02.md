@@ -8,10 +8,11 @@ Welcome to week 2! Watch the video below to get an overview of the coming week.
 
 By the end of this week, you will be able to:
 
-- 
-- 
-- 
-- 
+- Categorize algorithms according to their big-O efficiency classes
+- Compose algorithms that search efficiently through sorted data
+- Analyze worst case and best case behavior of algorithms
+- Trace the execution of sorting algorithms
+- Derive the efficiency of algorithms experimentally
 
 ## What's due this week
 
