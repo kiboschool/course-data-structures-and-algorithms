@@ -23,7 +23,7 @@ As mentioned by the video, books are a great example of an item that can be sort
 <summary>
 <i>Click to reveal the answer.</i>
 </summary>
-<p><b>Answer.</b>Most of us encounter many examples of sorting on a daily basis. For example, when you open your email, the messages are probably sorted in reverse chronological order. When you search for products to buy online, often they are sorted by how relevant the seller thinks they are to you -- or you may change the order to be sorted by lowest to highest cost. For a non-technical example, you may sort your clothes when folding your laundry: shirts go into one pile, socks go into another pile (perhaps further sorted by type or color), etc.</code></p>
+<p><b>Answer.</b> Most of us encounter many examples of sorting on a daily basis. For example, when you open your email, the messages are probably sorted in reverse chronological order. When you search for products to buy online, often they are sorted by how relevant the seller thinks they are to you -- or you may change the order to be sorted by lowest to highest cost. For a non-technical example, you may sort your clothes when folding your laundry: shirts go into one pile, socks go into another pile (perhaps further sorted by type or color), etc.</code></p>
 </details>
 </aside>
 

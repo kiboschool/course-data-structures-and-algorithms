@@ -29,7 +29,7 @@ To summarize, here are the steps of insertion sort:
 <summary>
 <i>Click to reveal the answer.</i>
 </summary>
-<p><b>Answer.</b>The fourth iteration of insertion sort will focus on the 12, and push it to the left two spaces to  will look for the minimum element starting from index 3 in the list. In the unsorted portion of the list, 45 is the minimum element. Therefore, it will be swapped with the element at index 3, making this list: <code>[20, 38, 44, 45, 77, 90, 81]</code>.</p>
+<p><b>Answer.</b> The fourth iteration of insertion sort will focus on the 12, and push it to the left two spaces to  will look for the minimum element starting from index 3 in the list. In the unsorted portion of the list, 45 is the minimum element. Therefore, it will be swapped with the element at index 3, making this list: <code>[20, 38, 44, 45, 77, 90, 81]</code>.</p>
 </details>
 </aside>
 
@@ -75,7 +75,7 @@ Let's count the number of comparisons in this case:
 * ...
 * `lst[n - 1]` is compared to `n` - 1 elements
 
-Therefore, the number of comparisons `C(n) = 1 + 2 + ... + (n - 2) + (n - 1)`. We've seen this pattern before! It's again an <code>O(n<sup2</sup>)</code> algorithm.
+Therefore, the number of comparisons `C(n) = 1 + 2 + ... + (n - 2) + (n - 1)`. We've seen this pattern before! It's again an <code>O(n<sup>2</sup>)</code> algorithm.
 
 ### Average case analysis
 

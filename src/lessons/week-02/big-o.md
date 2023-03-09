@@ -101,7 +101,7 @@ For example, <code>n<sup>2</sup>/2 + n = O(n<sup>2</sup>)</code> because we can 
 <summary>
 <i>Click to reveal the answer.</i>
 </summary>
-<p><b>Answer.</b>After ignoring all coefficients and lower-order terms (<code>n</code>), we have that <code>7n - 5 + 99n*logn/500 = O(nlogn)</code>.</p>
+<p><b>Answer.</b> After ignoring all coefficients and lower-order terms (<code>n</code>), we have that <code>7n - 5 + 99n*logn/500 = O(nlogn)</code>.</p>
 </details>
 </aside>
 

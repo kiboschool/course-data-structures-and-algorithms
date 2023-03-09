@@ -25,7 +25,7 @@ In summary, the algorithm is as follows:
 <summary>
 <i>Click to reveal the answer.</i>
 </summary>
-<p><b>Answer.</b>After the first iteration of radix sort, the values are placed into buckets according to their ones digit: <code>[[20, 90], [61, 1], [12], [], [44], [15], [], [77], [8], []]</code>.</p>
+<p><b>Answer.</b> After the first iteration of radix sort, the values are placed into buckets according to their ones digit: <code>[[20, 90], [61, 1], [12], [], [44], [15], [], [77], [8], []]</code>.</p>
 </details>
 </aside>
 

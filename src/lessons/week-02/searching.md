@@ -40,7 +40,7 @@ From our big-O heuristics, we know that this function contains a single `for` lo
 <summary>
 <i>Click to reveal the answer.</i>
 </summary>
-<p><b>Answer.</b>The code returns <code>False</code> too early. If the first element of the list is not <code>num</code>, then the body of the <code>else</code> clause will be executed, and <code>False</code> will be returned. However, the value may have appeared later in the list. The function can only be sure that <code>num</code> is not in the list after all items have been inspected.</p>
+<p><b>Answer.</b> The code returns <code>False</code> too early. If the first element of the list is not <code>num</code>, then the body of the <code>else</code> clause will be executed, and <code>False</code> will be returned. However, the value may have appeared later in the list. The function can only be sure that <code>num</code> is not in the list after all items have been inspected.</p>
 </details>
 </aside>
 
@@ -71,7 +71,7 @@ We have leveraged the fact that the list is in sorted order to improve our algor
 <summary>
 <i>Click to reveal the answer.</i>
 </summary>
-<p><b>Answer.</b>If the <code>num</code> we are looking for is greater than all of the elements in the list, then we have to search the entire list anyway before being sure that <code>num</code> doesn't appear.
+<p><b>Answer.</b> If the <code>num</code> we are looking for is greater than all of the elements in the list, then we have to search the entire list anyway before being sure that <code>num</code> doesn't appear.
 </details>
 </aside>
 

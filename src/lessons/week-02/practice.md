@@ -142,7 +142,7 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 ## 5. Optimizing selection sort
 
-> [Access the exercise via GitHub Classroom here.](https://github.com/kiboschool/selection-opt)
+> [Access the exercise via GitHub Classroom here.](https://github.com/kiboschool/selection-sort-opt)
 
 Watch the video below to see the full solution.
 

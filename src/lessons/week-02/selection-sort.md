@@ -29,7 +29,7 @@ In summary, to sort a list, selection sort performs the following steps:
 <summary>
 <i>Click to reveal the answer.</i>
 </summary>
-<p><b>Answer.</b>The fourth iteration of selection sort will look for the minimum element starting from index 3 in the list. In the unsorted portion of the list, 45 is the minimum element. Therefore, it will be swapped with the element at index 3, making this list: <code>[20, 38, 44, 45, 77, 90, 81]</code>.</p>
+<p><b>Answer.</b> The fourth iteration of selection sort will look for the minimum element starting from index 3 in the list. In the unsorted portion of the list, 45 is the minimum element. Therefore, it will be swapped with the element at index 3, making this list: <code>[20, 38, 44, 45, 77, 90, 81]</code>.</p>
 </details>
 </aside>
 

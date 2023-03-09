@@ -80,9 +80,10 @@ Immutable objects can not be modified by the program. All of Python's primitive 
 
 On the other hand, lists, dictionaries, and user-defined object types are mutable -- their contents can be modified.
 
-So what happens when you need to, for example, change the value of a variable that holds an integer? Watch the video below to see the memory diagram of incrementing an integer variable in Python.
+So what happens when you need to, for example, change the value of a variable that holds an integer? Watch the video below to see how memory diagrams reflect how mutable and immutable objects behave.
 
-> VIDEO. Show two different variables referencing the same integer. Show what happens when one of them is incremented. Introduce `id()`.
+> VIDEO. Show two different variables referencing the same integer.
+> Do this in live class: Show what happens when one of them is incremented. Introduce `id()`.
 
 ## Tracing code using diagrams
 
