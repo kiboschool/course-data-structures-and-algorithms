@@ -85,7 +85,8 @@ def num_dups_1(lst):
 ```
 
 This algorithm looks at every element of the list and considers all elements to its right. If it finds a duplicate, it adds one to the count. To avoid double-counting duplicates, it will `break` the inner loop once a duplicate is found and continue on to the next element of the outer loop.
-    1. What's the worst case big-O time efficiency of `num_dups_1()` in terms of the length of the list? What's the big-O space efficiency?
+
+  1. What's the worst case big-O time efficiency of `num_dups_1()` in terms of the length of the list? What's the big-O space efficiency?
 
 Here's an alternative way of implementing this algorith, which first sorts the input using radix sort:
 
@@ -100,8 +101,10 @@ def num_dups_2(lst):
 ```
 
 This version of the algorithm first sorts the list using radix sort, and then uses a `for` loop to count the number of duplicates as it iterates over the sorted list.
-    2. What's the worst-case big-O time efficiency of `num_dups_2()` in terms of the length of the list? What's the big-O space efficiency? Be sure to include the time and space efficiencies of radix sort as discussed in this week's lessons as a part of your answer.
-    3. According to your analysis, which version of the algorithm is more efficient?
+
+  2. What's the worst-case big-O time efficiency of `num_dups_2()` in terms of the length of the list? What's the big-O space efficiency? Be sure to include the time and space efficiencies of radix sort as discussed in this week's lessons as a part of your answer.
+
+  3. According to your analysis, which version of the algorithm is more efficient?
 
 <details><summary>Solution Video</summary>
 
