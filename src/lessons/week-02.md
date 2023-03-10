@@ -1,4 +1,4 @@
-# Goals and Building Blocks
+# Algorithm Analysis and Sorting 
 
 Welcome to week 2! Watch the video below to get an overview of the coming week.
 
