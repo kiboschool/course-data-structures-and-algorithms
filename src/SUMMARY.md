@@ -42,5 +42,5 @@
   - [Tracing recursive functions](lessons/week-03/tracing.md)
   - [Fibonacci sequence](lessons/week-03/tracing.md)
   - [Recursion and efficiency](lessons/week-03/efficiency.md)
-  - [Practice](lessons/week-02/practice.md)
+  - [Practice](lessons/week-03/practice.md)
 
