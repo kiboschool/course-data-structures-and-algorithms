@@ -99,7 +99,7 @@ n! = n * (n - 1)!
 <summary>
 <i>Click to reveal the answer.</i>
 </summary>
-<p><b>Answer.</b> The above definition only provides the recursive case, but we also need a base case. For the factorial function, we can define `1! = 1`. (In some contexts, you can also say `0! = 1`.) The factorial function is not defined for negative numbers.</p> 
+<p><b>Answer.</b> The above definition only provides the recursive case, but we also need a base case. For the factorial function, we can define <code>1! = 1</code>. (In some contexts, you can also say <code>0! = 1</code>.) The factorial function is not defined for negative numbers.</p> 
 </details>
 </aside>
 
