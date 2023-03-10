@@ -35,3 +35,12 @@
   - [Practice](lessons/week-02/practice.md)
   - [Assignment 2](lessons/week-02/assignment-2.md)
 
+- [Recursion I](lessons/week-03.md)
+
+  - [A loop alternative](lessons/week-03/alternative.md)
+  - [Recursion basics](lessons/week-03/recursion.md)
+  - [Tracing recursive functions](lessons/week-03/tracing.md)
+  - [Fibonacci sequence](lessons/week-03/tracing.md)
+  - [Recursion and efficiency](lessons/week-03/efficiency.md)
+  - [Practice](lessons/week-02/practice.md)
+
