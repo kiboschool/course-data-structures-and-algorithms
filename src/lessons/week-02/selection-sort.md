@@ -5,7 +5,7 @@ The first sorting algorithm that we will learn is *selection sort*. Watch the fo
 <div
   style="position: relative; padding-bottom: 56.25%; height: 0;">
   <iframe
-    src="https://www.youtube.com/embed/g-PGLbMth_g"
+    src="https://www.youtube.com/embed/3hH8kTHFw2A"
     title="YouTube video player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

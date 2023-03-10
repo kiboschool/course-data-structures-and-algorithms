@@ -83,12 +83,12 @@ One of the exercises from the P1 course involved writing a number guessing game,
 
 We mentioned in P1 that binary search would be a good algorithm to use in this problem, since it allows us to cut the space of what we're searching for in half with each guess. For the number guessing game, 50 would be a good initial guess, since the program would tell us whether the number was lower or higher, allowing us to then either ignore the numbers 1-49 or the numbers 51-100. Repeating this technique by guessing the "middle" number at each stage is binary search, which ends up being much faster than linear search!
 
-Watch the video below to see an overview of binary search. **Note: you only need to watch the first 3 minutes, and can stop watching once the presenter starts writing code.**
+Watch the video below to see an overview of binary search.
 
 <div
   style="position: relative; padding-bottom: 56.25%; height: 0;">
   <iframe
-    src="https://www.youtube.com/embed/P3YID7liBug"
+    src="https://www.youtube.com/embed/T98PIp4omUA"
     title="YouTube video player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
