@@ -111,7 +111,7 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 <details><summary>Solution Video</summary>
 
-> VIDEO. Solution video.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LD3Gmrb3Mao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 </details>
 

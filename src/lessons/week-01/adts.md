@@ -4,7 +4,7 @@ Let's now leave behind efficiency and metrics for the moment, and touch on anoth
 
 ## What are ADTs?
 
-> VIDEO. Insert 1-2 minute video explaining ADTs with an example: tuple. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HkUTnW_v4yM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 To summarize, ADTs define the semantics of how a data structure should behave, including the operations that the data structure should support. However, an ADT doesn't define how the data structure should be implemented -- it is only an *abstract* description.
 
