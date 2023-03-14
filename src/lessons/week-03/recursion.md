@@ -39,7 +39,8 @@ Back in week 1, we defined the runtime stack as the part of main memory where lo
 Each time a recursive function calls itself, another frame is added to the stack. This continues until the base case is reached. In the case of the factorial function, this is what the stack would look like at the moment that the base case is reached:
 
 
-Notice that eack stack frame contains its own `n` variable. Sometimes, we say that each function call has its own *state*, or variables that are local to its stack frame, which make the overall computation possible.
+
+Notice that eack stack frame contains its own `n` variable. We say that each function call has its own *state*, or variables that are local to its stack frame, which make the overall computation possible.
 
 Once the base case (`factorial(1)`) is reached, it returns `1` to the previous function call (`factorial(2)`). In fact, each recursive call will receive a return value, multiply it by `n` (whatever `n` is in that stack frame), and return the result to the previous recursive caller.
 
@@ -48,8 +49,6 @@ Once the base case (`factorial(1)`) is reached, it returns `1` to the previous f
 <p>
 Why is it necessary for each stack frame to have its own `n` variable?
 </p>
-<div style="position: relative;">
-<iframe src="https://trinket.io/embed/python/02f632a680" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 <details>
 <summary>
@@ -117,11 +116,11 @@ But what if we call `count_down_by_two(5)`? Before playing the video below, try 
 
 > Insert video showing infinite recursion/Python's RecursionError.
 
-Clearly, we need a more comprehensive base case -- one that is more robust to the different patterns of execution. Here's one way you could correct the issue:
+Clearly, we need a more comprehensive base case -- one that is more robust to the different patterns of execution. Here's one way you could correct the issue (by using `<=` in the base case):
 
 ```python
 def count_down_by_two(n):
-    if n <= 0:
+    if n **<=** 0:
         # base case
         # if we've gone negative, just print 0 and stop
         print(0)
