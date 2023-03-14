@@ -82,8 +82,17 @@ On the other hand, lists, dictionaries, and user-defined object types are mutabl
 
 So what happens when you need to, for example, change the value of a variable that holds an integer? Watch the video below to see how memory diagrams reflect how mutable and immutable objects behave.
 
-> VIDEO. Show two different variables referencing the same integer.
-> Do this in live class: Show what happens when one of them is incremented. Introduce `id()`.
+<div
+  style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe
+    src="https://www.youtube.com/embed/pmfRfLiQY38"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 ## Tracing code using diagrams
 
