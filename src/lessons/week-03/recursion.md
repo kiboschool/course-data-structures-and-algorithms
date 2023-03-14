@@ -38,7 +38,13 @@ Back in week 1, we defined the runtime stack as the part of main memory where lo
 
 Each time a recursive function calls itself, another frame is added to the stack. This continues until the base case is reached. In the case of the factorial function, this is what the stack would look like at the moment that the base case is reached:
 
-
+<center>
+<img
+    src="/images/week-03/stack-factorial.svg"
+    class="center"
+    alt="The runtime stack at the moment that factorial of zero is executed. The stack shows stack frames for factorial of 8, factorial of 6, factorial of 4, factorial of 2, and factorial of 0. Each stack frame has its own version of the variable n, which references a value on the heap."
+    style="width:400px;" />
+</center>
 
 Notice that eack stack frame contains its own `n` variable. We say that each function call has its own *state*, or variables that are local to its stack frame, which make the overall computation possible.
 
