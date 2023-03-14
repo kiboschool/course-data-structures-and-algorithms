@@ -81,15 +81,27 @@ A photographer has a collection of 10,500 photos. She learns from her camera's m
 
 4. The photographer also learns that her Internet uplink speed is 512 Kbps. Approximately how long would it take for her to upload 10 photos to her cloud storage account?
 
-5. After reading the documentation of her editing software, the photographer finds that the software can comfortably accomodate 0.25 GiB of photo data in main memory at a time, and doesn't need to take into account the metadata associated with the photos. Approximately how many photos can she edit simultaneously?
+5. After reading the documentation of her editing software, the photographer finds that the software can comfortably accommodate 0.25 GiB of photo data in main memory at a time, and doesn't need to take into account the metadata associated with the photos. Approximately how many photos can she edit simultaneously?
 
-Watch the video below to see the full solution.
+Open the spoiler below to see the full solution.
 
-Make sure you give yourself enough time to solve the practice without watching the video. It is really important for your learning.
+Make sure you give yourself enough time to solve the practice without looking at the solution. It is really important for your learning.
 
-<details><summary>Solution Video</summary>
+<details><summary>Solution</summary>
 
-> VIDEO. Solution video.
+1. Since the application being used in this problem is storage, it’s probably better to assume that the units are in terms of base 2. In other words, we could say that 1 KB = 1024 B, etc. However, since we’re just looking for rough numbers, we can use the base 10 system, i.e. 1 KB = 1000 B.
+
+If that’s the case, then 250 KB of metadata is equivalent to .25 MB. Let’s add that to the size of the photo itself to get 2.75 MB of data overall for each picture.
+
+If the photographer has 10,500 photos, that’s 10,500 * 2.75 MB = 28,875 MB = 28.875 GB of data. Therefore, she has used less than 29% of the available space on her cloud storage account.
+
+2. Since her photo collection would only take up 28.875 GB of storage, she would be able to store 100% of it with more than 10 GB of storage space left over.
+
+3. To download all 10,500 photos, it would take 10,500 * 2000 ms = 21000000 ms = 21000 seconds = 350 minutes.
+
+4. Let’s convert the Internet uplink speed to MBps so that we have units that can be directly calculated with a 2.75 MB photo. 512 Kbps = 64 KBps (since there are 8 bits in a byte). We then have 64 KBps = .064 MBps. Therefore, .064 MBps * 2.75 MB means that every photo can be uploaded in .176 seconds. To upload 10 photos would therefore take 1.76 seconds.
+
+5. Since this problem specifically mentions GiB, let’s use base 2 units and assume that each photo is really 2.5 MiB. We don’t need to include the metadata. 0.25 GiB = 250 MiB, so the editing software can hold 250 MiB / 2.5 MiB = 100 photos at a time.
 
 </details>
 
