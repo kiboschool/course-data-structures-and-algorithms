@@ -124,16 +124,12 @@ This means that `nested_loops_2()` performs exactly <code>n<sup>2</sup>/2 - n/2<
     total = 0
     for i in range(len(lst)):
         if i % 2 == 0: # i is even
-            total += 2 * lst[i]
-
+            total += 2 * lst[i]<br>
     for i in range(len(lst)):
         for j in range(100):
             if i < j + 1:
-                total -= j
-
-    return total
-</code>
-</pre>
+                total -= j<br>
+    return total</code></pre>
 <p>What is the big-O running time of the function?</p>
 <details>
 <summary>
