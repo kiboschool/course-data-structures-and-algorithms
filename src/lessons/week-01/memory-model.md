@@ -104,12 +104,22 @@ Here's a fragment of code that modifies some lists and then prints them:
 
 Watch the video below to see an example of how to trace through this code using Python Tutor.
 
-> VIDEO. Demonstrate how to trace through some code that calls a function to modify a list.
+<div
+  style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe
+    src="https://www.youtube.com/embed/WS5EBF-hSrU"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 <aside>
 <b>Check your understanding</b>
 <p>
-Try tracing the following code fragment by drawing a picture. What is printed in the end? After you're done tracing the code, execute the code to see the output and reveal the solution to see memory diagrams.
+Try tracing the following code fragment by drawing a picture, or using Python Tutor to visualize the execution. What is printed in the end? After you're done tracing the code, execute the code to see the output and reveal the solution to see memory diagrams.
 </p>
 <div style="position: relative;">
 <iframe src="https://trinket.io/embed/python/02f632a680" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
