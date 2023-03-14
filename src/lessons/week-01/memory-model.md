@@ -96,7 +96,13 @@ So what happens when you need to, for example, change the value of a variable th
 
 ## Tracing code using diagrams
 
-Watch the video below to see an example of tracing changes in memory.
+When trying to understand what a code fragment is doing, it can be useful to *trace* the code using diagrams. You can write the diagrams on paper by hand, or you can use tools to help you do the tracing, such as [Python Tutor](https://pythontutor.com/python-debugger.html#mode=edit).
+
+Here's a fragment of code that modifies some lists and then prints them:
+
+<iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=def%20lst_modify%28lst%29%3A%0A%20%20%20%20end%20%3D%20len%28lst%29%20-%201%0A%20%20%20%20temp%20%3D%20lst%5B0%5D%0A%20%20%20%20lst%5B0%5D%20%3D%20lst%5Bend%5D%0A%20%20%20%20lst%5Bend%5D%20%3D%20temp%0A%20%20%20%20%0Alst_a%20%3D%20%5B9,%208,%207,%206%5D%0Alst_b%20%3D%20%5B%5D%0A%0Afor%20item%20in%20lst_a%3A%0A%20%20%20%20lst_b.append%28item%29%0A%20%20%20%20%0Alst_modify%28lst_a%29%0A%0Aprint%28lst_a%29%0Aprint%28lst_b%29%0A&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+
+Watch the video below to see an example of how to trace through this code using Python Tutor.
 
 > VIDEO. Demonstrate how to trace through some code that calls a function to modify a list.
 
