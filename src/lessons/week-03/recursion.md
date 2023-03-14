@@ -53,14 +53,14 @@ Once the base case (`factorial(1)`) is reached, it returns `1` to the previous f
 <aside>
 <b>Check your understanding</b>
 <p>
-Why is it necessary for each stack frame to have its own `n` variable?
+Why is it necessary for each stack frame to have its own <code>n</code> variable?
 </p>
 <details>
 <summary>
 <i>Click to reveal the answer.</i>
 </summary>
 <p>
-<b>Answer.</b> As the recursive calls return, they eaceh need to multiply the result of the recursive call `factorial(n - 1)` by `n`. This `n` is different for each invocation of `factorial()`.
+<b>Answer.</b> As the recursive calls return, they eaceh need to multiply the result of the recursive call <code>factorial(n - 1)</code> by <code>n</code>. This <code>n</code> is different for each invocation of <code>factorial()</code>.
 </p>
 </details>
 </aside>
@@ -123,15 +123,16 @@ But what if we call `count_down_by_two(5)`? Before playing the video below, try 
 
 Clearly, we need a more comprehensive base case -- one that is more robust to the different patterns of execution. Here's one way you could correct the issue (by using `<=` in the base case):
 
-```python
+<pre><code class="language-python">
 def count_down_by_two(n):
-    if n **<=** 0:
+    if <b>n <= 0</b>:
         # base case
         # if we've gone negative, just print 0 and stop
         print(0)
     else:
         print(n)
         count_down_by_two(n - 2)
-```
+</code>
+</pre>
 
 Now that we know a bit about writing recursive methods, let's learn about how to trace their execution to gain a better understanding of how they work.
