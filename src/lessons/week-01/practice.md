@@ -55,7 +55,17 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 <details><summary>Solution Video</summary>
 
-> VIDEO. Solution video.
+<div
+  style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe
+    src="https://www.youtube.com/embed/HRxKUVTDVTU"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 </details>
 
@@ -85,7 +95,7 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 ## 3. Tracing Memory Modifications
 
-Consider the Python code below. Trace the execution of the code by creating a memory diagram showing the stack and the heap. What is output the by the `print` statement? Only execute the code after you have attempted the exercise.
+Consider the Python code below. Trace the execution of the code by creating a memory diagram showing the stack and the heap, or use Python Tutor. What is output the by the `print` statement? Only execute the code after you have attempted the exercise.
 
 <iframe src="https://trinket.io/embed/python/3d20d411fa" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
@@ -95,13 +105,23 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 <details><summary>Solution Video</summary>
 
-> VIDEO. Solution video.
+<div
+  style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe
+    src="https://www.youtube.com/embed/QEcZdylRiKo"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 </details>
 
 ## 4. Tracing Memory Modifications with Functions
 
-Consider the Python code below. Trace the execution of the code by creating a memory diagram showing the stack and the heap. What is output the by the `print` statement? Only execute the code after you have attempted the exercise.
+Consider the Python code below. Trace the execution of the code by creating a memory diagram showing the stack and the heap, or use Python Tutor. What is output the by the `print` statement? Only execute the code after you have attempted the exercise.
 
 <iframe src="https://trinket.io/embed/python/5a6d5ad261" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
@@ -111,7 +131,17 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 <details><summary>Solution Video</summary>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LD3Gmrb3Mao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div
+  style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe
+    src="https://www.youtube.com/embed/LD3Gmrb3Mao"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 </details>
 

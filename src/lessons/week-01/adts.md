@@ -4,7 +4,17 @@ Let's now leave behind efficiency and metrics for the moment, and touch on anoth
 
 ## What are ADTs?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HkUTnW_v4yM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div
+  style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe
+    src="https://www.youtube.com/embed/HkUTnW_v4yM"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 To summarize, ADTs define the semantics of how a data structure should behave, including the operations that the data structure should support. However, an ADT doesn't define how the data structure should be implemented -- it is only an *abstract* description.
 
