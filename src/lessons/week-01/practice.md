@@ -90,9 +90,7 @@ Make sure you give yourself enough time to solve the practice without looking at
 <details><summary>Solution</summary>
 
 1. Since the application being used in this problem is storage, it’s probably better to assume that the units are in terms of base 2. In other words, we could say that 1 KB = 1024 B, etc. However, since we’re just looking for rough numbers, we can use the base 10 system, i.e. 1 KB = 1000 B.
-
 If that’s the case, then 250 KB of metadata is equivalent to .25 MB. Let’s add that to the size of the photo itself to get 2.75 MB of data overall for each picture.
-
 If the photographer has 10,500 photos, that’s 10,500 * 2.75 MB = 28,875 MB = 28.875 GB of data. Therefore, she has used less than 29% of the available space on her cloud storage account.
 
 2. Since her photo collection would only take up 28.875 GB of storage, she would be able to store 100% of it with more than 10 GB of storage space left over.
