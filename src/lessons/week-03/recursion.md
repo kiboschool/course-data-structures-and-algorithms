@@ -55,7 +55,6 @@ Once the base case (`factorial(1)`) is reached, it returns `1` to the previous f
 <p>
 Why is it necessary for each stack frame to have its own `n` variable?
 </p>
-</div>
 <details>
 <summary>
 <i>Click to reveal the answer.</i>
