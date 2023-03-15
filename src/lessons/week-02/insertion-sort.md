@@ -37,7 +37,17 @@ To summarize, here are the steps of insertion sort:
 
 Let's see how insertion sort can be implemented in Python:
 
-> VIDEO: 5 minute video walking through the code of selection sort.
+<div
+  style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe
+    src="https://www.youtube.com/embed/Lxg-9s2fuJg"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 ## Big-O analysis of insertion sort
 
@@ -60,7 +70,17 @@ Unlike selection sort, with insertion sort there is a difference between the bes
 
 Let's trace through what would happen if the list given to insertion sort was already sorted:
 
-> Insert 2-3 minute video tracing the loop and seeing that the while loop is never executed.
+<div
+  style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe
+    src="https://www.youtube.com/embed/CA-QtxSJCUw"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 Since the body of the `while` loop is never executed, we can essentially ignore it for the purposes of our big-O analysis. This essentially leaves us with a single `for` loop to execute. We can therefore say that in the best case (a fully sorted list), the running time of insertion sort is only `O(n)`!
 

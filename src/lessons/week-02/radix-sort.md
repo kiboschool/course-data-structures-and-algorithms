@@ -6,7 +6,17 @@ But that's not the only approach to sorting! One alternative is *distributive* s
 
 One example of this is radix sort. Watch the video below to see how radix sort works:
 
-> Insert 5 minute video showing radix sort.
+<div
+  style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe
+    src="https://www.youtube.com/embed/NIHgXNvll24"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 In summary, the algorithm is as follows:
 
@@ -20,7 +30,7 @@ In summary, the algorithm is as follows:
 
 <aside>
 <b>Check your understanding</b>
-<p>What would the list of buckets look like after using radix sort on this list: <code>[61, 15, 20, 12, 44, 90, 77, 1, 8]</code>.</p>
+<p>What would the list of buckets look like after the first pass of radix sort on this list: <code>[61, 15, 20, 12, 44, 90, 77, 1, 8]</code>.</p>
 <details>
 <summary>
 <i>Click to reveal the answer.</i>
