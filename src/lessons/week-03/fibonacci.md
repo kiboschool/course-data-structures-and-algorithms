@@ -1,3 +1,3 @@
-# The Fibonacci Sequence
+# Fibonacci Sequence
 
 

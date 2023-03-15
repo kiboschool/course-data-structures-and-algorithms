@@ -1,4 +1,4 @@
-# Recursion
+# Recursion in Python
 
 We now turn our attention to using recursion in Python. Watch the following video to learn how to implement the factorial function both iteratively (using loops) and recursively in Python:
 
@@ -48,7 +48,7 @@ Each time a recursive function calls itself, another frame is added to the stack
 
 Notice that eack stack frame contains its own `n` variable. We say that each function call has its own *state*, or variables that are local to its stack frame, which make the overall computation possible.
 
-Once the base case (`factorial(1)`) is reached, it returns `1` to the previous function call (`factorial(2)`). In fact, each recursive call will receive a return value, multiply it by `n` (whatever `n` is in that stack frame), and return the result to the previous recursive caller.
+Once the base case (`factorial(0)`) is reached, it returns `1` to the previous function call (`factorial(2)`). In fact, each recursive call will receive a return value, multiply it by `n` (whatever `n` is in that stack frame), and return the result to the previous recursive caller.
 
 <aside>
 <b>Check your understanding</b>
@@ -123,8 +123,7 @@ But what if we call `count_down_by_two(5)`? Before playing the video below, try 
 
 Clearly, we need a more comprehensive base case -- one that is more robust to the different patterns of execution. Here's one way you could correct the issue (by using `<=` in the base case):
 
-<pre><code class="language-python">
-def count_down_by_two(n):
+<pre><code class="language-python">def count_down_by_two(n):
     if <b>n <= 0</b>:
         # base case
         # if we've gone negative, just print 0 and stop

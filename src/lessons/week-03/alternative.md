@@ -1,4 +1,4 @@
-# An Alternative to Loops
+# A Loop Alternative 
 
 So far, we have used loops to process data structures such as Python lists and dictionaries. But that's not the only way! We can also use an approach known as *recursion*.
 

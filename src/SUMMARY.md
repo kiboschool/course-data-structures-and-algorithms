@@ -38,7 +38,7 @@
 - [Recursion I](lessons/week-03.md)
 
   - [A loop alternative](lessons/week-03/alternative.md)
-  - [Recursion basics](lessons/week-03/recursion.md)
+  - [Recursion in Python](lessons/week-03/recursion.md)
   - [Tracing recursive functions](lessons/week-03/tracing.md)
   - [Fibonacci sequence](lessons/week-03/fibonacci.md)
   - [Recursion and efficiency](lessons/week-03/efficiency.md)
