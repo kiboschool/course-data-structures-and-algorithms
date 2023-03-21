@@ -45,7 +45,9 @@ The **solutions** to each challenge are available, and you can view a video of t
 
 </aside>
 
-## 1. Exercise 1 
+## 1. Exercise 1
+
+what's the fourth function call made during the executio of fibonacci(4)
 
 <details><summary>Solution video.</summary>
 
@@ -53,7 +55,7 @@ The **solutions** to each challenge are available, and you can view a video of t
 
 </details>
 
-## 2. Exercise 2 
+## 2. Exercise 2
 
 <details><summary>Solution Video</summary>
 
@@ -61,7 +63,7 @@ The **solutions** to each challenge are available, and you can view a video of t
 
 </details>
 
-## 3. Exercise 3 
+## 3. Exercise 3
 
 > [Access the exercise via GitHub Classroom here.](https://github.com/kiboschool/duplicate-count)
 
