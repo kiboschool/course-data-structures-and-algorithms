@@ -39,7 +39,7 @@ A software developer has written two algorithms to solve a problem. After perfor
 
 To summarize, here are some of the most common efficiency classes, sorted by slowest to fastest:
 
-* `O(n!)`, ("factorial time")
+* `O(n!)` ("factorial time")
 * <code>O(c<sup>n</sup>)</code> where `c` is some constant ("exponential time")
 * <code>O(n<sup>c</sup>)</code> where `c` is some constant >2 ("polynomial time")
 * <code>O(n<sup>2</sup>)</code> ("quadratic time")

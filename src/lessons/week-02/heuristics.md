@@ -135,7 +135,7 @@ This means that `nested_loops_2()` performs exactly <code>n<sup>2</sup>/2 - n/2<
 <summary>
 <i>Click to reveal the answer.</i>
 </summary>
-<p><b>Answer.</b> The first <code>for</code> loop has a running time of <code>O(n)</code>, since the loop bound is some function of the size of the list (<code>n</code>). The second loop is <i>also</i> <code>O(n)</code>, since the outer loop is <code>O(n)</code> and the inner loop is <code>O(1)</code>. Our expression for the big-O running time is therefore <code>O(n) + O(n)\*O(1)</code></p>, which is <code>O(n)</code>.
+<p><b>Answer.</b> The first <code>for</code> loop has a running time of <code>O(n)</code>, since the loop bound is some function of the size of the list (<code>n</code>). The second loop is <i>also</i> <code>O(n)</code>, since the outer loop is <code>O(n)</code> and the inner loop is <code>O(1)</code>. Our expression for the big-O running time is therefore <code>O(n) + O(n)*O(1)</code>, which is <code>O(n)</code>.</p>
 </details>
 </aside>
 
