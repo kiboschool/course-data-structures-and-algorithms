@@ -43,7 +43,7 @@ Each time a recursive function calls itself, another frame is added to the stack
     src="/images/week-03/stack-factorial.svg"
     class="center"
     alt="The runtime stack at the moment that factorial of zero is executed. The stack shows stack frames for factorial of 8, factorial of 6, factorial of 4, factorial of 2, and factorial of 0. Each stack frame has its own version of the variable n, which references a value on the heap."
-    style="width:400px;" />
+    style="width:550px;" />
 </center>
 
 Notice that eack stack frame contains its own `n` variable. We say that each function call has its own *state*, or variables that are local to its stack frame, which make the overall computation possible.

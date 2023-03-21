@@ -1,4 +1,4 @@
-# A Loop Alternative 
+# A Loop Alternative
 
 So far, we have used loops to process data structures such as Python lists and dictionaries. But that's not the only way! We can also use an approach known as *recursion*.
 
@@ -19,7 +19,7 @@ Instead of counting all of the people yourself, you realize that if you knew the
     src="/images/week-03/line-1.svg"
     class="center"
     alt="People queuing for a concert. You are at the end of the queue. Kisha is in front of you, and Amari is in front of Kisha. There are many unnamed people in front of Amari. At the front of the queue is Zuri, and second in the queue is Emmanuel."
-    style="width:500px;" />
+    style="width:600px;" />
 </center>
 
 You ask Kisha what her position in the queue is. She's almost as far back as you are, so she in turn asks Amari what his position in the queue is. Amari asks the person in front of him, so on and so forth, until we reach the beginning of the queue. There, Emmanuel asks Zuri what her position in the queue is. Zuri knows for a fact that she is first in the queue, so she tells Emmanuel that she is in position 1.
@@ -29,7 +29,7 @@ You ask Kisha what her position in the queue is. She's almost as far back as you
     src="/images/week-03/line-2.svg"
     class="center"
     alt="The same queue of people as before, but annotated with Zuri telling Emmanuel that she is in position one."
-    style="width:500px;" />
+    style="width:600px;" />
 </center>
 
 Emmanuel takes this information and adds one to the count, so that he can tell the person behind him that he is in position 2 in the queue. Each person repeats this process, until eventually Kisha tells you that she is in position 536 in the queue. You take this information and add one to the count to get your final answer: you are in position 537!
@@ -39,7 +39,7 @@ Emmanuel takes this information and adds one to the count, so that he can tell t
     src="/images/week-03/line-3.svg"
     class="center"
     alt="The same queue of people as before, but annotated with each person telling the person behind them what position they are in the queue."
-    style="width:500px;" />
+    style="width:600px;" />
 </center>
 
 This is a recursive solution to the problem. Let's now more carefully define what we mean by recursion.
@@ -99,7 +99,7 @@ n! = n * (n - 1)!
 <summary>
 <i>Click to reveal the answer.</i>
 </summary>
-<p><b>Answer.</b> The above definition only provides the recursive case, but we also need a base case. For the factorial function, we can define <code>1! = 1</code>. (In some contexts, you can also say <code>0! = 1</code>.) The factorial function is not defined for negative numbers.</p> 
+<p><b>Answer.</b> The above definition only provides the recursive case, but we also need a base case. For the factorial function, we can define <code>1! = 1</code>. (In some contexts, you can also say <code>0! = 1</code>.) The factorial function is not defined for negative numbers.</p>
 </details>
 </aside>
 
