@@ -36,7 +36,7 @@ def print_list(lst):
 
 Here, we perform a constant time operation (a print statement) inside of a linear (`O(n)`) loop, so the overall running time is `O(1) * O(n) = O(n)`.
 
-The same principle applies for recursive functions, except instead of counting the number of iterations of a *loop*, we are counting the number of *recursive function calls*. This is because the number of recursive function calls determines the number of times the body of the function is executed.
+The same principle applies for recursive functions, except instead of counting the number of iterations of a *loop*, we are counting the number of *function calls*. This is because the number of function calls determines the number of times the body of the function is executed.
 
 Consider the following `count_down()` function, which counts down from `n` to 0:
 
@@ -59,7 +59,9 @@ How many function calls does `count_down()` make to count down from `n`? We can 
 | 4 | 5                               |
 |...| ...                             |
 
-It makes exactly `n + 1 = O(n)` function calls to count down from `n` to 0, and each one of those function calls performs a constant number of operations. Therefore, the big-O expression for `count_down(n)` is `O(n)`.
+For example, to count down from `n` = 1, we need to call `count_down(1)`, which itself calls `count_down(0)`, which is the base case.
+
+As we can see, counting down from `n` takes exactly `n + 1 = O(n)` function calls. We also know that there is a constant amount of work done for *each* function call -- just a print statement. Therefore, the big-O expression for `count_down(n)` is `O(n) * O(1) = O(n)`.
 
 ## Summary
 
