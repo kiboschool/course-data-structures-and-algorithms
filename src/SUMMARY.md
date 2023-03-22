@@ -1,9 +1,10 @@
 # Overview
 
 [Course Overview](course-overview.md)
-[Assessments & Grading](assessments.md)
+[Getting Help](asking-for-help.md)
 [Live Classes](live-classes.md)
-[Interview of the Week](iotw.md)
+[Assessments & Grading](assessments.md)
+[Mock Interviews](interviews.md)
 
 ## Lessons
 
