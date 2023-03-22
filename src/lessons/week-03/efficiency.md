@@ -59,10 +59,10 @@ How many function calls does `count_down()` make to count down from `n`? We can 
 | 4 | 5                               |
 |...| ...                             |
 
-For example, to count down from `n` = 1, we need to call `count_down(1)`, which itself calls `count_down(0)`, which is the base case.
+For example, to count down from `n` = 1, we need to call `count_down(1)`, which itself calls `count_down(0)`, which is the base case. That required two function calls.
 
 As we can see, counting down from `n` takes exactly `n + 1 = O(n)` function calls. We also know that there is a constant amount of work done for *each* function call -- just a print statement. Therefore, the big-O expression for `count_down(n)` is `O(n) * O(1) = O(n)`.
 
 ## Summary
 
-The time complexity of a recursive function is determined in part by the number of times a recursive call is made for an input of size `n`. As we've seen, this can lead to running times such as <code>O(2<sup>n</sup>)</code> or `O(n)`. In the near future, we will see examples of recursive functions that run in time `O(logn)` and `O(nlogn)` as well.
+The time complexity of a recursive function is determined in part by the number of times a recursive call is made for an input of size `n`. As we've seen, this can lead to running times such as <code>O(2<sup>n</sup></code> or `O(n)`. In the near future, we will see examples of recursive functions that run in time `O(logn)` and `O(nlogn)` as well.
