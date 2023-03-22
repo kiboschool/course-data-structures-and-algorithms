@@ -16,7 +16,7 @@ This week we also learned about the various levels of the memory hierarchy, and 
 
 In this assignment, you will implement an ADT that represents a mathematical set. You will implement it in three different ways: by storing the elements in a list, storing the elements in a sorted list, and storing the elements on disk. You will also benchmark the performance of these implementations.
 
-➡ [Access the assignment on GitHub Classroom](https://classroom.github.com/a/m5DMPDSM)
+✎ [Access the assignment on GitHub Classroom](https://classroom.github.com/a/m5DMPDSM)
 
 Remember...
 
