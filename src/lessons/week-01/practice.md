@@ -47,7 +47,7 @@ The **solutions** to each challenge are available, and you can view a video of t
 
 ## 1. Finding the Average of a List
 
-➡ [Access the practice exercise on GitHub Classroom](https://classroom.github.com/a/UBXIozxq)
+▶️ [Access the practice exercise on GitHub Classroom](https://classroom.github.com/a/UBXIozxq)
 
 Watch the video below to see the full solution.
 
@@ -157,7 +157,7 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 ## 5. Implementing a Dictionary ADT
 
-➡ [Access the practice exercise on GitHub Classroom](https://classroom.github.com/a/LR5HZIuC)
+▶️ [Access the practice exercise on GitHub Classroom](https://classroom.github.com/a/LR5HZIuC)
 
 Watch the video below to see the full solution.
 

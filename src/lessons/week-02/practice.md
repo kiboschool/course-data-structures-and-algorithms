@@ -134,7 +134,7 @@ This version of the algorithm first sorts the list using radix sort, and then us
 
 ## 3. Searching for duplicates using binary search 
 
-➡ [Access the practice exercise on GitHub Classroom](https://classroom.github.com/a/xIsHTLxw)
+▶️ [Access the practice exercise on GitHub Classroom](https://classroom.github.com/a/xIsHTLxw)
 
 Watch the video below to see the full solution.
 
@@ -158,7 +158,7 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 ## 4. Experimentally deriving the running time of insertion sort
 
-➡ [Access the practice exercise on GitHub Classroom](https://classroom.github.com/a/6pr_ZNcn)
+▶️ [Access the practice exercise on GitHub Classroom](https://classroom.github.com/a/6pr_ZNcn)
 
 Watch the video below to see the full solution.
 
@@ -182,7 +182,7 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 ## 5. Optimizing selection sort
 
-➡ [Access the practice exercise on GitHub Classroom](https://classroom.github.com/a/AQZp5ule)
+▶️ [Access the practice exercise on GitHub Classroom](https://classroom.github.com/a/AQZp5ule)
 
 Watch the video below to see the full solution.
 
