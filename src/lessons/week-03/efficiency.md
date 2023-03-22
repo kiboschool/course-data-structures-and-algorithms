@@ -63,6 +63,28 @@ For example, to count down from `n` = 1, we need to call `count_down(1)`, which 
 
 As we can see, counting down from `n` takes exactly `n + 1 = O(n)` function calls. We also know that there is a constant amount of work done for *each* function call -- just a print statement. Therefore, the big-O expression for `count_down(n)` is `O(n) * O(1) = O(n)`.
 
+## Space efficiency
+
+We also need to consider the space complexity of recursive functions. For this, we again need to think about the number of function calls that are made with respect to the size of the input `n`.
+
+In the `count_down()` example above, we reasoned that counting down from `n` to 0 requires `O(n)` function calls. Each one of these function calls requires adding a stack frame to the runtime stack, and each stack frame requires extra memory to store the local variables of the function.
+
+To calculate how much extra memory we'll need, we need to think about how many frames will be on the stack when the base case is reached. This is the point at which we have the most frames on the stack throughout the execution of the algorithm. In teh case of `count_down()`, we have `n + 1` frames on the stack, so the space complexity is `O(n)`.
+
+Contrast the recursive approach with an iterative `count_down()` function below:
+
+```python
+def count_down_iter(n):
+    for i in range (n, -1, -1):
+        print(i)
+``` 
+
+In terms of time complexity, this is an `O(n)` algorithm -- just like the recursive version. However, in terms of `space` complexity, this algorithm is `O(1)`, since it uses only a constant amount of extra memory.
+
+In general, recursive algorithms may require more memory than their equivalent iterative counterparts. But space complexity is only *one* factor when considering whether to write an algorithm recursively or iteratively. Often times, the recursive version of the algorithm is easier to write or has better time efficiency.
+
 ## Summary
 
 The time complexity of a recursive function is determined in part by the number of times a recursive call is made for an input of size `n`. As we've seen, this can lead to running times such as <code>O(2<sup>n</sup></code> or `O(n)`. In the near future, we will see examples of recursive functions that run in time `O(logn)` and `O(nlogn)` as well.
+
+The space complexity of a recursive function is also determined in part by the number of times the function is invoked. This can generally lead to recursive algorithms requiring more memory than iterative algorithms, but this does not necessarily mean recursive algorithms are prohibitively expensive.
