@@ -12,7 +12,7 @@ This week we learned about how to sort collections of data using various algorit
 
 In this assignment, you will analyze an unnamed sorting algorithm by counting the number of operations the sorting algorithm makes. You will then take those measurements and use them to derive the big-O notations of the algorithm under different conditions. Finally, you will implement radix sort and analyze it empirically as well. 
 
-[Access the assignment on GitHub Classroom](https://classroom.github.com/a/M8_3YWPg)
+➡ [Access the assignment on GitHub Classroom](https://classroom.github.com/a/M8_3YWPg)
 
 Remember...
 
