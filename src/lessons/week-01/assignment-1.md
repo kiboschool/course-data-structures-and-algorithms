@@ -1,6 +1,8 @@
 # Assignment 1
 
-**Due date: April XX**
+**Due date: April 13**
+
+> Note: the penalty for submitting this assignment during the late window is waived, meaning you can submit it up through Saturday, April 15 at 11:59 PM GMT without any late penalty.
 
 > 📌 This is an individual project. You are expected to work independently.
 >
@@ -14,7 +16,7 @@ This week we also learned about the various levels of the memory hierarchy, and 
 
 In this assignment, you will implement an ADT that represents a mathematical set. You will implement it in three different ways: by storing the elements in a list, storing the elements in a sorted list, and storing the elements on disk. You will also benchmark the performance of these implementations.
 
-> [Insert link to assignment here.](https://github.com/kiboschool/set-adt)
+[Access the assignment on GitHub Classroom](https://classroom.github.com/a/m5DMPDSM)
 
 Remember...
 
