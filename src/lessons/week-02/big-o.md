@@ -92,7 +92,7 @@ When `n` is large, mathematical expressions involving `n` are dominated by their
 | 100    || 5,000      | 50      | 4,950           |
 | 10,000 || 50,000,000 | 5,000   | 49,995,000      |
 
-Therefore, in big-O notation we ignore all lower-order terms and focus only on the higest order term.
+Therefore, in big-O notation we ignore all lower-order terms and focus only on the highest order term: <code>n<sup>2</sup> + nlogn - n</code> becomes simply <code>O(n<sup>2</sup>)</code>.
 
 ### Rule 2: coefficients are ignored
 
