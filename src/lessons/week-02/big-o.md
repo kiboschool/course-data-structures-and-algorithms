@@ -64,14 +64,6 @@ To summarize, here are some of the most common efficiency classes, sorted by slo
 
 For example, we would say that as the input size `n` grows, an `O(n)` algorithm is faster than an <code>O(n<sup>2</sup>)</code> algorithm.
 
-<!-- talk about this in live class
-<blockquote>
-<p>
-Wait! I thought an <code>O(n<sup>2</sup>)</code> algorithm grows faster than an <code>O(n)</code> algorithm. Why is an <code>O(n)</code> algorithm considered faster?</p>
-<p>⚠️ Be careful. "Faster" here refers to two separate concepts. The number of operations in an <code>O(n<sup>2</sup>)</code> algorithm grows faster than the number of operations in an <code>O(n)</code> algorithm as <code>n</code> increases. However, more operations is a <i>bad</i> thing in terms of algorithmic efficiency -- more operations means the algorithm is slower. Relatively speaking, an algorithm whose number of operations grows <i>slowly</i> as the input size increases is a <i>fast</i> algorithm because it will take less time to complete.</p>
-</blockquote>
--->
-
 ## What is big-O measuring?
 
 We mentioned above that a big-O expression defines an upper bound on the amount of resources used by an algorithm. But how do we measure the amount of resources?
@@ -118,14 +110,6 @@ For example, <code>n<sup>2</sup>/2 + n = O(n<sup>2</sup>)</code> because we can 
 <p><b>Answer.</b> After ignoring all coefficients and lower-order terms (<code>n</code>), we have that <code>7n - 5 + 99n*logn/500 = O(nlogn)</code>.</p>
 </details>
 </aside>
-
-<!-- talk about this in async session
-> What would happen if you ran an `O(n)` algorithm on a fast computer, and compared how long it takes to execute to an `O(logn)` algorithm running on a slow computer?
->
-> Over time, advancements in hardware and software technology have enabled modern computers to be faster than computers of 10, 20, even 50 years ago by orders of magnitude. For some input sizes, it's true that a fast computer running an `O(n)` algorithm will complete faster than an older computer running an `O(logn)` algorithm. However, if you keep increasing the input size, there will eventually come a point where the slower computer will execute faster since the `O(logn)` algorithm will eventually be more efficient.
->
-> Keep in mind that big-O notation is a theoretical tool to help us analyze algorithms in broad terms. However, if you're  concerned with the performance of an algorithm running a real task on actual computer, lower-order terms, coefficients, and the capabilities of the hardware and software *do* matter.
--->
 
 ## Big-O and Worst-Case Analysis
 
