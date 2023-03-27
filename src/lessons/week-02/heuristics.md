@@ -24,7 +24,7 @@ def my_strange_algorithm(lst):
         print(lst[i])
 ```
 
-`my_strange_algorithm()` is also `O(n)`, since for sufficiently large values of `n` the coefficient `1 / 1000000` will not matter.
+`my_strange_algorithm()` is also `O(n)`. We know this because the loop iterates `n * 1/100000` times, but since for sufficiently large values of `n` the coefficient `1/1000000` will not matter, we can ignore it and end up with `O(n)`.
 
 Note that this same kind of analysis applies to `while` loops as well, as long as the number of iterations is on the order of the size of the input:
 
