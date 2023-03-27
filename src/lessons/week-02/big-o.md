@@ -1,6 +1,6 @@
 # Big-O Notation
 
-We are now ready to develop a formalism for classifying algorithms according to their time and space efficiencies. This formalism is known as *big-O notation*.
+Last week, we started exploring how algorithms can be evaluated in terms of their space and time efficiencies. This week, we will learn a more formal method for classifying the efficiency of an algorithm: *big-O notation*. You will use big-O notation to analyze algorithms not just for the rest of this course, but likely for the rest of your computer science career as well!
 
 ## What is big-O notation?
 
