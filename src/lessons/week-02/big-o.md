@@ -158,3 +158,20 @@ We've covered a lot of ground in this lesson. Watch the video below to see a qui
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
   </iframe>
 </div>
+
+<aside>
+<b>Check your understanding</b>
+<p>
+Order the following big-O efficiency classes, from fastest (most efficient) to slowest (least efficient): <code>O(nlogn)</code>, <code>O(3<sup>n</sup>)</code>, <code>O(1)</code>, <code>O(n<sup>3</sup>)</code>.
+</p>
+<details>
+<summary>
+<i>Click to reveal the answer.</i>
+</summary>
+<p>
+<b>Answer.</b> <code>O(1)</code>, <code>O(nlogn)</code>, <code>O(n<sup>3</sup>)</code>, <code>O(3<sup>n</sup>)</code>.
+</p>
+</details>
+</aside>
+
+
