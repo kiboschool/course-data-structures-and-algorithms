@@ -23,6 +23,20 @@ Watch the video below to learn about big-O notation and to hear an example where
 </div>
 
 <aside>
+<b>Recall</b>
+<p>
+The logarithm function, y = log<sub>b</sub>(n) ("the log of n to the base b"), represents the exponent y to which b must be raised to produce n. In other words, to satisfy b<sup>y</sup> = n. Here are some examples:
+</p>
+<div class="table-wrapper"><table><thead><tr><th>Log expression</th><th>Equivalent value</th></tr></thead><tbody>
+<tr><td>log<sub>10</sub>(1000)</td><td>3 (since 10<sup>3</sup> = 1000)</td></tr>
+<tr><td>log<sub>2</sub>(32)</td><td>5 (since 2<sup>5</sup> = 32)</td></tr>
+<tr><td>log<sub>2</sub>(1024)</td><td>10 (since 2<sup>10</sup> = 1024)</td></tr>
+</tbody></table>
+</div>
+In computer science we typically deal with situations where b = 2, since as we will see, we often use algorithms that split the size of the input in <i>half</i> (i.e., into two segments) at each step. However, for big-O notation the base is not important, so it is typically omitted and we just say log(n).
+</aside>
+
+<aside>
 <b>Check your understanding</b>
 <p>
 A software developer has written two algorithms to solve a problem. After performing some analysis, he finds Algorithm A has a running time of <code>O(n<sup>3</sup>)</code> and Algorithm B has a running time of <code>O(n<sup>2</sup> * logn)</code>. Which algorithm is more efficient?
