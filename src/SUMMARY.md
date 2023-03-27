@@ -47,3 +47,13 @@
   - [Recursion and efficiency](lessons/week-03/efficiency.md)
   - [Practice](lessons/week-03/practice.md)
 
+- [Recursion II](lessons/week-04.md)
+
+  - [List recursion](lessons/week-04/lists.md)
+  - [Mergesort](lessons/week-04/mergesort.md)
+  - [Quicksort](lessons/week-04/quicksort.md)
+  - [String recursion](lessons/week-04/strings.md)
+  - [Recursive backtracking](lessons/week-04/backtracking.md)
+  - [Practice](lessons/week-04/practice.md)
+  - [Midterm Project](lessons/src/midterm-project.md)
+
