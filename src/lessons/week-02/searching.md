@@ -75,7 +75,9 @@ We have leveraged the fact that the list is in sorted order to improve our algor
 </details>
 </aside>
 
-This optimization is nice, but it doesn't really improve our algorithm when the item *does* appear in the list. For that, we can use binary search.
+This optimization is nice, but it doesn't improve on the big-O running time of the original algorithm. When the item is *not* in the list, we still on average have to search through approximately half of the list, and `n / 2 = O(n)`.
+
+In addition, this optimization does not improve our algorithm at all when the item *does* appear in the list. For that, we can use binary search.
 
 ## Binary search
 
