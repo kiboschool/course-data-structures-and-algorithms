@@ -88,7 +88,7 @@ This algorithm looks at every element of the list and considers all elements to 
 
   1. What's the worst case big-O time efficiency of `num_dups_1()` in terms of the length of the list? What's the big-O space efficiency?
 
-Here's an alternative way of implementing this algorith, which first sorts the input using radix sort:
+Here's an alternative way of implementing this algorithm, which first sorts the input using radix sort:
 
 ```python
 def num_dups_2(lst):
