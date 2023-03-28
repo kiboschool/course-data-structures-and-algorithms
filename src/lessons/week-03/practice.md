@@ -100,7 +100,7 @@ def mystery(x, y)
 
 ## 3. Exercise 3
 
-> [Access the exercise via GitHub Classroom here.](https://github.com/kiboschool/recursion-practice)
+▶️ [Access the practice exercise on GitHub Classroom](https://classroom.github.com/a/FEDpOlIQ)
 
 Watch the video below to see the full solution.
 
@@ -114,7 +114,7 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 ## 4. Exercise 4
 
-> [Access the exercise via GitHub Classroom here.](https://github.com/kiboschool/recursive-print)
+▶️ [Access the practice exercise on GitHub Classroom](https://classroom.github.com/a/h5NW84O5)
 
 Watch the video below to see the full solution.
 
