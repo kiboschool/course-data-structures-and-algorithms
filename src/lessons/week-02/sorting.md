@@ -33,7 +33,7 @@ There are a few reasons why we're focusing on sorting algorithms for the rest of
 
 1. Sorting algorithms are all around us in our daily lives.
 2. Sorting algorithms are relatively easy to understand when learning how to analyze the efficiency of algorithms.
-3. There are multiple simple versions of sorting algorithms that make it easy to compare and contrast their implementations and efficiencies.
+3. There are multiple simple algorithms that take different approaches to sorting lists, which enables us to compare and contrast their techniques and efficiencies. For example, some algorithms (like selection sort and insertion sort) order the numbers in a list by comparing the numbers of the list directly to each other. Other algorithms (like radix sort) don't compare the numbers of the list at all, but rather distribute the numbers to buckets based on the value of the numbers themselves.
 
 Our discussion of sorting algorithms is in part motivated by our desire to learn about how to analyze the efficiency of algorithms. Let's talk more about how to analyze the efficiency of sorting algorithms next. 
 
