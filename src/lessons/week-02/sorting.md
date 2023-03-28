@@ -14,7 +14,7 @@ We now know that sorting can be useful in some algorithms -- for example, if a l
   </iframe>
 </div>
 
-As mentioned by the video, books are a great example of an item that can be sorted. In this class, for simplicity we will primarily focus on sorting integers.
+As mentioned by the video, books are a great example of an item that can be sorted. In this class, for simplicity we will primarily focus on sorting integers, but the techniques that we will cover generalize to sorting other types of data as well (for example, strings).
 
 <aside>
 <b>Check your understanding</b>
