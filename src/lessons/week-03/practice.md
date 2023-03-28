@@ -45,9 +45,7 @@ The **solutions** to each challenge are available, and you can view a video of t
 
 </aside>
 
-## 1. Exercise 1
-
-what's the fourth function call made during the execution of fibonacci(4)
+## 1. Recursion and the stack
 
 Consider the below definition of the Fibonacci function:
 
@@ -72,7 +70,7 @@ def fibonacci(n):
 
 </details>
 
-## 2. Exercise 2
+## 2. Tracing a recursive function
 
 Consider the following recursive algorithm:
 
@@ -98,7 +96,7 @@ def mystery(x, y)
 
 </details>
 
-## 3. Exercise 3
+## 3. Implementing various recursive functions
 
 ▶️ [Access the practice exercise on GitHub Classroom](https://classroom.github.com/a/FEDpOlIQ)
 
@@ -112,7 +110,7 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 </details>
 
-## 4. Exercise 4
+## 4. Recursively printing a file
 
 ▶️ [Access the practice exercise on GitHub Classroom](https://classroom.github.com/a/h5NW84O5)
 

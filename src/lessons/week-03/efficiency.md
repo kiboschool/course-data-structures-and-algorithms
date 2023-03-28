@@ -79,7 +79,7 @@ def count_down_iter(n):
         print(i)
 ```
 
-In terms of time complexity, this is an `O(n)` algorithm -- just like the recursive version. However, in terms of `space` complexity, this algorithm is `O(1)`, since it uses only a constant amount of extra memory.
+In terms of time complexity, this is an `O(n)` algorithm -- just like the recursive version. However, in terms of *space* complexity, this algorithm is `O(1)`, since it uses only a constant amount of extra memory.
 
 In general, recursive algorithms may require more memory than their equivalent iterative counterparts. But space complexity is only *one* factor when considering whether to write an algorithm recursively or iteratively. Often times, the recursive version of the algorithm is easier to write or has better time efficiency.
 
