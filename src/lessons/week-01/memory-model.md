@@ -14,7 +14,7 @@ When a Python program executes, all of its data (including variables and values)
 
 ### The stack
 
-The *stack* is where local variables and function parameters are stored. When a function is called, a new stack *frame* is added to the stack. The stack frame includes enough room for all of the local variables and paramters that the function may use. When the function call returns, the stack frame is removed from the stack. For example, consider the following program:
+The *stack* is where local variables and function parameters are stored. When a function is called, a new stack *frame* is added to the stack. The stack frame includes enough room for all of the local variables and parameters that the function may use. When the function call returns, the stack frame is removed from the stack. For example, consider the following program:
 
 ```python
 def adder(a, b):

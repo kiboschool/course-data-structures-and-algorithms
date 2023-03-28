@@ -2,7 +2,7 @@
 
 In this lesson, we will learn some heuristics, or *rules of thumb*, for deriving the big-O notation of algorithms by inspecting the number and nature of *loops* (i.e., `for` loops and `while` loops) in the algorithm.
 
-But why loops? We focus our analysis on the presence of loops because loops are one of the most common techniques for iterating over the input to an algorithm. A loop over the entire input of size `n` already guarantees that your algorithm is performing at least `O(n)` operations -- just in order to iterate over the collection! 
+But why loops? We focus our analysis on the presence of loops because loops are one of the most common techniques for iterating over the input to an algorithm. A loop over the entire input of size `n` already guarantees that your algorithm is performing at least `O(n)` operations -- just in order to iterate over the collection!
 
 ## Loops up to `n`
 

@@ -34,7 +34,7 @@ Back in week 1, we defined the runtime stack as the part of main memory where lo
 
 > ***Definition.***
 >
-> When a function is called, a new *stack frame* is added to the stack. The stack frame includes enough room for all of the local variables and paramters that the function may use. When the function call returns, the stack frame is removed from the stack.
+> When a function is called, a new *stack frame* is added to the stack. The stack frame includes enough room for all of the local variables and parameters that the function may use. When the function call returns, the stack frame is removed from the stack.
 
 Each time a recursive function calls itself, another frame is added to the stack. This continues until the base case is reached. In the case of the factorial function, this is what the stack would look like at the moment that the base case is reached:
 
@@ -46,7 +46,7 @@ Each time a recursive function calls itself, another frame is added to the stack
     style="width:550px;" />
 </center>
 
-Notice that eack stack frame contains its own `n` variable. We say that each function call has its own *state*, or variables that are local to its stack frame, which make the overall computation possible.
+Notice that each stack frame contains its own `n` variable. We say that each function call has its own *state*, or variables that are local to its stack frame, which make the overall computation possible.
 
 Once the base case (`factorial(0)`) is reached, it returns `1` to the previous function call (`factorial(2)`). In fact, each recursive call will receive a return value, multiply it by `n` (whatever `n` is in that stack frame), and return the result to the previous recursive caller.
 
@@ -60,7 +60,7 @@ Why is it necessary for each stack frame to have its own <code>n</code> variable
 <i>Click to reveal the answer.</i>
 </summary>
 <p>
-<b>Answer.</b> As the recursive calls return, they eaceh need to multiply the result of the recursive call <code>factorial(n - 1)</code> by <code>n</code>. This <code>n</code> is different for each invocation of <code>factorial()</code>.
+<b>Answer.</b> As the recursive calls return, they each need to multiply the result of the recursive call <code>factorial(n - 1)</code> by <code>n</code>. This <code>n</code> is different for each invocation of <code>factorial()</code>.
 </p>
 </details>
 </aside>

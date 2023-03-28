@@ -54,7 +54,7 @@ Using these variables, we can define the running time of radix sort to be `O(m *
 for each of m digits:
     for each of n values:
         place each value into a bucket according to its ith digit
-``` 
+```
 
 In other words, radix sort performs `m` passes, each of which processes all `n` values of the list. Since these `for` loops are nested, we can use our big-O heuristics to see that the running times of these loops would be multiplied to yield a running time of `O(m * n)`.
 

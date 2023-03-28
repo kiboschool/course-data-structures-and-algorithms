@@ -35,11 +35,11 @@ There are a few reasons why we're focusing on sorting algorithms for the rest of
 2. Sorting algorithms are relatively easy to understand when learning how to analyze the efficiency of algorithms.
 3. There are multiple simple versions of sorting algorithms that make it easy to compare and contrast their implementations and efficiencies.
 
-Our discussion of sorting algorithms is in part motivated by our desire to learn about how to analyze the efficiency of algorithms. Let's talk more about how to analyze the efficiency of sorting algorithms next. 
+Our discussion of sorting algorithms is in part motivated by our desire to learn about how to analyze the efficiency of algorithms. Let's talk more about how to analyze the efficiency of sorting algorithms next.
 
 ## Comparisons and moves
 
-We learned in an earlier lesson that big-O notation represents an approximate upper bound on the number of operations that a computer program will exceute in terms of the input size `n`. For sorting algorithms specifically, the number of overall operations is dominated by two tasks: (1) comparing elements of the list and (2) moving elements of the list around to different positions. Therefore, we will focus our time analysis on the number of *comparisons* and *moves* that a sorting algorithm performs.
+We learned in an earlier lesson that big-O notation represents an approximate upper bound on the number of operations that a computer program will execute in terms of the input size `n`. For sorting algorithms specifically, the number of overall operations is dominated by two tasks: (1) comparing elements of the list and (2) moving elements of the list around to different positions. Therefore, we will focus our time analysis on the number of *comparisons* and *moves* that a sorting algorithm performs.
 
 For example, this would be considered a comparison between two elements of a list:
 

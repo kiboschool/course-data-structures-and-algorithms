@@ -52,7 +52,7 @@ Here's one definition of recursion:
 >
 > *Recursion* is a problem solving technique in which you define a problem in terms of a simpler version of itself.
 
-In the above example, we were able to define the "position in queue" problem in terms of a smaller version of tiself:
+In the above example, we were able to define the "position in queue" problem in terms of a smaller version of itself:
 
 **Recursive case**
 ```

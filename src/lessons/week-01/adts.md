@@ -24,7 +24,7 @@ Now that we know what an ADT is in general terms, let's think about how to use A
 
 Python does not have a specific language feature that represents an ADT. When we need to implement an ADT using a Python class, we will include the name of the ADT in the class name. This way, we will have a hint about the expected behavior of objects of that class.
 
-For example, if we wanted to create a list-based implementation of a tuple as described in the video, it might look like this: 
+For example, if we wanted to create a list-based implementation of a tuple as described in the video, it might look like this:
 
 ```python
 class ListTuple:

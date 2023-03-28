@@ -1,4 +1,4 @@
-# The memory hierarchy 
+# The memory hierarchy
 
 While we're talking about space and memory, it's worth mentioning that not all memory in computers is equal! In fact, there is a *memory hierarchy*.
 
@@ -27,7 +27,7 @@ After RAM, the next level in the memory hierarchy is secondary storage, often im
 
 ## Network-based storage
 
-The last level of the memory hierarchy that we will consider is network-based storage. This represents all data that is not stored locally on a computer, and that must be requested and fetched over a network. For example, downloading a file from cloud storage over the Internet is a form of network-based storage. The time to senda request for data over the Internet and then download that file is considerably larger than secondary storage, but you can store much more, since you are accessing files that could potentially be stored on many different computers, or servers.
+The last level of the memory hierarchy that we will consider is network-based storage. This represents all data that is not stored locally on a computer, and that must be requested and fetched over a network. For example, downloading a file from cloud storage over the Internet is a form of network-based storage. The time to send a request for data over the Internet and then download that file is considerably larger than secondary storage, but you can store much more, since you are accessing files that could potentially be stored on many different computers, or servers.
 
 There are other levels and details within this hierarchy that we have not touched on, but this view of memory is sufficient for our purposes.
 

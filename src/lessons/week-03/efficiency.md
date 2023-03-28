@@ -1,6 +1,6 @@
 # Recursion and Efficiency
 
-We left off in the last lesson with the observation that when calculating `fibonacci(6)`, it seems to take more recursive function calls than we might have expected. Let's more precisely define the efficiency of the recursive implementationof calculating the nth Fibonacci number.
+We left off in the last lesson with the observation that when calculating `fibonacci(6)`, it seems to take more recursive function calls than we might have expected. Let's more precisely define the efficiency of the recursive implementation of calculating the nth Fibonacci number.
 
 To help us do so, let's draw a *call tree* -- a diagram that illustrates how the recursive functions are called.
 
@@ -69,7 +69,7 @@ We also need to consider the space complexity of recursive functions. For this, 
 
 In the `count_down()` example above, we reasoned that counting down from `n` to 0 requires `O(n)` function calls. Each one of these function calls requires adding a stack frame to the runtime stack, and each stack frame requires extra memory to store the local variables of the function.
 
-To calculate how much extra memory we'll need, we need to think about how many frames will be on the stack when the base case is reached. This is the point at which we have the most frames on the stack throughout the execution of the algorithm. In teh case of `count_down()`, we have `n + 1` frames on the stack, so the space complexity is `O(n)`.
+To calculate how much extra memory we'll need, we need to think about how many frames will be on the stack when the base case is reached. This is the point at which we have the most frames on the stack throughout the execution of the algorithm. In the case of `count_down()`, we have `n + 1` frames on the stack, so the space complexity is `O(n)`.
 
 Contrast the recursive approach with an iterative `count_down()` function below:
 
@@ -77,16 +77,14 @@ Contrast the recursive approach with an iterative `count_down()` function below:
 def count_down_iter(n):
     for i in range (n, -1, -1):
         print(i)
-``` 
+```
 
 In terms of time complexity, this is an `O(n)` algorithm -- just like the recursive version. However, in terms of `space` complexity, this algorithm is `O(1)`, since it uses only a constant amount of extra memory.
 
 In general, recursive algorithms may require more memory than their equivalent iterative counterparts. But space complexity is only *one* factor when considering whether to write an algorithm recursively or iteratively. Often times, the recursive version of the algorithm is easier to write or has better time efficiency.
 
-
-
 ## Summary
 
-The time complexity of a recursive function is determined in part by the number of times a recursive call is made for an input of size `n`. As we've seen, this can lead to running times such as <code>O(2<sup>n</sup></code> or `O(n)`. In the near future, we will see examples of recursive functions that run in time `O(logn)` and `O(nlogn)` as well.
+The time complexity of a recursive function is determined in part by the number of times a recursive call is made for an input of size `n`. As we've seen, this can lead to running times such as <code>O(2<sup>n</sup>)</code> or `O(n)`. In the near future, we will see examples of recursive functions that run in time `O(logn)` and `O(nlogn)` as well.
 
 The space complexity of a recursive function is also determined in part by the number of times the function is invoked. This can generally lead to recursive algorithms requiring more memory than iterative algorithms, but this does not necessarily mean recursive algorithms are prohibitively expensive.

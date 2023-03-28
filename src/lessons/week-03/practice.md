@@ -1,8 +1,8 @@
-# Practice: Recursion I 
+# Practice: Recursion I
 
 ---
 
-> 💡 This is your chance to put what you’ve learned into action.
+> 💡 This is your chance to put what you've learned into action.
 >
 > Try solving these practice challenges to check that you understand the concepts.
 > No submission is necessary for practice exercises.
@@ -47,7 +47,24 @@ The **solutions** to each challenge are available, and you can view a video of t
 
 ## 1. Exercise 1
 
-what's the fourth function call made during the executio of fibonacci(4)
+what's the fourth function call made during the execution of fibonacci(4)
+
+Consider the below definition of the Fibonacci function:
+
+```python
+def fibonacci(n):
+    if n < 2:
+        return 1
+    return fibonacci(n - 2) + fibonacci(n - 1)
+```
+
+1. What is the *fourth* function call made to the `fibonacci()` function when executing `fibonacci(4)`? Consider `fibonacci(4)` to be the first function call in the process.
+
+2. How many stack frames are on the stack during the fourth function call of `fibonacci()` from (1)? Exclude any stack frames that may have been on the stack before `fibonacci(4)` was called.
+
+3. What is the *fifth* function call made to the `fibonacci()` function when executing `fibonacci(4)`? Consider `fibonacci(4)` to be the first function call in the process.
+
+4. How many stack frames are on the stack during the fifth function call of `fibonacci()` from (3)? Exclude any stack frames that may have been on the stack before `fibonacci(4)` was called.
 
 <details><summary>Solution video.</summary>
 
@@ -57,6 +74,24 @@ what's the fourth function call made during the executio of fibonacci(4)
 
 ## 2. Exercise 2
 
+Consider the following recursive algorithm:
+
+```python
+def mystery(x, y)
+    if x * y == 0:
+        return x
+    else:
+        return y + mystery(x - 1, y - 2)
+```
+
+1. Trace the execution of `mystery(5, 6)` using one of the techniques from the lessons, including drawing a call tree or runtime stack, or by writing down the sequence of recursive calls and return values.
+
+2. What value is ultimately returned by `mystery(5, 6)`?
+
+3. How many stack frames are on the stack when the base case is reached? Exclude from your count any stack frames that may have been on the stack before `mystery(5, 6)` was called.
+
+4. Is it possible for this function to produce infinite recursion? If not, explain why. If yes, give example values of `x` and `y` that would lead to infinite recursion.
+
 <details><summary>Solution Video</summary>
 
 > VIDEO. Solution video.
@@ -65,7 +100,7 @@ what's the fourth function call made during the executio of fibonacci(4)
 
 ## 3. Exercise 3
 
-> [Access the exercise via GitHub Classroom here.](https://github.com/kiboschool/duplicate-count)
+> [Access the exercise via GitHub Classroom here.](https://github.com/kiboschool/recursion-practice)
 
 Watch the video below to see the full solution.
 
@@ -79,21 +114,7 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 ## 4. Exercise 4
 
-> [Access the exercise via GitHub Classroom here.](https://github.com/kiboschool/insertion-analysis)
-
-Watch the video below to see the full solution.
-
-Make sure you give yourself enough time to solve the practice without watching the video. It is really important for your learning.
-
-<details><summary>Solution Video</summary>
-
-> VIDEO. Solution video.
-
-</details>
-
-## 5. Exercise 5
-
-> [Access the exercise via GitHub Classroom here.](https://github.com/kiboschool/selection-sort-opt)
+> [Access the exercise via GitHub Classroom here.](https://github.com/kiboschool/recursive-print)
 
 Watch the video below to see the full solution.
 

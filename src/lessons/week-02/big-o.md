@@ -90,7 +90,7 @@ Therefore, in big-O notation we ignore all lower-order terms and focus only on t
 
 ### Rule 2: coefficients are ignored
 
-For the same reason, we typically ignore coefficients, even on the largest term. As `n` grows very large, coefficients are not significant. Even a coefficient such as `1/1,000,000,000,000` is insigficant when `n` grows toward infinity!
+For the same reason, we typically ignore coefficients, even on the largest term. As `n` grows very large, coefficients are not significant. Even a coefficient such as `1/1,000,000,000,000` is insignificant when `n` grows toward infinity!
 
 For example, <code>n<sup>2</sup>/2 + n = O(n<sup>2</sup>)</code> because we can ignore the lower-order term (`n`) and can also ignore the coefficient (`1/2`).
 
@@ -133,7 +133,7 @@ We can break our analysis down into different cases. For `print_odd_len_list()`,
 
 In the *worst* case, an odd-length list is given. In this case, the function iterates over the entire list, and is therefore `O(n)`.
 
-When we're analyzing algorithms, we are typically interested in the worst case behavior when devising our big-O expression. This allows us to ignore conditional execution and just focus on the overall structure of the algorithm. This worst-case analysis is for theoretical purposes only. In real-world applications, we do consider how frequently the best case would occur, along with whether there would be an average case (i.e., somewhere between best and worst). 
+When we're analyzing algorithms, we are typically interested in the worst case behavior when devising our big-O expression. This allows us to ignore conditional execution and just focus on the overall structure of the algorithm. This worst-case analysis is for theoretical purposes only. In real-world applications, we do consider how frequently the best case would occur, along with whether there would be an average case (i.e., somewhere between best and worst).
 
 Still, when someone asks for the big-O analysis of an algorithm, unless otherwise specified they are asking for the performance of the algorithm in the worst case.
 

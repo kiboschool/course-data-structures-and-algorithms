@@ -26,7 +26,7 @@ Guessing those at a rate of one million guesses per second would still take you 
 
 In addition to time, we are also often concerned with the amount of *space* that an algorithm requires to perform its computation. In computer science, the space efficiency of an algorithm refers to the amount of computer memory the algorithm needs to perform its task.
 
-Many tasks do not require a significant amount of memory beyond what is given to them as input. For example, cconsider a program that computes *n factorial*, or `n! = n * (n-1) * (n-2) ... * 2 * 1`:
+Many tasks do not require a significant amount of memory beyond what is given to them as input. For example, consider a program that computes *n factorial*, or `n! = n * (n-1) * (n-2) ... * 2 * 1`:
 
 ```python
 def factorial(n):

@@ -2,7 +2,7 @@
 
 ---
 
-> 💡 This is your chance to put what you’ve learned into action.
+> 💡 This is your chance to put what you've learned into action.
 >
 > Try solving these practice challenges to check that you understand the concepts.
 > No submission is necessary for practice exercises.
@@ -55,7 +55,7 @@ Consider the following list:
 
 1. Sort the list using selection sort. Show the contents of the list after each pass of the outer loop.
 2. Sort the list using insertion sort. Show the contents of the list after each pass of the outer loop.
-3. Sort the list using radx sort. Show the contents of the list after each round of bucketing.
+3. Sort the list using radix sort. Show the contents of the list after each round of bucketing.
 
 Watch the video below to see the full solution.
 
@@ -98,7 +98,7 @@ This algorithm looks at every element of the list and considers all elements to 
 
   1. What's the worst case big-O time efficiency of `num_dups_1()` in terms of the length of the list? What's the big-O space efficiency?
 
-Here's an alternative way of implementing this algorith, which first sorts the input using radix sort:
+Here's an alternative way of implementing this algorithm, which first sorts the input using radix sort:
 
 ```python
 def num_dups_2(lst):
@@ -132,7 +132,7 @@ This version of the algorithm first sorts the list using radix sort, and then us
 
 </details>
 
-## 3. Searching for duplicates using binary search 
+## 3. Searching for duplicates using binary search
 
 ▶️ [Access the practice exercise on GitHub Classroom](https://classroom.github.com/a/xIsHTLxw)
 

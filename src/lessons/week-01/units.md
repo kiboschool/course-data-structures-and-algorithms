@@ -22,9 +22,9 @@ In other words, the following are equivalent:
 1 us = 10^-6 seconds = 1,000 ns
 1 ms = 10^-3 seconds = 1,000 us = 1,000,000 ns
 1 s = 1,000 ms = 1,000,000 us = 1,000,000,000 ns
-``` 
+```
 
-The amount of time it takes for a process to complete is called its *latency*. We give some example latency measurements at the end of this lesson. 
+The amount of time it takes for a process to complete is called its *latency*. We give some example latency measurements at the end of this lesson.
 
 <aside>
 <b>Check your understanding</b>
@@ -131,4 +131,4 @@ Now that we know about the memory hierarchy and the different ways of measuring 
 | Sending data  from US to Europe and back | 150,000,000 ns = 150,000 us = 150 ms | Just one packet! Downloading an entire file would take longer |
 |                                          |                                      |                                                   |
 
-Knowing these exact figures is not crucial to being able to write algorithms and use data structures. But it's helpful to know the scale at which we're working, and how the physical components of a computer will affect our programs. 
+Knowing these exact figures is not crucial to being able to write algorithms and use data structures. But it's helpful to know the scale at which we're working, and how the physical components of a computer will affect our programs.
