@@ -7,7 +7,6 @@
 [Mock Interviews](interviews.md)
 [Weekly Quizzes](quizzes.md)
 [Midterm Project](lessons/midterm-project.md)
-[Final Project](lessons/final-project.md)
 
 ## Lessons
 
@@ -31,3 +30,4 @@
 - [Assignment 2](lessons/week-02/assignment-2.md)
 - [Assignment 3](lessons/week-07/assignment-3.md)
 - [Assignment 4](lessons/week-08/assignment-4.md)
+- [Assignment 5](lessons/week-09/assignment-5.md)
