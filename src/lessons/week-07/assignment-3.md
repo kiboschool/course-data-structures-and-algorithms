@@ -6,11 +6,11 @@
 >
 > If you get stuck, confused, or have trouble with the project, you should use the **#help-dsa1** channel in Discord or message an instructor. Remember not to spoil the project for others - do not post code samples from your work to public spaces.
 
-## Using Trees for Compression
+## Compression with Huffman Coding
 
-This week you learned about working with trees. In this assignment, you'll use trees to solve a practical problem: compressing and decompressing files.
+You've been learning to use data structures to solve problems. In this assignment, you'll solve a practical problem: compressing and decompressing files.
 
-You will create a program to compress and decompress files using a Huffman tree. You will construct a Huffman tree based on the characters in the file, then use it to compress a document and store it. You will then write the code to decompress the file using the Huffman tree from the encoding step. The program will output the amount of space saved using the compression algorithm.
+You will create a program to compress and decompress files using Huffman coding. You will construct a data structure based on the characters in a file, then use that data structure to compress a document and store it. You will then write the code to decompress the file using the Huffman coding from the encoding step. The program will output the amount of space saved using the compression algorithm.
 
 ▶️ [Access the assignment on GitHub Classroom]()
 
