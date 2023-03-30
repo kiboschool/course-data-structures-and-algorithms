@@ -5,6 +5,7 @@
 [Live Classes](live-classes.md)
 [Assessments & Grading](assessments.md)
 [Mock Interviews](interviews.md)
+[Weekly Quizzes](quizzes.md)
 
 ## Lessons
 
