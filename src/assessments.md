@@ -4,10 +4,10 @@
 
 Your grade is composed of the following components:
 
-* Assignments: 40%
+* Assignments: 50%
 * Midterm Project: 20%
-* Final Project: 25%
 * Mock Interviews: 15%
+* Quizzes: 15%
 
 ## Assignments
 
@@ -15,17 +15,21 @@ During some weeks, you'll be given an assignment to test the new skills and conc
 The assignments will be challenging, and it's recommended that you complete the
 material and practice problems before you start the project each week.
 
-There will be four assignments overall (weeks 1, 2, 6, 8).
+There will be five assignments overall (weeks 1, 2, 6, 8, and 9).
 
-## Projects
+## Midterm Project
 
-There will be a midterm project and final project. These projects will be similar to assignments, but may be of broader scope (including concepts across multiple weeks) and more challenging.
+There will be a midterm project. It will be similar to assignments, but may be of broader scope (including concepts across multiple weeks) and more challenging.
 
-The midterm project will span weeks 4 and 5, and the final project will span weeks 9 and 10.
+The midterm project will span weeks 4 and 5.
 
 ## Mock Interviews
 
 Throughout the semester, you will be participating in mock interviews with your peers. As a part of these mock interviews, you will be required to submit code and reflections. More information is available on the [Mock Interviews](interviews.md) page. 
+
+## Quizzes
+
+After each week's material, there will be a short quiz to check that you understand the material. Quizzes will be in weeks 1, 2, 3, 4, 6, 7, 8, and 9. (No quizzes in weeks 5 or 10).
 
 ## Late Policy
 
