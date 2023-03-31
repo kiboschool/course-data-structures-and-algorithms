@@ -12,7 +12,7 @@ You've been learning to use data structures to solve problems. In this assignmen
 
 You will create a program to compress and decompress files using Huffman coding. You will construct a data structure based on the characters in a file, then use that data structure to compress a document and store it. You will then write the code to decompress the file using the Huffman coding from the encoding step. The program will output the amount of space saved using the compression algorithm.
 
-▶️ [Access the assignment on GitHub Classroom]()
+▶️ [Access the assignment on GitHub Classroom](https://github.com/kiboschool/huffman-coding)
 
 Remember...
 

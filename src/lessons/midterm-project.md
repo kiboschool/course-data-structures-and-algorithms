@@ -12,7 +12,7 @@ In weeks 3 and 4, you've learned about recursion.
 
 In your midterm project, you will implement a recursive Web crawler for wikipedia.com. The crawler will allow you to specify a starting article and an ending article, and will recursively try to find a series of articles that connect the starting article to the ending article.
 
-▶️ [Access the assignment on GitHub Classroom]()
+▶️ [Access the assignment on GitHub Classroom](https://github.com/kiboschool/wiki-crawler)
 
 Remember...
 

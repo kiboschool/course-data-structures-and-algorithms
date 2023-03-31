@@ -10,7 +10,7 @@
 
 In this assignment, you will practice manipulating memory and references by implementing BST functions and an iterator. You will practice working with trees and implementing tree-manipulation functions efficiently.
 
-▶️ [Access the assignment on GitHub Classroom]()
+▶️ [Access the assignment on GitHub Classroom](https://github.com/kiboschool/bst-implementation)
 
 Remember...
 

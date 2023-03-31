@@ -12,7 +12,7 @@ Throughout the course, you've learned a lot about using data structures and algo
 
 For your final project, you will build full-text search using an inverted index. The program will read in a collection of documents and build an inverted index that maps words to a set of documents. The result of a search query for a word will show the top k documents, prioritized by the number of times that word occurs in the document.
 
-▶️ [Access the assignment on GitHub Classroom]()
+▶️ [Access the assignment on GitHub Classroom](https://github.com/kiboschool/full-text-search)
 
 Remember...
 
