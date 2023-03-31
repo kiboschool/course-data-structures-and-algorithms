@@ -10,13 +10,13 @@ These quizzes will make up 10% of your overall course grade.
 
 | Week | Topic | Gradescope Link |
 | ---- | ----- | -------------- |
-| 1 | Building Blocks | |
-| 2 | Sorting | |
-| 3 | Recursion | |
-| 4 | Recursion II | |
+| 1 | Building Blocks           | [Gradescope](https://www.gradescope.com/courses/510878/assignments/2782273) |
+| 2 | Sorting                   | [Gradescope](https://www.gradescope.com/courses/510878/assignments/2785669) |
+| 3 | Recursion                 | [Gradescope](https://www.gradescope.com/courses/510878/assignments/2785670) |
+| 4 | Recursion II              | [Gradescope](https://www.gradescope.com/courses/510878/assignments/2785671) |
 | 5 | (None) | |
-| 6 | Lists, Stacks, and Queues | |
-| 7 | Trees | |
-| 8 | BSTs  | |
-| 9 | Heaps | |
+| 6 | Lists, Stacks, and Queues | [Gradescope](https://www.gradescope.com/courses/510878/assignments/2785672) |
+| 7 | Trees                     | [Gradescope](https://www.gradescope.com/courses/510878/assignments/2785673) |
+| 8 | BSTs                      | [Gradescope](https://www.gradescope.com/courses/510878/assignments/2785674) |
+| 9 | Heaps                     | [Gradescope](https://www.gradescope.com/courses/510878/assignments/2785916) |
 | 10 | (None) | |
