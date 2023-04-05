@@ -145,7 +145,7 @@ After line 6, this is the picture in memory:
     alt="lst_x and lst_y reference the same list on the heap, while lst_z references a separate list"
     style="width:200px;" />
 
-In other words, `lst_x` and `lst_y` reference the same list in memory on the heap. Therefore, changes made during the call to `modify(lst_x)` and `lst_y[0] = lst_y[1]` affect the same list. After line 9, this is the picture in memory:
+In other words, `lst_x` and `lst_y` reference the same list in memory on the heap. Therefore, changes made during the call to `modify(lst_x)` change the first element of the list to 3, but immediatley after returning, `lst_y[0] = lst_y[1]` changes the first element to be a 2. These changes affect the same list, referenced by both `lst_x` and `lst_y`. Therefore, after line 9, this is the picture in memory:
 
 <img
     src="/images/week-01/memory-model-practice-2.png"

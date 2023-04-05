@@ -76,7 +76,7 @@ How many bytes are in 30 MB?
 <i>Click to reveal the answer.</i>
 </summary>
 <p>
-<b>Answer.</b> There are 1,000*1,000 = 1,000,000 bytes in every MB. <code>1,000,000 B/MB * 30 MB = 30,000,000 bytes</code>
+<b>Answer.</b> There are 1,000*1,000 = 1,000,000 bytes in every MB. <code>1,000,000 B/MB * 30 MB = 30,000,000 bytes.</code>
 </p>
 </details>
 </aside>
