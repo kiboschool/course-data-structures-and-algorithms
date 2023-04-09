@@ -7,6 +7,6 @@ Live classes are held at the following times:
 
 Each live class will have resources linked from this page. Video recordings of the class will also be posted after the classes each week.
 
-| Week | Topic                     | Resources | Section 1 | Section 2 |
-|------|---------------------------|-----------|-----------|-----------|
-|   1  | Goals and Building Blocks |           |  YouTube  |  YouTube  |
+| Week | Topic                     | Resources                                                     | Section 1 | Section 2 |
+|------|---------------------------|---------------------------------------------------------------|-----------|-----------|
+|   1  | Goals and Building Blocks | [Replit](https://replit.com/@kibocurriculum/Week01ListString) |  YouTube  |  YouTube  |
