@@ -2,7 +2,7 @@
 
 Each week, there will be a short quiz in Gradescope on the material covered in the lessons.
 
-These quizzes will make up 10% of your overall course grade.
+These quizzes will make up 15% of your overall course grade.
 
 - Quizzes will be released in Gradescope each week.
 - Quizzes will be due at the end of each week.
