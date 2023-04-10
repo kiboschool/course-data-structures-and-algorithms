@@ -6,7 +6,6 @@
 [Assessments & Grading](assessments.md)
 [Mock Interviews](interviews.md)
 [Weekly Quizzes](quizzes.md)
-[Midterm Project](lessons/midterm-project.md)
 
 ## Lessons
 
@@ -23,11 +22,3 @@
   - [Interviewing](lessons/week-01/interviewing.md)
   - [Practice](lessons/week-01/practice.md)
   - [Assignment 1](lessons/week-01/assignment-1.md)
-
-
-## Assignments
-
-- [Assignment 2](lessons/week-02/assignment-2.md)
-- [Assignment 3](lessons/week-07/assignment-3.md)
-- [Assignment 4](lessons/week-08/assignment-4.md)
-- [Assignment 5](lessons/week-09/assignment-5.md)
