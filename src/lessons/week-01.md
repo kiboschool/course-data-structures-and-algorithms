@@ -27,4 +27,5 @@ By the end of this week, you will be able to:
 
 ## What's due this week
 
+- Quiz 1 (on [Gradescope](https://www.gradescope.com/))
 - [Assignment 1](/lessons/week-01/assignment-1.html)
