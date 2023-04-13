@@ -30,9 +30,9 @@ Overall, by the end the course, you will have:
 
 For all interviews, you should make sure you have read and are familiar with the [interview instructions](https://docs.google.com/document/d/1WVr0HgCoI_0uhFR9U0MkY7lXQxfRQptx5fHWK-wWSLU/edit#).
 
-| Week | Guide | Who is interviewer? |
+| Week | Resources | Who is the interviewer? |
 |------|-------|---------------------|
-| 1    | [Question Guide](https://docs.google.com/document/d/1FS0sv9PS5qgdhafGiKkPt--EQvF7cqizsrP-U4dZ_cU/edit#heading=h.qtdjgpa35a90)      | Cody                |
+| 1    | [Question Guide](https://docs.google.com/document/d/1FS0sv9PS5qgdhafGiKkPt--EQvF7cqizsrP-U4dZ_cU/edit#heading=h.qtdjgpa35a90), [Slides](https://docs.google.com/presentation/d/1txDafhug4dLMV4MIVtm3YqLu6AG-n1DimshuanHlOiA/edit?usp=sharing), [Video](https://youtu.be/64VHcZFv-40) | Cody                |
 |      |       |                     |
 |      |       |                     |
 
