@@ -1,4 +1,4 @@
-# Algorithm Analysis and Sorting 
+# Algorithm Analysis and Sorting
 
 Welcome to week 2! Watch the video below to get an overview of the coming week.
 
@@ -16,4 +16,5 @@ By the end of this week, you will be able to:
 
 ## What's due this week
 
+- Quiz 2 (on [Gradescope](https://www.gradescope.com/))
 - [Assignment 2](/lessons/week-02/assignment-2.html)
