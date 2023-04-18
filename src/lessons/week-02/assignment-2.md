@@ -1,6 +1,8 @@
 # Assignment 2
 
-**Due date: April 20**
+**Due date: April 23**
+
+***No submissions will be accepted after Sunday, April 23 at 11:59 PM GMT.***
 
 > 📌 This is an individual project. You are expected to work independently.
 >
