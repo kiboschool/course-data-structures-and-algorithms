@@ -24,12 +24,12 @@ To summarize, here are the steps of insertion sort:
 
 <aside>
 <b>Check your understanding</b>
-<p>After the third pass of the insertion sort algorithm, a list looks like this: <code>[10, 15, 20, 12, 44, 90, 77, 1, 8]</code>. After <i>two more</i> passes of insertion sort, what will the list look like?</p>
+<p>After the second pass of the insertion sort algorithm (through index 2), a list looks like this: <code>[10, 15, 20, 12, 44, 90, 77, 1, 8]</code>. After <i>two more</i> passes of insertion sort, what will the list look like?</p>
 <details>
 <summary>
 <i>Click to reveal the answer.</i>
 </summary>
-<p><b>Answer.</b> The fourth iteration of insertion sort will focus on the 12, and push it to the left two spaces to  will look for the minimum element starting from index 3 in the list. In the unsorted portion of the list, 45 is the minimum element. Therefore, it will be swapped with the element at index 3, making this list: <code>[20, 38, 44, 45, 77, 90, 81]</code>.</p>
+<p><b>Answer.</b> The third iteration of insertion sort will focus on the 12, and push it to the left two spaces to make the list <code>[10, 12, 15, 20, 44, 90, 77, 1, 8]</code>. The fourth pass will focus on the 44, but it is already larger than the element to its immediate left. Therefore, after the fourth pass, the list will remain as <code>[10, 12, 15, 20, 44, 90, 77, 1, 8]</code>.</p>
 </details>
 </aside>
 
