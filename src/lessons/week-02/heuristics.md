@@ -95,9 +95,9 @@ def nested_loops_2(lst):
 Notice that the inner loop iterates up to `i`, the index of of the outer loop. What's the big-O notation of the algorithm now? Let's count the number of iterations of the inner loop to find out.
 
 * On the 1st iteration of the outer loop (when `i` equals 0), the inner loop will iterate 0 times.
-* On the 2nd iteration of the outer loop (when `i` equals 1), the inner loop will iterate 1 times.
+* On the 2nd iteration of the outer loop (when `i` equals 1), the inner loop will iterate 1 time.
 * On the 3rd iteration of the outer loop (when `i` equals 2), the inner loop will iterate 2 times.
-* On the final iteration of the outer loop (when `i` equals `n` - 1), the inner loop will iterate 1 time.
+* On the final iteration of the outer loop (when `i` equals `n` - 1), the inner loop will iterate `n` - 1 times.
 
 If you sum the number of operations across all of these iterations you get:
 
