@@ -66,7 +66,7 @@ def fibonacci(n):
 
 <details><summary>Solution video.</summary>
 
-> VIDEO. Solution video.
+> Solution video coming soon!
 
 </details>
 
@@ -92,7 +92,7 @@ def mystery(x, y)
 
 <details><summary>Solution Video</summary>
 
-> VIDEO. Solution video.
+> Solution video coming soon!
 
 </details>
 
@@ -106,7 +106,7 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 <details><summary>Solution Video</summary>
 
-> VIDEO. Solution video.
+> Solution video coming soon!
 
 </details>
 
@@ -120,6 +120,20 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 <details><summary>Solution Video</summary>
 
-> VIDEO. Solution video.
+> Solution video coming soon!
+
+</details>
+
+## 5. Recursively walking a directory tree
+
+▶️ [Access the practice exercise on GitHub Classroom](https://classroom.github.com/a/4I0VS5ya)
+
+Watch the video below to see the full solution.
+
+Make sure you give yourself enough time to solve the practice without watching the video. It is really important for your learning.
+
+<details><summary>Solution Video</summary>
+
+> Solution video coming soon!
 
 </details>

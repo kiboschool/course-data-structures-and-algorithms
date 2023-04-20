@@ -36,7 +36,7 @@ Here is the schedule of peer interviews and question guides for the term. Note: 
 
 | Week | Resources | Who is the interviewer? |
 |------|-------|---------------------|
-| 3    | [Question Guide](://docs.google.com/document/d/1qLCHXUAQ0h3dOTyDtfuRn03tSfZfKzhMfUUV14h_Gho/edit?usp=sharing) | Group A                |
+| 3    | [Question Guide](https://docs.google.com/document/d/1qLCHXUAQ0h3dOTyDtfuRn03tSfZfKzhMfUUV14h_Gho/edit?usp=sharing) | Group A                |
 | 4    |       | Group B             |
 | 5    |       | Group A             |
 | 6    |       | Group B             |

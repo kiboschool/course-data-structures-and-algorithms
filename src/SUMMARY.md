@@ -37,3 +37,16 @@
   - [Radix sort](lessons/week-02/radix-sort.md)
   - [Practice](lessons/week-02/practice.md)
   - [Assignment 2](lessons/week-02/assignment-2.md)
+
+### Week 3
+
+- [Recursion I](lessons/week-03.md)
+
+  - [A loop alternative](lessons/week-03/alternative.md)
+  - [Why use recursion?](lessons/week-03/why.md)
+  - [Recursion in Python](lessons/week-03/recursion.md)
+  - [Tracing recursion](lessons/week-03/tracing.md)
+  - [Infinite recursion](lessons/week-03/infinite.md)
+  - [Fibonacci sequence](lessons/week-03/fibonacci.md)
+  - [Recursion and efficiency](lessons/week-03/efficiency.md)
+  - [Practice](lessons/week-03/practice.md)

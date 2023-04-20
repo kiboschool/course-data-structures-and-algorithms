@@ -54,7 +54,17 @@ Check your understanding of the execution of this code by stepping through it yo
 
 But what if we call `count_down_by_two(5)`? Before playing the video below, try to predict what the result will be by tracing the execution of the `count_down_by_two()` function defined above. Only proceed to the video and code below after making your prediction.
 
-> Insert video showing infinite recursion/Python's RecursionError.
+<div
+  style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe
+    src="https://www.youtube.com/embed/DjtqFUuCWj4"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 Clearly, we need a more comprehensive base case -- one that is more robust to the different patterns of execution. Here's one way you could correct the issue (by using `<=` in the base case):
 

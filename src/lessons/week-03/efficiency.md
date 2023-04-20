@@ -4,7 +4,17 @@ We left off in the last lesson with the observation that when calculating `fibon
 
 To help us do so, let's draw a *call tree* -- a diagram that illustrates how the recursive functions are called.
 
-> Insert video drawing call tree of Fibonacci(4).
+<div
+  style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe
+    src="https://www.youtube.com/embed/25dKdpvOSEA"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 As illustrated in the video, calculating `fibonacci(4)` required us to call `fibonacci(1)` three times! As we calculate larger and larger Fibonacci numbers, the number of recursive calls that we need to make is going to grow considerably:
 
