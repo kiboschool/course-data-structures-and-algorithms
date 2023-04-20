@@ -59,7 +59,7 @@ print(lst)
 <summary>
 <i>Click to reveal the answer.</i>
 </summary>
-<p><b>Answer.</b> Insert 2-3 minute video with slides here.</p>
+<p><b>Answer.</b> Oops! Video coming soon.</p>
 </details>
 </aside>
 
@@ -72,7 +72,7 @@ def swap(lst, i, j):
     lst[j] = temp
 
 lst = [5, 8, 2, 1, 9]
-swap(lst[0], lst[3])
+swap(lst, 0, 3)
 print(lst)
 ```
 
@@ -83,7 +83,7 @@ print(lst)
 <summary>
 <i>Click to reveal the answer.</i>
 </summary>
-<p><b>Answer.</b> Insert 2-3 minute video with slides here.</p>
+<p><b>Answer.</b> Oops! Video coming soon.</p>
 </details>
 </aside>
 
