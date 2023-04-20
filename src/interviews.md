@@ -33,7 +33,7 @@ For all interviews, you should make sure you have read and are familiar with the
 | Week | Resources | Who is the interviewer? |
 |------|-------|---------------------|
 | 1    | [Question Guide](https://docs.google.com/document/d/1FS0sv9PS5qgdhafGiKkPt--EQvF7cqizsrP-U4dZ_cU/edit#heading=h.qtdjgpa35a90), [Slides](https://docs.google.com/presentation/d/1txDafhug4dLMV4MIVtm3YqLu6AG-n1DimshuanHlOiA/edit?usp=sharing), [Video](https://youtu.be/64VHcZFv-40) | Cody                |
-| 2    | [Question Guide)(https://docs.google.com/document/d/1tJzojFX7ojP6_m71zc0knLBSesVMX3GhBfh8w88M-y8/edit#)      | Cody                    |
+| 2    | [Question Guide](https://docs.google.com/document/d/1tJzojFX7ojP6_m71zc0knLBSesVMX3GhBfh8w88M-y8/edit#), [Video](https://youtu.be/INKjFkm4-50)      | Cody                    |
 |      |       |                     |
 
 ## Grading
