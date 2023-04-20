@@ -58,7 +58,7 @@ def serial_loops(lst):
     for i in range(len(lst)):
         print(lst[i])
 
-    for i in range(0, len(lst), -1):
+    for i in range(len(lst), -1, -1):
         print(lst[i])
 ```
 
