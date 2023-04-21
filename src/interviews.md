@@ -13,7 +13,6 @@ The instructor will seek out volunteers to be the interviewees for these special
 | 1    | [Question Guide](https://docs.google.com/document/d/1FS0sv9PS5qgdhafGiKkPt--EQvF7cqizsrP-U4dZ_cU/edit#heading=h.qtdjgpa35a90), [Slides](https://docs.google.com/presentation/d/1txDafhug4dLMV4MIVtm3YqLu6AG-n1DimshuanHlOiA/edit?usp=sharing), [Video](https://youtu.be/64VHcZFv-40) | Cody                |
 | 2    | [Question Guide](https://docs.google.com/document/d/1tJzojFX7ojP6_m71zc0knLBSesVMX3GhBfh8w88M-y8/edit#), [Video](https://youtu.be/INKjFkm4-50)      | Cody                    |
 
-
 ## Weeks 3-8: peer interviews
 
 For weeks 3 and 4, the class will be split into two pools of students, Group A and Group B. Each student in Group A will be paired with a student in Group B.
@@ -26,13 +25,11 @@ After the interview is completed, both partners will be asked to submit a reflec
 
 We will assign new partners in weeks 5-6, and then again in weeks 7-8.
 
-## Resources
+## Interview instructions
 
-For all interviews, you should make sure you have read and are familiar with the [interview instructions](https://docs.google.com/document/d/1WVr0HgCoI_0uhFR9U0MkY7lXQxfRQptx5fHWK-wWSLU/edit#).
+For all interviews, you should make sure you have read and are familiar with the [interview instructions](https://docs.google.com/document/d/1WVr0HgCoI_0uhFR9U0MkY7lXQxfRQptx5fHWK-wWSLU/edit#). After each interview, both the interviewer and interviewee should submit a reflection. The format for the reflection is described in the aforementioned document.
 
-After each interview, both the interviewer and interviewee should submit a reflection. You should read the instructions for reflections before doing so.
-
-Here is the schedule of peer interviews and question guides for the term. Note: you must be logged-in to your `kibo.school` account and in the appropriate group to access the question guide for a given week.
+Here is the schedule of peer interviews and question guides for the term. Note: you must be logged-in to your `@kibo.school` account and in the appropriate group to access the question guide for a given week.
 
 | Week | Resources | Who is the interviewer? |
 |------|-------|---------------------|
