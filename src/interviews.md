@@ -27,7 +27,7 @@ We will assign new partners in weeks 5-6, and then again in weeks 7-8.
 
 ## Interview instructions
 
-For all interviews, you should make sure you have read and are familiar with the [interview instructions](https://docs.google.com/document/d/1WVr0HgCoI_0uhFR9U0MkY7lXQxfRQptx5fHWK-wWSLU/edit#). After each interview, both the interviewer and interviewee should submit a reflection. The format for the reflection is described in the aforementioned document.
+For all interviews, you should make sure you have read the [interview instructions](https://docs.google.com/document/d/1WVr0HgCoI_0uhFR9U0MkY7lXQxfRQptx5fHWK-wWSLU/edit#). After each interview, both the interviewer and interviewee should submit a reflection. The format for the reflection is described in the aforementioned document.
 
 Here is the schedule of peer interviews and question guides for the term. Note: you must be logged-in to your `@kibo.school` account and in the appropriate group to access the question guide for a given week.
 
