@@ -6,41 +6,48 @@ Each week throughout the semester, an "interview question of the week" will be d
 
 During the first two weeks of the semester, special sessions will be held, in which the instructor will perform a mock interview with a student. These special sessions are separate from the regular class meeting and are optional. However, the goal of them is to provide you with some experience and expectations for the routine of a technical interview.
 
-The instructor will seek out volunteers to be the interviewees for these special sessions. A small amount of extra credit will be given to the students selected for their participation.
-
-## Weeks 3-8: peer interviews
-
-During weeks 3 and 4 of the semester, the class will be split into two pools of students, Pool A and Pool B. Each student in Pool A will be paired with a student in Pool B.
-
-During this two-week period, you and your partner should conduct two 30 minute interviews, in which you are each once the interviewer and once the interviewee.
-
-Each week, an "Interview Question of the Week" guide will be distributed via Google Drive to either Pool A or Pool B. The guide will contain all of the information needed to conduct an interview, including general instructions, a coding question, a sample solution, and proposed follow-up questions.
-
-After the interview is completed, both partners will be asked to submit a reflection about their experience.
-
-We will assign new partners in weeks 5-6, and then again in weeks 7-8.
-
-Overall, by the end the course, you will have:
-
-* Interviewed three different peers
-* Been interviewed by three different peers
-* Submitted **6 mock interview reflections**
-
-## Resources
-
-For all interviews, you should make sure you have read and are familiar with the [interview instructions](https://docs.google.com/document/d/1WVr0HgCoI_0uhFR9U0MkY7lXQxfRQptx5fHWK-wWSLU/edit#).
+The instructor will seek out volunteers to be the interviewees for these special sessions.
 
 | Week | Resources | Who is the interviewer? |
 |------|-------|---------------------|
 | 1    | [Question Guide](https://docs.google.com/document/d/1FS0sv9PS5qgdhafGiKkPt--EQvF7cqizsrP-U4dZ_cU/edit#heading=h.qtdjgpa35a90), [Slides](https://docs.google.com/presentation/d/1txDafhug4dLMV4MIVtm3YqLu6AG-n1DimshuanHlOiA/edit?usp=sharing), [Video](https://youtu.be/64VHcZFv-40) | Cody                |
 | 2    | [Question Guide](https://docs.google.com/document/d/1tJzojFX7ojP6_m71zc0knLBSesVMX3GhBfh8w88M-y8/edit#), [Video](https://youtu.be/INKjFkm4-50)      | Cody                    |
-|      |       |                     |
+
+
+## Weeks 3-8: peer interviews
+
+For weeks 3 and 4, the class will be split into two pools of students, Group A and Group B. Each student in Group A will be paired with a student in Group B.
+
+During this two-week period, you and your partner should conduct two 30 minute interviews, in which you are each once the interviewer and once the interviewee.
+
+Each week, an "Interview Question of the Week" guide will be distributed via Google Drive to either Group A or Group B. The guide will contain all of the information needed to conduct the interview, including general instructions, a coding question, a sample solution, and proposed follow-up questions.
+
+After the interview is completed, both partners will be asked to submit a reflection about their experience.
+
+We will assign new partners in weeks 5-6, and then again in weeks 7-8.
+
+## Resources
+
+For all interviews, you should make sure you have read and are familiar with the [interview instructions](https://docs.google.com/document/d/1WVr0HgCoI_0uhFR9U0MkY7lXQxfRQptx5fHWK-wWSLU/edit#).
+
+After each interview, both the interviewer and interviewee should submit a reflection. You should read the instructions for reflections before doing so.
+
+Here is the schedule of peer interviews and question guides for the term. Note: you must be logged-in to your `kibo.school` account and in the appropriate group to access the question guide for a given week.
+
+| Week | Resources | Who is the interviewer? |
+|------|-------|---------------------|
+| 3    | [Question Guide](://docs.google.com/document/d/1qLCHXUAQ0h3dOTyDtfuRn03tSfZfKzhMfUUV14h_Gho/edit?usp=sharing) | Group A                |
+| 4    |       | Group B             |
+| 5    |       | Group A             |
+| 6    |       | Group B             |
+| 7    |       | Group A             |
+| 8    |       | Group B             |
 
 ## Grading
 
-The mock interviews will contribute 15% to your overall grade. This grade is based on 
+The mock interviews will contribute 15% to your overall grade. This grade is based on
 
-1) completion of all six interviews, 
+1) completion of all six interviews,
 2) your reflections submitted for each interview.
 
 You can find and submit the interview reflection in Gradescope.
@@ -61,9 +68,9 @@ You can either do a makeup interview later in the semester, or find another peer
 
 4. **I don't feel confident in my coding skills, and I'm afraid I won't do well during the mock interview.**
 
-In this class (and often in the real world), you are not strictly judged on your ability to produce a bug-free, highly efficient implementation of an algorithm. You are mostly judged on your thinking process and ability to work your way through the problem. 
+In this class (and often in the real world), you are not strictly judged on your ability to produce a bug-free, highly efficient implementation of an algorithm. You are mostly judged on your thinking process and ability to work your way through the problem.
 
-For the mock interivews, you will not be graded on the correctness of your solution, and will earn full credit as long as you complete the interview and submit a thoughtful reflection.
+For the mock interviews, you will not be graded on the correctness of your solution, and will earn full credit as long as you complete the interview and submit a thoughtful reflection.
 
 Also: we are here to learn! We are doing this process to give you experience interviewing, so that when you go to do a real interview, you already have some interview experience. We should all be mindful of this and help and encourage each other.
 
