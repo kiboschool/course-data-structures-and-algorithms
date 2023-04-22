@@ -53,7 +53,7 @@ Consider the below definition of the Fibonacci function:
 def fibonacci(n):
     if n < 2:
         return 1
-    return fibonacci(n - 2) + fibonacci(n - 1)
+    return fibonacci(n - 1) + fibonacci(n - 2)
 ```
 
 1. What is the *fourth* function call made to the `fibonacci()` function when executing `fibonacci(4)`? Consider `fibonacci(4)` to be the first function call in the process.
@@ -66,7 +66,17 @@ def fibonacci(n):
 
 <details><summary>Solution video.</summary>
 
-> Solution video coming soon!
+<div
+  style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe
+    src="https://www.youtube.com/embed/cDCXBkEQ88Y"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 </details>
 
@@ -92,7 +102,17 @@ def mystery(x, y)
 
 <details><summary>Solution Video</summary>
 
-> Solution video coming soon!
+<div
+  style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe
+    src="https://www.youtube.com/embed/CKYSX4ccxxo"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 </details>
 
@@ -106,7 +126,17 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 <details><summary>Solution Video</summary>
 
-> Solution video coming soon!
+<div
+  style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe
+    src="https://www.youtube.com/embed/qgsojrZq5Vc"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 </details>
 
@@ -120,7 +150,17 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 <details><summary>Solution Video</summary>
 
-> Solution video coming soon!
+<div
+  style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe
+    src="https://www.youtube.com/embed/cQGmmEulBYg"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 </details>
 
@@ -134,6 +174,16 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 <details><summary>Solution Video</summary>
 
-> Solution video coming soon!
+<div
+  style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe
+    src="https://www.youtube.com/embed/CaWxDx0S670"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 </details>
