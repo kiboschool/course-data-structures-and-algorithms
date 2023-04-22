@@ -27,5 +27,5 @@ By the end of this week, you will be able to:
 
 ## What's due this week
 
-- Week 3 Quiz on Thursday
+- Week 3 Quiz on Thursday (on [Gradescope](https://www.gradescope.com/))
 - Week 3 Interview Reflection on Saturday
