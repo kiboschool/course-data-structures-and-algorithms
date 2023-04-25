@@ -50,3 +50,14 @@
   - [Fibonacci sequence](lessons/week-03/fibonacci.md)
   - [Recursion and efficiency](lessons/week-03/efficiency.md)
   - [Practice](lessons/week-03/practice.md)
+
+### Week 4
+
+- [Recursion II](lessons/week-04.md)
+
+  - [String recursion](lessons/week-04/strings.md)
+  - [List recursion](lessons/week-04/lists.md)
+  - [Merge sort](lessons/week-04/mergesort.md)
+  - [Web crawling](lessons/week-04/crawler.md)
+  - [Practice](lessons/week-04/practice.md)
+  - [Midterm project](lessons/midterm-project.md)

@@ -2,7 +2,7 @@
 
 ---
 
-> 💡 This is your chance to put what you’ve learned into action.
+> 💡 This is your chance to put what you've learned into action.
 >
 > Try solving these practice challenges to check that you understand the concepts.
 > No submission is necessary for practice exercises.
@@ -45,7 +45,16 @@ The **solutions** to each challenge are available, and you can view a video of t
 
 </aside>
 
-## 1. Exercise 1
+## 1. Sorting a list using merge sort
+
+Consider the following list:
+
+```txt
+[19, 81, 67, 21, 42, 6, 30, 16]
+```
+
+1. Sort the list using merge sort. Show the contents of the list as the list is split and then merged together.
+2. What's the state of the list after the fourth merge?
 
 <details><summary>Solution video.</summary>
 
@@ -53,17 +62,9 @@ The **solutions** to each challenge are available, and you can view a video of t
 
 </details>
 
-## 2. Exercise 2
+## 2. Recursive string functions
 
-<details><summary>Solution Video</summary>
-
-> VIDEO. Solution video.
-
-</details>
-
-## 3. Exercise 3
-
-> [Access the exercise via GitHub Classroom here.](https://github.com/kiboschool/duplicate-count)
+▶️ [Access the practice exercise on GitHub Classroom](https://classroom.github.com/a/_P3F5mmx)
 
 Watch the video below to see the full solution.
 
@@ -75,23 +76,9 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 </details>
 
-## 4. Exercise 4
+## 3. Recursion list functions
 
-> [Access the exercise via GitHub Classroom here.](https://github.com/kiboschool/insertion-analysis)
-
-Watch the video below to see the full solution.
-
-Make sure you give yourself enough time to solve the practice without watching the video. It is really important for your learning.
-
-<details><summary>Solution Video</summary>
-
-> VIDEO. Solution video.
-
-</details>
-
-## 5. Exercise 5
-
-> [Access the exercise via GitHub Classroom here.](https://github.com/kiboschool/selection-sort-opt)
+▶️ [Access the practice exercise on GitHub Classroom](https://classroom.github.com/a/NSUA8HVK)
 
 Watch the video below to see the full solution.
 
