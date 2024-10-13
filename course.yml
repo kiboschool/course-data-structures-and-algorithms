@@ -1,0 +1,684 @@
+# Visit https://docs.google.com/document/d/1Hm41CGu0pZrGB7_XrPZR50DU7DXvqeC6aZuaTLpRLlo/edit
+# for full details about the contents of the course.yml file.
+#
+# - Top level details of the course:
+#     name: course name
+#     code: course code
+#     term: when is this offered
+#     about_path: the path to the course overview md file
+#     image_path: the path to an image to use as the course header
+#
+# - Units
+#     name: name of the unit (e.g. Week 1: Introduction)
+#     activities: list of the activities in the Unit
+#
+# - Activities
+#     name: name of the activity
+#     path: where to find the file for the activity
+#     workload: how many minutes the activity is estimated to take
+#     type: `lesson` or `assignment`
+#     kind: airlock resource kind:
+#       `GENERAL`, `MEETING`, `PUBLICATION`, `PUBLICATION_REVIEWED`,
+#       `ASSIGNMENT`, `ASSIGNMENT_SUMMATIVE`
+#     publish: Is this ready, or still a draft? Publish can be set to:
+#       - `true` (publish to students now)
+#       - `false` (do not publish to students), default value if not specified
+#       - date, formatted like `2023-10-25` (publish to students on that date)
+#     due: When is the due date for the activity (e.g. 2023-12-27)
+#     grade_weight: what percent of the course grade is this
+#       (for now, only for assignments).  Must sum to 100.
+
+name: Data Structures and Algorithms
+code: CSF006
+term: Jan-2024
+about_path: src/front-matter/course-overview.md
+image_path: src/navigating.png
+units:
+  - name: Course Overview
+    activities:
+      - name: Introduction
+        path: src/front-matter/course-overview.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: true
+      - name: Live Classes
+        path: src/front-matter/live-classes.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: true
+      - name: Assessments
+        path: src/front-matter/assessments.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: true
+      - name: Getting Help
+        path: src/front-matter/getting-help.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: true
+      - name: Giving Help
+        path: src/front-matter/giving-help.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: true
+      - name: Academic Integrity
+        path: src/front-matter/academic-integrity.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: true
+      - name: Course Tools
+        path: src/front-matter/course-tools.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: true
+  - name: 'Week 1: Goals and Building Blocks'
+    activities:
+      - name: Introduction
+        path: src/lessons/week-01.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: true
+      - name: Data structures and algorithms
+        path: src/lessons/week-01/algorithms.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: true
+      - name: Space and time efficiency
+        path: src/lessons/week-01/space-time.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: true
+      - name: The memory hierarchy
+        path: src/lessons/week-01/memory-hierarchy.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: true
+      - name: Units of space and time
+        path: src/lessons/week-01/units.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: true
+      - name: Memory model
+        path: src/lessons/week-01/memory-model.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: true
+      - name: Abstract data types
+        path: src/lessons/week-01/adts.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: true
+      - name: Interviewing
+        path: src/lessons/week-01/interviewing.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: true
+      - name: Practice
+        path: src/lessons/week-01/practice.md
+        type: lesson
+        kind: GENERAL
+        workload: 240
+        publish: true
+      - name: Week 1 Quiz
+        path: src/lessons/week-01/quiz-1.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 60
+        grade_weight: 1.875
+        due: 2024-01-11
+        publish: true
+      - name: Assignment 1
+        path: src/lessons/week-01/assignment-1.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 8.0
+        due: 2024-01-14
+        publish: true
+      - name: Week 1 Interviews
+        path: src/lessons/week-01/interviews-1.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: true
+  - name: 'Week 2: Algorithm Analysis and Sorting'
+    activities:
+      - name: Introduction
+        path: src/lessons/week-02.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: true
+      - name: Big-O notation
+        path: src/lessons/week-02/big-o.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: true
+      - name: Heuristics for big-O
+        path: src/lessons/week-02/heuristics.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: true
+      - name: Searching
+        path: src/lessons/week-02/searching.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: true
+      - name: Sorting
+        path: src/lessons/week-02/sorting.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: true
+      - name: Selection sort
+        path: src/lessons/week-02/selection-sort.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: true
+      - name: Insertion sort
+        path: src/lessons/week-02/insertion-sort.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: true
+      - name: Radix sort
+        path: src/lessons/week-02/radix-sort.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: true
+      - name: Practice
+        path: src/lessons/week-02/practice.md
+        type: lesson
+        kind: GENERAL
+        workload: 180
+        publish: true
+      - name: Week 2 Quiz
+        path: src/lessons/week-02/quiz-2.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 60
+        grade_weight: 1.875
+        due: 2024-01-18
+        publish: true
+      - name: Assignment 2
+        path: src/lessons/week-02/assignment-2.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 8.0
+        due: 2024-01-21
+        publish: true
+      - name: Week 2 Interviews
+        path: src/lessons/week-02/interviews-2.md
+        type: lesson
+        kind: GENERAL
+        workload: 90
+        publish: true
+      - name: Reading
+        path: src/lessons/week-02/reading.md
+        type: lesson
+        kind: PUBLICATION_REVIEWED
+        workload: 60
+        publish: true
+  - name: 'Week 3: Recursion I'
+    activities:
+      - name: Introduction
+        path: src/lessons/week-03.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2024-01-15
+      - name: A loop alternative
+        path: src/lessons/week-03/alternative.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-15
+      - name: Why use recursion?
+        path: src/lessons/week-03/why.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-15
+      - name: Recursion in Python
+        path: src/lessons/week-03/recursion.md
+        type: lesson
+        kind: GENERAL
+        workload: 90
+        publish: 2024-01-15
+      - name: Tracing recursion
+        path: src/lessons/week-03/tracing.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-01-15
+      - name: Infinite recursion
+        path: src/lessons/week-03/infinite.md
+        type: lesson
+        kind: GENERAL
+        workload: 90
+        publish: 2024-01-15
+      - name: Fibonacci sequence
+        path: src/lessons/week-03/fibonacci.md
+        type: lesson
+        kind: GENERAL
+        workload: 90
+        publish: 2024-01-15
+      - name: Recursion and efficiency
+        path: src/lessons/week-03/efficiency.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-01-15
+      - name: Practice
+        path: src/lessons/week-03/practice.md
+        type: lesson
+        kind: GENERAL
+        workload: 240
+        publish: 2024-01-15
+      - name: Week 3 Quiz
+        path: src/lessons/week-03/quiz-3.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 60
+        grade_weight: 1.875
+        due: 2024-01-25
+        publish: 2024-01-15
+      - name: Peer Interview 1 Reflection
+        path: src/lessons/week-03/interviews-3.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 90
+        grade_weight: 2.5
+        due: 2024-02-04
+        publish: 2024-01-15
+      - name: Reading
+        path: src/lessons/week-03/reading.md
+        type: lesson
+        kind: PUBLICATION_REVIEWED
+        workload: 60
+        publish: 2024-01-15
+  - name: 'Week 4: Recursion II'
+    activities:
+      - name: Introduction
+        path: src/lessons/week-04.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2024-01-22
+      - name: String recursion
+        path: src/lessons/week-04/strings.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-01-22
+      - name: List recursion
+        path: src/lessons/week-04/lists.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-01-22
+      - name: Merge sort
+        path: src/lessons/week-04/mergesort.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-01-22
+      - name: Web crawling
+        path: src/lessons/week-04/crawler.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-01-22
+      - name: Practice
+        path: src/lessons/week-04/practice.md
+        type: lesson
+        kind: GENERAL
+        workload: 180
+        publish: 2024-01-22
+      - name: Week 4 Quiz
+        path: src/lessons/week-04/quiz-4.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 60
+        grade_weight: 1.875
+        due: 2024-02-01
+        publish: 2024-01-22
+      - name: Peer Interview 2 Reflection
+        path: src/lessons/week-04/interviews-4.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 90
+        grade_weight: 2.5
+        due: 2024-02-11
+        publish: 2024-01-22
+      - name: Reading
+        path: src/lessons/week-04/reading.md
+        type: lesson
+        kind: PUBLICATION_REVIEWED
+        workload: 60
+        publish: 2024-01-22
+  - name: 'Week 5: Linked Lists'
+    activities:
+      - name: Introduction
+        path: src/lessons/week-05.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2024-01-29
+      - name: Arrays
+        path: src/lessons/week-05/arrays.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-01-29
+      - name: Linked lists
+        path: src/lessons/week-05/linked-lists.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-01-29
+      - name: Building linked lists
+        path: src/lessons/week-05/building.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-01-29
+      - name: Traversing linked lists
+        path: src/lessons/week-05/traversing.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-01-29
+      - name: Modifying linked lists
+        path: src/lessons/week-05/modifying.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-01-29
+      - name: Doubly linked lists
+        path: src/lessons/week-05/doubly.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-01-29
+      - name: Practice
+        path: src/lessons/week-05/practice.md
+        type: lesson
+        kind: GENERAL
+        workload: 180
+        publish: 2024-01-29
+      - name: Week 5 Quiz
+        path: src/lessons/week-05/quiz-5.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 60
+        grade_weight: 1.875
+        due: 2024-02-08
+        publish: 2024-01-29
+      - name: Assignment 3
+        path: src/lessons/week-05/assignment-3.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 8.0
+        due: 2024-02-11
+        publish: 2024-01-29
+      - name: Reading
+        path: src/lessons/week-05/reading.md
+        type: lesson
+        kind: PUBLICATION_REVIEWED
+        workload: 60
+        publish: 2024-01-29
+      - name: Midterm Preparation
+        path: src/lessons/week-05/midterm.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-01-29
+  - name: 'Week 6: Midterm Exam'
+    activities:
+      - name: Introduction
+        path: src/lessons/week-06.md
+        type: lesson
+        kind: GENERAL
+        workload: 5
+        publish: 2024-02-05
+      - name: Midterm Exam
+        path: src/lessons/week-06/midterm-exam.md
+        type: assignment
+        kind: ASSIGNMENT_SUMMATIVE
+        workload: 720
+        grade_weight: 10.0
+        due: 2024-02-15
+        publish: 2024-02-05
+  - name: 'Week 7: Lists, Stacks, and Queues'
+    activities:
+      - name: Introduction
+        path: src/lessons/week-07.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2024-02-12
+      - name: Lists
+        path: src/lessons/week-07/lists.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-02-12
+      - name: Iterators
+        path: src/lessons/week-07/iterators.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-02-12
+      - name: Stacks
+        path: src/lessons/week-07/stacks.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-02-12
+      - name: Queues
+        path: src/lessons/week-07/queues.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-02-12
+      - name: Stacks & queues in Python
+        path: src/lessons/week-07/stacks-queues-python.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-02-12
+      - name: Practice
+        path: src/lessons/week-07/practice.md
+        type: lesson
+        kind: GENERAL
+        workload: 180
+        publish: 2024-02-12
+      - name: Week 7 Quiz
+        path: src/lessons/week-07/quiz-7.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 60
+        grade_weight: 1.875
+        due: 2024-02-22
+        publish: 2024-02-12
+      - name: Peer Interview 3 Reflection
+        path: src/lessons/week-07/interviews-7.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 90
+        grade_weight: 2.5
+        due: 2024-03-03
+        publish: 2024-02-12
+      - name: Reading
+        path: src/lessons/week-07/reading.md
+        type: lesson
+        kind: PUBLICATION_REVIEWED
+        workload: 60
+        publish: 2024-02-12
+  - name: 'Week 8: Trees'
+    activities:
+      - name: Introduction
+        path: src/lessons/week-08.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2024-02-19
+      - name: Tree basics
+        path: src/lessons/week-08/tree-basics.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-02-19
+      - name: Trees in Python
+        path: src/lessons/week-08/tree-python.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-02-19
+      - name: Traversals
+        path: src/lessons/week-08/traversals.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-02-19
+      - name: Level-order traversal
+        path: src/lessons/week-08/level-order.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-02-19
+      - name: Huffman encoding
+        path: src/lessons/week-08/huffman.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-02-19
+      - name: Week 8 Quiz
+        path: src/lessons/week-08/quiz-8.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 60
+        grade_weight: 1.875
+        due: 2024-02-29
+        publish: 2024-02-19
+      - name: Assignment 4
+        path: src/lessons/week-08/assignment-4.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 8.0
+        due: 2024-03-03
+        publish: 2024-02-19
+      - name: Peer Interview 4 Reflection
+        path: src/lessons/week-08/interviews-8.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 90
+        grade_weight: 2.5
+        due: 2024-03-10
+        publish: 2024-02-19
+  - name: 'Week 9: Binary Search Trees'
+    activities:
+      - name: Introduction
+        path: src/lessons/week-09.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2024-02-26
+      - name: BSTs
+        path: src/lessons/week-09/bst.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-02-26
+      - name: Search
+        path: src/lessons/week-09/search.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-02-26
+      - name: Insertion
+        path: src/lessons/week-09/insertion.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-02-26
+      - name: Deletion
+        path: src/lessons/week-09/deletion.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-02-26
+      - name: Efficiency
+        path: src/lessons/week-09/efficiency.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-02-26
+      - name: 2-3 Trees
+        path: src/lessons/week-09/2-3-trees.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-02-26
+      - name: Week 9 Quiz
+        path: src/lessons/week-09/quiz-9.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 60
+        grade_weight: 1.875
+        due: 2024-03-07
+        publish: 2024-02-26
+      - name: Assignment 5
+        path: src/lessons/week-09/assignment-5.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 8.0
+        due: 2024-03-10
+        publish: 2024-02-26
+      - name: Reading
+        path: src/lessons/week-09/reading.md
+        type: lesson
+        kind: PUBLICATION_REVIEWED
+        workload: 60
+        publish: 2024-02-26
+  - name: 'Week 10: Final Exam'
+    activities:
+      - name: Introduction
+        path: src/lessons/week-10.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: 2024-03-04
+      - name: Final Exam
+        path: src/lessons/week-10/final-exam.md
+        type: assignment
+        kind: ASSIGNMENT_SUMMATIVE
+        workload: 720
+        grade_weight: 25.0
+        due: 2024-03-14
+        publish: 2024-03-04

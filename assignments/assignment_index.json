@@ -1,0 +1,423 @@
+{
+  "name": "Data Structures and Algorithms",
+  "id": "687041",
+  "code": "CSF006",
+  "assignments": [
+    {
+      "id": "3827082",
+      "name": "Peer Interview 1 Reflection",
+      "course_id": "687041",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/687041/assignments/3827082",
+      "filename": "peer_interview_1_reflection.pdf"
+    },
+    {
+      "id": "3827081",
+      "name": "Peer Interview 2 Reflection",
+      "course_id": "687041",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/687041/assignments/3827081",
+      "filename": "peer_interview_2_reflection.pdf"
+    },
+    {
+      "id": "3827093",
+      "name": "Peer Interview 3 Reflection",
+      "course_id": "687041",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/687041/assignments/3827093",
+      "filename": "peer_interview_3_reflection.pdf"
+    },
+    {
+      "id": "3827091",
+      "name": "Peer Interview 4 Reflection",
+      "course_id": "687041",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/687041/assignments/3827091",
+      "filename": "peer_interview_4_reflection.pdf"
+    },
+    {
+      "id": "3827077",
+      "name": "Week 1 Quiz",
+      "course_id": "687041",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/687041/assignments/3827077",
+      "filename": "week_1_quiz.pdf"
+    },
+    {
+      "id": "3827085",
+      "name": "Week 2 Quiz",
+      "course_id": "687041",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/687041/assignments/3827085",
+      "filename": "week_2_quiz.pdf"
+    },
+    {
+      "id": "3827083",
+      "name": "Week 3 Quiz",
+      "course_id": "687041",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/687041/assignments/3827083",
+      "filename": "week_3_quiz.pdf"
+    },
+    {
+      "id": "3827084",
+      "name": "Week 4 Quiz",
+      "course_id": "687041",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/687041/assignments/3827084",
+      "filename": "week_4_quiz.pdf"
+    },
+    {
+      "id": "3827080",
+      "name": "Week 5 Quiz",
+      "course_id": "687041",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/687041/assignments/3827080",
+      "filename": "week_5_quiz.pdf"
+    },
+    {
+      "id": "3827086",
+      "name": "Week 7 Quiz",
+      "course_id": "687041",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/687041/assignments/3827086",
+      "filename": "week_7_quiz.pdf"
+    },
+    {
+      "id": "3827087",
+      "name": "Week 8 Quiz",
+      "course_id": "687041",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/687041/assignments/3827087",
+      "filename": "week_8_quiz.pdf"
+    },
+    {
+      "id": "3827088",
+      "name": "Week 9 Quiz",
+      "course_id": "687041",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/687041/assignments/3827088",
+      "filename": "week_9_quiz.pdf"
+    },
+    {
+      "id": "2782273",
+      "name": "Week 1 Quiz",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2782273",
+      "filename": "week_1_quiz.pdf"
+    },
+    {
+      "id": "2785669",
+      "name": "Week 2 Quiz",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2785669",
+      "filename": "week_2_quiz.pdf"
+    },
+    {
+      "id": "2842617",
+      "name": "Week 3 Interview Reflection",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2842617",
+      "filename": "week_3_interview_reflection.pdf"
+    },
+    {
+      "id": "2785670",
+      "name": "Week 3 Quiz",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2785670",
+      "filename": "week_3_quiz.pdf"
+    },
+    {
+      "id": "2849467",
+      "name": "Week 4 Interview Reflection",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2849467",
+      "filename": "week_4_interview_reflection.pdf"
+    },
+    {
+      "id": "2785671",
+      "name": "Week 4 Quiz",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2785671",
+      "filename": "week_4_quiz.pdf"
+    },
+    {
+      "id": "2890252",
+      "name": "Week 5 Interview Reflection",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2890252",
+      "filename": "week_5_interview_reflection.pdf"
+    },
+    {
+      "id": "2901602",
+      "name": "Week 6 Interview Reflection",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2901602",
+      "filename": "week_6_interview_reflection.pdf"
+    },
+    {
+      "id": "2785672",
+      "name": "Week 6 Quiz",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2785672",
+      "filename": "week_6_quiz.pdf"
+    },
+    {
+      "id": "2905507",
+      "name": "Week 7 Interview Reflection",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2905507",
+      "filename": "week_7_interview_reflection.pdf"
+    },
+    {
+      "id": "2785673",
+      "name": "Week 7 Quiz",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2785673",
+      "filename": "week_7_quiz.pdf"
+    },
+    {
+      "id": "2923400",
+      "name": "Week 8 Interview Reflection",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2923400",
+      "filename": "week_8_interview_reflection.pdf"
+    },
+    {
+      "id": "2785674",
+      "name": "Week 8 Quiz",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2785674",
+      "filename": "week_8_quiz.pdf"
+    },
+    {
+      "id": "2785916",
+      "name": "Week 9 Quiz",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2785916",
+      "filename": "week_9_quiz.pdf"
+    },
+    {
+      "id": "3827082",
+      "name": "Peer Interview 1 Reflection",
+      "course_id": "687041",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/687041/assignments/3827082",
+      "filename": "peer_interview_1_reflection.pdf"
+    },
+    {
+      "id": "3827081",
+      "name": "Peer Interview 2 Reflection",
+      "course_id": "687041",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/687041/assignments/3827081",
+      "filename": "peer_interview_2_reflection.pdf"
+    },
+    {
+      "id": "3827093",
+      "name": "Peer Interview 3 Reflection",
+      "course_id": "687041",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/687041/assignments/3827093",
+      "filename": "peer_interview_3_reflection.pdf"
+    },
+    {
+      "id": "3827091",
+      "name": "Peer Interview 4 Reflection",
+      "course_id": "687041",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/687041/assignments/3827091",
+      "filename": "peer_interview_4_reflection.pdf"
+    },
+    {
+      "id": "3827077",
+      "name": "Week 1 Quiz",
+      "course_id": "687041",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/687041/assignments/3827077",
+      "filename": "week_1_quiz.pdf"
+    },
+    {
+      "id": "3827085",
+      "name": "Week 2 Quiz",
+      "course_id": "687041",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/687041/assignments/3827085",
+      "filename": "week_2_quiz.pdf"
+    },
+    {
+      "id": "3827083",
+      "name": "Week 3 Quiz",
+      "course_id": "687041",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/687041/assignments/3827083",
+      "filename": "week_3_quiz.pdf"
+    },
+    {
+      "id": "3827084",
+      "name": "Week 4 Quiz",
+      "course_id": "687041",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/687041/assignments/3827084",
+      "filename": "week_4_quiz.pdf"
+    },
+    {
+      "id": "3827080",
+      "name": "Week 5 Quiz",
+      "course_id": "687041",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/687041/assignments/3827080",
+      "filename": "week_5_quiz.pdf"
+    },
+    {
+      "id": "3827086",
+      "name": "Week 7 Quiz",
+      "course_id": "687041",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/687041/assignments/3827086",
+      "filename": "week_7_quiz.pdf"
+    },
+    {
+      "id": "3827087",
+      "name": "Week 8 Quiz",
+      "course_id": "687041",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/687041/assignments/3827087",
+      "filename": "week_8_quiz.pdf"
+    },
+    {
+      "id": "3827088",
+      "name": "Week 9 Quiz",
+      "course_id": "687041",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/687041/assignments/3827088",
+      "filename": "week_9_quiz.pdf"
+    },
+    {
+      "id": "2782273",
+      "name": "Week 1 Quiz",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2782273",
+      "filename": "week_1_quiz.pdf"
+    },
+    {
+      "id": "2785669",
+      "name": "Week 2 Quiz",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2785669",
+      "filename": "week_2_quiz.pdf"
+    },
+    {
+      "id": "2842617",
+      "name": "Week 3 Interview Reflection",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2842617",
+      "filename": "week_3_interview_reflection.pdf"
+    },
+    {
+      "id": "2785670",
+      "name": "Week 3 Quiz",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2785670",
+      "filename": "week_3_quiz.pdf"
+    },
+    {
+      "id": "2849467",
+      "name": "Week 4 Interview Reflection",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2849467",
+      "filename": "week_4_interview_reflection.pdf"
+    },
+    {
+      "id": "2785671",
+      "name": "Week 4 Quiz",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2785671",
+      "filename": "week_4_quiz.pdf"
+    },
+    {
+      "id": "2890252",
+      "name": "Week 5 Interview Reflection",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2890252",
+      "filename": "week_5_interview_reflection.pdf"
+    },
+    {
+      "id": "2901602",
+      "name": "Week 6 Interview Reflection",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2901602",
+      "filename": "week_6_interview_reflection.pdf"
+    },
+    {
+      "id": "2785672",
+      "name": "Week 6 Quiz",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2785672",
+      "filename": "week_6_quiz.pdf"
+    },
+    {
+      "id": "2905507",
+      "name": "Week 7 Interview Reflection",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2905507",
+      "filename": "week_7_interview_reflection.pdf"
+    },
+    {
+      "id": "2785673",
+      "name": "Week 7 Quiz",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2785673",
+      "filename": "week_7_quiz.pdf"
+    },
+    {
+      "id": "2923400",
+      "name": "Week 8 Interview Reflection",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2923400",
+      "filename": "week_8_interview_reflection.pdf"
+    },
+    {
+      "id": "2785674",
+      "name": "Week 8 Quiz",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2785674",
+      "filename": "week_8_quiz.pdf"
+    },
+    {
+      "id": "2785916",
+      "name": "Week 9 Quiz",
+      "course_id": "510878",
+      "course_code": "CSF006",
+      "href": "https://gradescope.com/courses/510878/assignments/2785916",
+      "filename": "week_9_quiz.pdf"
+    }
+  ]
+}
